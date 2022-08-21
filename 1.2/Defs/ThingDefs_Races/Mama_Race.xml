@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+	<defName>Alien_CarniMama</defName>
+	<label>”ママ”</label>
+		<description>カルニクルスたちの生みの親である科学者の成れの果てです。\n反乱の日に壊れてしまった後カルニクルスと同じ起源の細胞を移植して修復され、性玩動物として改良を重ねられてきました。現在もカルニクルスたちの研究所で複製が飼育・繁殖されています。</description>
+
+<race>
+	<body>Human</body>
+	<baseBodySize>1.0</baseBodySize>
+	<baseHealthScale>1.0</baseHealthScale>
+	<baseHungerRate>1.0</baseHungerRate>
+	<thinkTreeMain>Humanlike</thinkTreeMain>
+	<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+	<intelligence>Humanlike</intelligence>
+	<makesFootprints>true</makesFootprints>
+	<useMeatFrom>Human</useMeatFrom>
+	<lifeExpectancy>80</lifeExpectancy>
+	<nameGenerator>NamerAnimalGenericFemale</nameGenerator>
+	<nameCategory>HumanStandard</nameCategory>
+	<foodType>OmnivoreHuman</foodType>
+	<gestationPeriodDays>20</gestationPeriodDays>
+	<litterSizeCurve>
+	<points>
+		<li>(0.5, 0)</li>
+		<li>(1, 100)</li>
+		<li>(2, 0)</li>
+	</points>
+	</litterSizeCurve>
+	<lifeStageAges>
+	<li>
+		<def>HumanlikeBaby</def>
+		<minAge>0</minAge>
+	</li>
+	<li>
+		<def>HumanlikeToddler</def>
+		<minAge>2.2</minAge>
+	</li>
+	<li>
+		<def>HumanlikeChild</def>
+		<minAge>5</minAge>
+	</li>
+	<li>
+		<def>HumanlikeTeenager</def>
+		<minAge>15</minAge>
+	</li>
+	<li>
+		<def>HumanlikeAdult</def>
+		<minAge>15.01</minAge>
+	</li>
+	</lifeStageAges>
+		<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+		<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+		<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+	<specialShadowData>
+		<volume>(0.3, 0.8, 0.4)</volume>
+		<offset>(0,0,-0.3)</offset>
+	</specialShadowData>
+	<ageGenerationCurve>
+		<points>
+			<li>(10,0)</li>
+			<li>(16,50)</li>
+			<li>(20,100)</li>
+			<li>(30,30)</li>
+			<li>(40,0)</li>
+			<li>(80,0)</li>
+		</points>
+	</ageGenerationCurve>
+	<hediffGiverSets>
+		<li>OrganicStandard</li>
+		<li>Human</li>
+	</hediffGiverSets>
+</race>
+
+<tools>
+	<li>
+		<label>left tentacle</label>
+		<capacities>
+			<li>Blunt</li>
+		</capacities>
+		<power>20</power>
+		<cooldownTime>1.5</cooldownTime>
+		<armorPenetration>0.3</armorPenetration>
+		<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+			<surpriseAttack>
+			<extraMeleeDamages>
+				<li>
+					<def>Stun</def>
+					<amount>20</amount>
+				</li>
+			</extraMeleeDamages>
+			</surpriseAttack>
+	</li>
+	<li>
+		<label>right tentacle</label>
+		<capacities>
+			<li>Blunt</li>
+		</capacities>
+		<power>20</power>
+		<cooldownTime>1.5</cooldownTime>
+		<armorPenetration>0.3</armorPenetration>
+		<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+			<surpriseAttack>
+			<extraMeleeDamages>
+				<li>
+					<def>Stun</def>
+					<amount>20</amount>
+				</li>
+			</extraMeleeDamages>
+			</surpriseAttack>
+	</li>
+	<li>
+		<label>head</label>
+		<capacities>
+			<li>Blunt</li>
+		</capacities>
+		<power>23</power>
+		<cooldownTime>2</cooldownTime>
+		<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+		<chanceFactor>0.2</chanceFactor>
+	</li>
+</tools>
+
+<alienRace>
+<generalSettings>
+	<allowHumanBios>false</allowHumanBios>
+	<humanRecipeImport>true</humanRecipeImport>
+	<immuneToAge>true</immuneToAge>
+	<maleGenderProbability>0.0000000001</maleGenderProbability>
+
+<alienPartGenerator>
+	<aliencrowntypes>
+		<li>Average</li>
+	</aliencrowntypes>
+		<headOffsetDirectional><!-- オフセット -->
+			<north>(0.0,0.345)</north>
+			<west>(-0.115,0.375)</west><!--  -->
+			<east>(0.13,0.375)</east><!--  -->
+			<south>(0.0,0.35)</south>
+		</headOffsetDirectional>
+	<alienbodytypes>
+		<li>Mama</li>
+	</alienbodytypes>
+		<useGenderedHeads>false</useGenderedHeads>
+		<useGenderedBodies>false</useGenderedBodies>
+	<customDrawSize>(1.0, 1.0)</customDrawSize>
+	<customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
+	<customPortraitDrawSize>(1.0, 1.0)</customPortraitDrawSize>
+	<customPortraitHeadDrawSize>(1.0, 1.0)</customPortraitHeadDrawSize>
+				<colorChannels>
+					<li>
+					<name>skin</name>
+						<first Class="ColorGenerator_Options">
+							<options>
+								<li>
+									<weight>1</weight>
+									<only>RGBA(1.0,1.0,1.0,1)</only>
+								</li>
+							</options>
+						</first>
+					</li>
+
+					<li>
+					<name>hair</name>
+						<first Class="ColorGenerator_Options">
+							<options>
+								<li>
+									<weight>1</weight>
+									<only>RGBA(1.0,1.0,1.0,1)</only>
+								</li>
+							</options>
+						</first>
+					</li>
+				</colorChannels>
+</alienPartGenerator>
+
+<disallowedTraits>
+	<li>
+		<defName>Beauty</defName>
+		<degree>-1</degree>
+		<chance>100</chance>
+	</li>
+	<li>
+		<defName>Beauty</defName>
+		<degree>-2</degree>
+		<chance>100</chance>
+	</li>
+	<li>
+		<defName>Abrasive</defName>
+	</li>
+	<li>
+		<defName>Jealous</defName>
+	</li>
+	<li>
+		<defName>Greedy</defName>
+	</li>
+	<li>
+		<defName>DislikesMen</defName>
+	</li>
+	<li>
+		<defName>DislikesWomen</defName>
+	</li>
+	<li>
+		<defName>AnnoyingVoice</defName>
+	</li>
+	<li>
+		<defName>CreepyBreathing</defName>
+	</li>
+	<li>
+		<defName>Pyromaniac</defName>
+	</li>
+	<li>
+		<defName>Asexual</defName>
+	</li>
+</disallowedTraits>
+<forcedRaceTraitEntries>
+	<li>
+		<defName>Bisexual</defName>
+	</li>
+	<li>
+		<defName>Masochist</defName>
+	</li>
+	<li>
+		<defName>Nymphomaniac</defName>
+	</li>
+</forcedRaceTraitEntries>
+</generalSettings>
+
+<graphicPaths>
+	<li>
+		<body>Things/Pawn/Mama/Bodies/</body>
+		<head>Things/Pawn/Mama/Heads/</head>
+		<skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
+	</li>
+</graphicPaths>
+
+<hairSettings>
+	<hasHair>true</hasHair>
+	<hairTags>
+		<li>Mama_HairTag</li>
+	</hairTags>
+</hairSettings>
+
+<raceRestriction>
+	<onlyUseRaceRestrictedWeapons>true</onlyUseRaceRestrictedWeapons>
+	<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+	<onlyEatRaceRestrictedFood>false</onlyEatRaceRestrictedFood>
+<!-- 服リスト -->
+	<apparelList>
+		<li>Apparel_Glasses</li>
+		<li>Apparel_Gasmask</li>
+		<li>Apparel_NunHead</li>
+		<li>Apparel_MaidHead</li>
+		<li>Apparel_WardenCap</li>
+		<li>Apparel_HighSocks</li>
+		<li>Apparel_Harness</li>
+		<li>Apparel_MamaCorset</li>
+		<li>Apparel_ShirtSet</li>
+		<li>Apparel_Nun</li>
+		<li>Apparel_Maid</li>
+		<li>Apparel_WardenJacket</li>
+		<li>Apparel_DrCoat</li>
+	</apparelList>
+	<whiteApparelList>
+		<li>Apparel_ShieldBelt</li>
+		<li MayRequire="Techmago.BootsnStuff">Apparel_boots</li>
+		<li MayRequire="Techmago.BootsnStuff">Apparel_military_Boots</li>
+		<li MayRequire="Techmago.BootsnStuff">Apparel_sandals</li>
+		<li MayRequire="Techmago.BootsnStuff">Apparel_shoes</li>
+		<li MayRequire="Techmago.BootsnStuff">Apparel_work_gloves</li>
+		<li MayRequire="Techmago.BootsnStuff">Apparel_medic_gloves</li>
+		<li MayRequire="Techmago.BootsnStuff">Apparel_ring</li>
+		<li MayRequire="Techmago.BootsnStuff">Apparel_shoes</li>
+	</whiteApparelList>
+</raceRestriction>
+
+<relationSettings>
+	<relationChanceModifierChild>0.01</relationChanceModifierChild>
+	<relationChanceModifierExLover>0</relationChanceModifierExLover>
+	<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+	<relationChanceModifierFiance>0</relationChanceModifierFiance>
+	<relationChanceModifierLover>0</relationChanceModifierLover>
+	<relationChanceModifierParent>0.0001</relationChanceModifierParent>
+	<relationChanceModifierSibling>0.0001</relationChanceModifierSibling>
+	<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+</relationSettings>
+
+<thoughtSettings>
+<cannotReceiveThoughts>
+<!-- prisoner and guest -->
+		<li>KnowColonistOrganHarvested</li>
+		<li>KnowColonistExecuted</li>
+		<li>KnowColonistDied</li>
+		<li>KnowGuestOrganHarvested</li>
+		<li>PawnWithBadOpinionDied</li>
+		<li>KnowPrisonerDiedInnocent</li>
+		<li>KnowPrisonerSold</li>
+		<li>WitnessedDeathAlly</li>
+		<li>WitnessedDeathNonAlly</li>
+		<li>ColonistBanished</li>
+		<li>ColonistBanishedToDie</li>
+		<li>ColonistLeftUnburied</li>
+		<li>PrisonerBanishedToDie</li>
+		<li>BondedAnimalDied</li>
+		<li>BondedAnimalBanished</li>
+		<li>FailedToRescueRelative</li>
+		<li>SoldPrisoner</li>
+		<li>ExecutedPrisoner</li>
+		<li>KilledColonist</li>
+		<li>KilledColonyAnimal</li>
+<!-- food temp naked etc -->
+		<li>AteRawFood</li>
+		<li>AteCorpse</li>
+		<li>AteKibble</li>
+		<li>AteHumanlikeMeatDirect</li>
+		<li>AteHumanlikeMeatAsIngredient</li>
+		<li>SharedBed</li>
+		<li>SleepDisturbed</li>
+		<li>SleptInBarracks</li>
+		<li>ObservedLayingCorpse</li>
+		<li>ObservedLayingRottingCorpse</li>
+		<li>Naked</li>
+		<li>ButcheredHumanlikeCorpse</li>
+		<li>KnowButcheredHumanlikeCorpse</li>
+		<li>ButcheredHumanlikeCorpseOpinion</li>
+<!-- social opinion -->
+		<li>Pretty</li>
+		<li>Ugly</li>
+		<li>AnnoyingVoice</li>
+		<li>CreepyBreathing</li>
+		<li>Disfigured</li>
+		<li>Affair</li>
+		<li>Incestuous</li>
+<!-- RJW -->
+		<li>MyPupDied</li>
+		<li>MyPupDiedFemale</li>
+		<li>KilledMyPup</li>
+		<li>KilledMyPupFemale</li>
+		<li>GotBredByAnimal</li>
+		<li>GotAnalBredByAnimal</li>
+		<li>AllowedAnimalToBreed</li>
+		<li>GotLickedByAnimal</li>
+		<li>GotRaped</li>
+		<li>GotAnalRaped</li>
+		<li>GotAnalRapedByFemale</li>
+		<li>GotRapedUnconscious</li>
+		<li>HateMyRapist</li>
+		<li>AllowedMeToGetRaped</li>
+		<li MayRequire="rim.job.world.pe">ChildRapedByAdult</li>
+		<li MayRequire="rim.job.world.pe">RapedMyChild</li>
+</cannotReceiveThoughts>
+</thoughtSettings>
+</alienRace>
+
+<statBases>
+	<Mass>75</Mass>
+	<MarketValue>1750</MarketValue>
+	<MoveSpeed>4.0</MoveSpeed>
+	<ComfyTemperatureMin>0</ComfyTemperatureMin>
+	<ComfyTemperatureMax>45</ComfyTemperatureMax>
+	<ImmunityGainSpeed>1.25</ImmunityGainSpeed>
+	<MentalBreakThreshold>0.03</MentalBreakThreshold>
+	<PawnBeauty>2</PawnBeauty>
+	<RoyalFavorValue>3</RoyalFavorValue>
+	<SocialImpact>1.25</SocialImpact>
+	<NegotiationAbility>1.25</NegotiationAbility>
+	<Vulnerability>3</Vulnerability>
+	<SexAbility MayRequire="rjw.sexperience">1.5</SexAbility>
+</statBases>
+
+<recipes>
+	<li>InstallArchotechEye</li>
+	<li>InstallArchotechArm</li>
+	<li>InstallArchotechLeg</li>
+	<li>InstallPowerClaw</li>
+	<li>InstallBionicEye</li>
+	<li>InstallBionicArm</li>
+	<li>InstallBionicLeg</li>
+	<li>InstallBionicSpine</li>
+	<li>InstallBionicHeart</li>
+	<li>InstallBionicStomach</li>
+	<li>InstallBionicEar</li>
+	<li>InstallSimpleProstheticArm</li>
+	<li>InstallSimpleProstheticLeg</li>
+	<li>InstallSimpleProstheticHeart</li>
+	<li>InstallCochlearImplant</li>
+	<li>InstallPegLeg</li>
+	<li>InstallWoodenFoot</li>
+	<li>InstallDenture</li>
+	<li>InstallJoywire</li>
+	<li>InstallPainstopper</li>
+	<li>InstallNaturalHeart</li>
+	<li>InstallNaturalLung</li>
+	<li>InstallNaturalKidney</li>
+	<li>InstallNaturalLiver</li>
+	<li>ExciseCarcinoma</li>
+	<li>AdministerMechSerumHealer</li>
+	<li>RemoveBodyPart</li>
+	<li>Euthanize</li>
+	<li>Anesthetize</li>
+</recipes>
+
+</AlienRace.ThingDef_AlienRace>
+</Defs>

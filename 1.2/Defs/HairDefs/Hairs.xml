@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Male -->
+<HairDef>
+	<defName>Bald</defName>
+	<label>Bald</label>
+	<hairGender>Male</hairGender>
+	<texPath>Hairs/Bald</texPath>
+		<hairTags>
+			<li>Carni_Hair</li>
+		</hairTags>
+</HairDef>
+
+<!-- Female -->
+<HairDef>
+	<defName>ShortF</defName>
+	<label>ShortF</label>
+	<hairGender>Female</hairGender>
+	<texPath>Hairs/ShortF</texPath>
+		<hairTags>
+			<li>Carni_Hair</li>
+		</hairTags>
+</HairDef>
+
+<HairDef>
+	<defName>MiddleF</defName>
+	<label>MiddleF</label>
+	<hairGender>Female</hairGender>
+	<texPath>Hairs/MiddleF</texPath>
+		<hairTags>
+			<li>Carni_Hair</li>
+		</hairTags>
+ </HairDef>
+
+<HairDef>
+	<defName>LongF</defName>
+	<label>LongF</label>
+	<hairGender>Female</hairGender>
+	<texPath>Hairs/LongF</texPath>
+		<hairTags>
+			<li>Carni_Hair</li>
+		</hairTags>
+</HairDef>
+
+</Defs>

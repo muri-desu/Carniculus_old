@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch><!-- 肉を服の材料として使えるようにしたいパッチ -->
+<Operation Class="PatchOperationSequence">
+	<success>Always</success>
+	<operations>
+		<li Class="PatchOperationTest">
+			<xpath>*/ThingDef[defName = "Meat_Human"]</xpath>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName　=　"Meat_Human"]/stuffProps/categories</xpath>
+			<value>
+				<li>Flesh</li>
+			</value>
+		</li>
+	</operations>
+</Operation>
+</Patch>

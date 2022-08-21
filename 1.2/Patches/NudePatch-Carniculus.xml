@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- alien races -->
+<Patch>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>RimNudeWorld</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationConditional">
+			<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Carniculus"]/alienRace/generalSettings/alienPartGenerator/bodyAddons</xpath>
+			<success>Always</success>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Carniculus"]/alienRace/generalSettings/alienPartGenerator</xpath>
+					<value><bodyAddons /></value>
+			</nomatch>
+		</li>
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Carniculus"]/alienRace/generalSettings/alienPartGenerator/bodyAddons</xpath>
+			<value>
+
+<!-- 男性器 penises -->
+					<li>
+						<path>Genitals/FeaturelessCrotch</path>
+						<bodyPart>Genitals</bodyPart>
+						<shaderType>Transparent</shaderType>
+						<inFrontOfBody>true</inFrontOfBody>
+						<drawnInBed>false</drawnInBed>
+							<hiddenUnderApparelFor>
+								<li>Legs</li>
+							</hiddenUnderApparelFor>
+
+						<hediffGraphics>
+							<CarniPenis>
+								<path>Things/Pawn/Carni/Genitals/penis_carni_average</path>
+							</CarniPenis>
+						</hediffGraphics>
+
+						<offsets><!-- オフセット -->
+							<south>
+								<bodyTypes><!-- -.43 -->
+									<Male>(-0.423, -0.35)</Male>
+									<Female>(-0.425, -0.35)</Female>
+								</bodyTypes>
+							</south>
+							<north>
+								<bodyTypes>
+									<Male>(0, -0.05)</Male>
+									<Female>(0, -0.05)</Female>
+								</bodyTypes>
+							</north>
+							<east>
+								<bodyTypes><!-- -.2 -->
+									<Male>(-0.4, -0.38)</Male>
+									<Female>(-0.45, -0.3)</Female>
+								</bodyTypes>
+							</east>
+						</offsets>
+					</li>
+
+<!-- 女性器 vaginas -->
+					<li>
+						<path>Genitals/FeaturelessCrotch</path>
+						<bodyPart>Genitals</bodyPart>
+						<shaderType>Transparent</shaderType>
+						<inFrontOfBody>true</inFrontOfBody>
+						<drawnInBed>false</drawnInBed>
+							<hiddenUnderApparelFor>
+								<li>Legs</li>
+							</hiddenUnderApparelFor>
+
+						<hediffGraphics>
+							<CarniVagina MayRequire="Abraxas.RJW.RaceSupport">
+								<path>Things/Pawn/Carni/Genitals/vagina_carni_average</path>
+								<severity>
+									<a0.8>Things/Pawn/Carni/Genitals/vagina_carni_average</a0.8>
+									<a0.4>Things/Pawn/Carni/Genitals/vagina_carni_small</a0.4>
+									<a0.01>Things/Pawn/Carni/Genitals/vagina_carni_micro</a0.01>
+								</severity>
+							</CarniVagina>
+						</hediffGraphics>
+
+						<offsets>
+							<south>
+								<bodyTypes>
+									<Male>(0, 0)</Male>
+									<Female>(-0.425, -0.35)</Female>
+								</bodyTypes>
+							</south>
+							<north>
+								<bodyTypes>
+									<Male>(0, 0)</Male>
+									<Female>(0, -0.375)</Female>
+								</bodyTypes>
+							</north>
+							<east>
+								<bodyTypes>
+									<Male>(0, 0)</Male>
+									<Female>(-0.425, -0.3)</Female>
+								</bodyTypes>
+							</east>
+						</offsets>
+					</li>
+
+<!-- ボテ腹　bellies -->
+					<li>
+						<path>Genitals/FeaturelessCrotch</path>
+						<shaderType>Transparent</shaderType>
+						<inFrontOfBody>true</inFrontOfBody>
+						<drawnInBed>false</drawnInBed>
+							<hiddenUnderApparelFor>
+								<li>Torso</li>
+							</hiddenUnderApparelFor>
+
+						<hediffGraphics>
+							<RJW_pregnancy>
+								<path>Things/Pawn/Carni/Belly/belly_carni</path>
+								<severity>
+									<a0.666>Things/Pawn/Carni/Belly/belly_huge_carni</a0.666>
+									<a0.333>Things/Pawn/Carni/Belly/belly_carni</a0.333> 
+								</severity>
+							</RJW_pregnancy>
+						</hediffGraphics>
+
+						<offsets>
+							<south>
+								<bodyTypes>
+									<Male>(0, 0)</Male>
+									<Female>(0, -0.05)</Female>
+								</bodyTypes>
+							</south>
+							<north>
+								<bodyTypes>
+									<Male>(0, 0)</Male>
+									<Female>(0, 0)</Female>
+								</bodyTypes>
+							</north>
+							<east>
+								<bodyTypes>
+									<Male>(0, 0)</Male>
+									<Female>(0, 0)</Female>
+								</bodyTypes>
+							</east>
+						</offsets>
+					</li>
+
+		</value>
+		</li>
+	</operations>
+</match>
+</Operation>
+</Patch>

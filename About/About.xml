@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ModMetaData>
+	<name>Carniculus</name>
+	<author>muri</author>
+	<packageId>muri.Carniculus</packageId>
+	<url></url>
+<supportedVersions>
+	<li>1.2</li>
+	<li>1.3</li>
+</supportedVersions>
+<modDependencies>
+	<li>
+		<packageId>erdelf.HumanoidAlienRaces</packageId>
+		<displayName>Humanoid Alien Races 2.0</displayName>
+		<steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl>
+		<downloadUrl>https://github.com/erdelf/AlienRaces/wiki</downloadUrl>
+	</li>
+	<li>
+		<packageId>rim.job.world</packageId>
+		<displayName>RJW</displayName>
+		<downloadUrl>https://gitgud.io/Ed86/rjw</downloadUrl>
+	</li>
+</modDependencies>
+<loadAfter>
+	<li>erdelf.HumanoidAlienRaces</li>
+</loadAfter>
+	<description>alien mutant tumorous meaty monster race.
+
+カルニクルス（オス＆メス）
+- 強姦魔がつきやすくレイプされても心情デバフがつかない
+- 大食いで早食い
+- 醜い・床を汚しやすい
+- 研究と医療はやや得意
+- 社交と建築と採掘はやや苦手
+
+亜種”ママ”
+- マゾヒスト
+- 美しい・脆弱性が高い
+
+カルニギガス（家畜）
+- 解体で人肉が取れる
+- 大体象と同じ
+
+</description>
+
+</ModMetaData>

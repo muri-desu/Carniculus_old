@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="AnimalThingBase">
+	<thingClass>Pawn</thingClass>
+		<defName>Carnigigas</defName>
+		<label>カルニギガス</label>
+		<description>カルニクルスたちが自らをさらに強い種に進化させようとして作り出した変異種です。強靭な肉体は実現したものの、知能を発達させることには失敗したようです。</description>
+
+		<statBases>
+			<MoveSpeed>4.6</MoveSpeed>
+			<MarketValue>450</MarketValue>
+			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
+			<ComfyTemperatureMax>45</ComfyTemperatureMax>
+			<MeatAmount>120</MeatAmount>
+			<LeatherAmount>0</LeatherAmount>
+		</statBases>
+		<tools>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+			</li>
+			<li>
+				<label>left hand</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>1.7</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right hand</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>1.7</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>1.7</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.5</chanceFactor>
+			</li>
+		</tools>
+<race>
+			<body>Monkey</body>
+			<baseBodySize>4</baseBodySize>
+			<baseHealthScale>3.5</baseHealthScale>
+			<baseHungerRate>1.5</baseHungerRate>
+			<foodType>OmnivoreRoughAnimal, AnimalProduct</foodType>
+			<lifeExpectancy>18</lifeExpectancy>
+			<packAnimal>true</packAnimal>
+			<trainability>Advanced</trainability>
+			<useMeatFrom>Human</useMeatFrom>
+			<wildness>0</wildness>
+			<gestationPeriodDays>45</gestationPeriodDays>
+			<manhunterOnDamageChance>0.50</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+		<wildBiomes Inherit="False">
+				<BorealForest>0.2</BorealForest>
+				<Tundra>0.15</Tundra>
+				<ColdBog>0.15</ColdBog>
+				<TemperateForest>0.1</TemperateForest>
+				<TemperateSwamp>0.1</TemperateSwamp>
+				<TropicalRainforest>0.1</TropicalRainforest>
+				<TropicalSwamp>0.1</TropicalSwamp>
+				<AridShrubland>0.1</AridShrubland>
+		</wildBiomes>
+
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.3</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.7</minAge>
+          <soundWounded>Pawn_Bear_Injured</soundWounded>
+          <soundDeath>Pawn_Bear_Death</soundDeath>
+          <soundCall>Pawn_Bear_Call</soundCall>
+          <soundAngry>Pawn_Bear_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+</race>
+	<tradeTags>
+		<li>Animal_Carni</li>
+	</tradeTags>
+	</ThingDef>
+
+<PawnKindDef ParentName="AnimalKindBase">
+		<defName>Carnigigas</defName>
+		<label>カルニギガス</label>
+		<race>Carnigigas</race>
+		<combatPower>200</combatPower>
+		<ecoSystemWeight>2</ecoSystemWeight>
+	<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Animal/Carnigigas/GigasBaby</texPath>
+					<drawSize>2.5</drawSize>
+					<shaderType>CutoutComplex</shaderType>
+					<color>(220,140,150)</color>
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</texPath>
+					<drawSize>1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Animal/Carnigigas/Carnigigas</texPath>
+					<drawSize>1.6</drawSize>
+					<shaderType>CutoutComplex</shaderType>
+					<color>(220,140,150)</color>
+					<shadowData>
+						<volume>(0.6, 0.45, 0.45)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</texPath>
+					<drawSize>1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Animal/Carnigigas/Carnigigas</texPath>
+					<drawSize>2.0</drawSize>
+					<shaderType>CutoutComplex</shaderType>
+					<color>(220,140,150)</color>
+					<shadowData>
+						<volume>(0.8, 0.6, 0.6)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</texPath>
+ 					<drawSize>2.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+</PawnKindDef>
+
+</Defs>

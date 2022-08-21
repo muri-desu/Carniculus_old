@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- alien races -->
+<Patch>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>RimNudeWorld</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationConditional">
+			<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_CarniMama"]/alienRace/generalSettings/alienPartGenerator/bodyAddons</xpath>
+			<success>Always</success>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_CarniMama"]/alienRace/generalSettings/alienPartGenerator</xpath>
+					<value><bodyAddons /></value>
+			</nomatch>
+		</li>
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_CarniMama"]/alienRace/generalSettings/alienPartGenerator/bodyAddons</xpath>
+			<value>
+
+<!-- 男性器 penises -->
+					<li>
+						<path>Genitals/FeaturelessCrotch</path>
+						<bodyPart>Genitals</bodyPart>
+						<shaderType>Transparent</shaderType>
+						<inFrontOfBody>true</inFrontOfBody>
+						<drawnInBed>false</drawnInBed>
+
+						<hediffGraphics>
+							<CarniPenis>
+								<path>Things/Pawn/Carni/Genitals/penis_carni_average</path>
+							</CarniPenis>
+						</hediffGraphics>
+						<offsets><!-- オフセット　x軸：-すると左に移動　+すると右に(????) -->
+							<south>
+								<bodyTypes><!-- -,+ -->
+									<Mama>(-0.4,-0.25)</Mama>
+								</bodyTypes>
+							</south>
+							<north>
+								<bodyTypes>
+									<Mama>(0,0)</Mama>
+								</bodyTypes>
+							</north>
+							<east>
+								<bodyTypes><!-- -, x軸：-すると左に移動　+すると右に(????) -->
+									<Mama>(-0.55,-0.27)</Mama>
+								</bodyTypes>
+							</east>
+						</offsets>
+					</li>
+
+<!-- ボテ腹　bellies -->
+					<li>
+						<path>Genitals/FeaturelessCrotch</path>
+						<shaderType>Transparent</shaderType>
+						<inFrontOfBody>true</inFrontOfBody>
+						<layerOffset>-0.28</layerOffset>
+						<drawnInBed>false</drawnInBed>
+
+						<hediffGraphics>
+							<RJW_pregnancy>
+								<path>Things/Pawn/Mama/Belly/Belly</path>
+								<severity>
+									<a0.5>Things/Pawn/Mama/Belly/Belly_huge</a0.5>
+									<a0.15>Things/Pawn/Mama/Belly/Belly</a0.15>
+								</severity>
+							</RJW_pregnancy>
+						</hediffGraphics>
+
+						<offsets>
+							<south>
+								<bodyTypes>
+									<Mama>(-0.425,0.225)</Mama>
+									<Thin>(-0.425,0.225)</Thin>
+								</bodyTypes>
+							</south>
+							<north>
+								<bodyTypes>
+									<Mama>(0,0.56)</Mama>
+									<Thin>(0,0.56)</Thin>
+								</bodyTypes>
+							</north>
+							<east>
+								<bodyTypes>
+									<Mama>(-0.428,0.236)</Mama>
+									<Thin>(-0.375,0.125)</Thin>
+								</bodyTypes>
+							</east>
+						</offsets>
+					</li>
+
+		</value>
+		</li>
+	</operations>
+</match>
+</Operation>
+</Patch>

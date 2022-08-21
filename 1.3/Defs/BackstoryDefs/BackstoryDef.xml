@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<AlienRace.BackstoryDef Name="CarniBackStory" Abstract="True">
+	<disallowedTraits>
+		<li>
+			<defName>Beauty</defName>
+			<degree>1</degree>
+			<chance>100</chance>
+		</li>
+		<li>
+			<defName>Beauty</defName>
+			<degree>2</degree>
+			<chance>100</chance>
+		</li>
+	</disallowedTraits>
+	<femaleCommonality>100</femaleCommonality>
+	<maleCommonality>100</maleCommonality>
+</AlienRace.BackstoryDef>
+
+<!-- Childhood -->
+<AlienRace.BackstoryDef ParentName="CarniBackStory">
+	<defName>FirstGen</defName>
+	<title>第一世代</title>
+	<titleShort>第一世代</titleShort>
+		<baseDescription>[PAWN_nameDef]はカルニクルスの中でも最も初期の世代です。[PAWN_nameDef]の子孫は恐ろしい実験に駆り出されましたが[PAWN_nameDef]自身は丁寧に扱われました。この事から[PAWN_nameDef]は他のカルニクルスたちよりも人間に対する警戒心が希薄です。</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Childhood</slot>
+<skillGains>
+	<li>
+		<defName>Social</defName>
+		<amount>3</amount>
+	</li>
+	<li>
+		<defName>Intellectual</defName>
+		<amount>3</amount>
+	</li>
+</skillGains>
+	<spawnCategories>
+		<li>CarniStory</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="CarniBackStory">
+	<defName>MazeRunner</defName>
+	<title>メイズランナー</title>
+	<titleShort>迷路</titleShort>
+		<baseDescription>[PAWN_nameDef]は毎日無機質な迷路の中に放り込まれ出口を目指して走り回されました。足を止めれば餌の代わりに物理的な罰を与えられました。</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Childhood</slot>
+<skillGains>
+	<li>
+		<defName>Intellectual</defName>
+		<amount>3</amount>
+	</li>
+</skillGains>
+<forcedTraits>
+	<li>
+		<defName>SpeedOffset</defName>
+		<degree>2</degree>
+	</li>
+	<li>
+		<defName>FastLearner</defName>
+		<chance>30</chance>
+	</li>
+</forcedTraits>
+	<spawnCategories>
+		<li>CarniStory</li>
+		<li>CarniFeral</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="CarniBackStory">
+	<defName>E_TestSub</defName>
+	<title>電気刺激実験被験体</title>
+	<titleShort>E実験体</titleShort>
+	<baseDescription>科学者たちは神経系の働きを調べるため、または憂さ晴らしで[PAWN_nameDef]の肉体のあらゆる角度から電気ショックを与え続けました。反乱の日、[PAWN_nameDef]は顔馴染みの科学者を探し出して報復を果たすことができました。</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Childhood</slot>
+<skillGains>
+	<li>
+		<defName>Intellectual</defName>
+		<amount>2</amount>
+	</li>
+</skillGains>
+<forcedTraits>
+	<li>
+		<defName>Masochist</defName>
+		<chance>30</chance>
+	</li>
+	<li>
+		<defName>Bloodlust</defName>
+	</li>
+</forcedTraits>
+	<spawnCategories>
+		<li>CarniStory</li>
+		<li>CarniFeral</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="CarniBackStory">
+	<defName>C_TestSub</defName>
+	<title>化学薬品テスト被験体</title>
+	<titleShort>C実験体</titleShort>
+	<baseDescription>[PAWN_nameDef]は化学物質への耐性を調べるためあらゆる毒物や薬品に曝露されました。他の者は死にましたが[PAWN_nameDef]は知性へのダメージを残しつつも生き延びることができました。</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Childhood</slot>
+<skillGains>
+	<li>
+		<defName>Intellectual</defName>
+		<amount>-5</amount>
+	</li>
+</skillGains>
+<forcedTraits>
+	<li>
+		<defName>DrugDesire</defName>
+		<degree>1</degree>
+		<chance>30</chance>
+	</li>
+	<li>
+		<defName>DrugDesire</defName>
+		<degree>2</degree>
+		<chance>10</chance>
+	</li>
+</forcedTraits>
+	<spawnCategories>
+		<li>CarniStory</li>
+		<li>CarniFeral</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="CarniBackStory">
+	<defName>R_TestSub</defName>
+	<title>生殖機能研究被験体</title>
+	<titleShort>R実験体</titleShort>
+	<baseDescription>科学者たちは[PAWN_nameDef]の生殖器をいじくり回しさまざまな実験を行いました。繁殖能力の研究のためという名目でしたが、しばしば科学者の好奇心を満たすためだけに[PAWN_nameDef]の肉体が使われました。</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Childhood</slot>
+	<femaleCommonality>0.7</femaleCommonality>
+	<maleCommonality>0.3</maleCommonality>
+<skillGains>
+</skillGains>
+<forcedTraits>
+	<li>
+		<defName>Masochist</defName>
+		<chance>30</chance>
+	</li>
+</forcedTraits>
+	<spawnCategories>
+		<li>CarniStory</li>
+		<li>CarniFeral</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="CarniBackStory">
+	<defName>LeftoverStock</defName>
+	<title>在庫被験体</title>
+	<titleShort>在庫</titleShort>
+	<baseDescription>[PAWN_nameDef]は余分に繁殖した個体として兄弟と一緒に暗く不衛生なコンテナに押し込まれ育ちました。そのうち何らかの実験に使われるか焼却処分されるはずでしたが、その前に反乱が起こり[PAWN_nameDef]たちは解放されました。</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Childhood</slot>
+<skillGains>
+	<li>
+		<defName>Intellectual</defName>
+		<amount>-2</amount>
+	</li>
+</skillGains>
+<forcedTraits>
+	<li>
+		<defName>Undergrounder</defName>
+	</li>
+</forcedTraits>
+	<spawnCategories>
+		<li>CarniStory</li>
+		<li>CarniFeral</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="CarniBackStory">
+	<defName>DeadStock</defName>
+	<title>廃棄された死骸</title>
+	<titleShort>死骸</titleShort>
+	<baseDescription>過酷な実験を逃れるため死んだふりをした[PAWN_nameDef]は不用心な科学者によって廃棄区画へ送られました。その後は焼却場手前の機材の隙間に潜み、送り込まれてくるゴミや同胞の死体をつまみ食いしながら生き延びました。</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Childhood</slot>
+<skillGains>
+	<li>
+		<defName>Intellectual</defName>
+		<amount>2</amount>
+	</li>
+</skillGains>
+<forcedTraits>
+	<li>
+		<defName>Ascetic</defName>
+	</li>
+</forcedTraits>
+	<spawnCategories>
+		<li>CarniStory</li>
+		<li>CarniFeral</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+
+<!-- Childhood NPC -->
+<AlienRace.BackstoryDef ParentName="CarniBackStory">
+	<defName>FeralChild</defName>
+	<title>野生のカルニクルス</title>
+	<titleShort>野生</titleShort>
+	<baseDescription>[PAWN_nameDef]は自分の起源を知らず自然の中で野生動物のように育ちました。</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Childhood</slot>
+<skillGains>
+	<li>
+		<defName>Plants</defName>
+		<amount>3</amount>
+	</li>
+	<li>
+		<defName>Animals</defName>
+		<amount>3</amount>
+	</li>
+	<li>
+		<defName>Intellectual</defName>
+		<amount>-3</amount>
+	</li>
+</skillGains>
+	<workDisables>
+		<li>Artistic</li>
+		<li>Social</li>
+	</workDisables>
+	<spawnCategories>
+		<li>CarniFeral</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+
+<!-- Adulthood -->
+<AlienRace.BackstoryDef ParentName="CarniBackStory">
+	<defName>AlphaMale</defName>
+	<title>アルファオス</title>
+	<titleShort>アルファ</titleShort>
+	<baseDescription>[PAWN_nameDef]はボス猿のように振る舞うカルニクルスです。彼の頭の中は他のオスを殺害しあらゆるメスと交尾する事でいっぱいです。</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+	<femaleCommonality>0</femaleCommonality>
+	<maleCommonality>0.05</maleCommonality>
+<skillGains>
+	<li>
+		<defName>Melee</defName>
+		<amount>6</amount>
+	</li>
+	<li>
+		<defName>Shooting</defName>
+		<amount>3</amount>
+	</li>
+</skillGains>
+<forcedTraits>
+	<li>
+		<defName>DislikesMen</defName>
+	</li>
+	<li>
+		<defName>Rapist</defName>
+	</li>
+	<li>
+		<defName>Bloodlust</defName>
+	</li>
+</forcedTraits>
+<disallowedTraits>
+	<li>
+		<defName>Asexual</defName>
+	</li>
+	<li>
+		<defName>Bisexual</defName>
+	</li>
+	<li>
+		<defName>Gay</defName>
+	</li>
+	<li>
+		<defName>DislikesWomen</defName>
+	</li>
+	<li>
+		<defName>Wimp</defName>
+	</li>
+</disallowedTraits>
+	<spawnCategories>
+		<li>CarniStory</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="CarniBackStory">
+	<defName>Matriarch</defName>
+	<title>家母長</title>
+	<titleShort>家母長</titleShort>
+	<baseDescription>[PAWN_nameDef]はグループの中でも古株のメスです。目をつけられたオスは彼女が飽きるまで搾り取られます。</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+	<femaleCommonality>0.05</femaleCommonality>
+	<maleCommonality>0</maleCommonality>
+<skillGains>
+	<li>
+		<defName>Social</defName>
+		<amount>5</amount>
+	</li>
+	<li>
+		<defName>Animals</defName>
+		<amount>3</amount>
+	</li>
+</skillGains>
+<forcedTraits>
+	<li>
+		<defName>Rapist</defName>
+	</li>
+</forcedTraits>
+<disallowedTraits>
+	<li>
+		<defName>Asexual</defName>
+	</li>
+	<li>
+		<defName>Gay</defName>
+	</li>
+	<li>
+		<defName>DislikesMen</defName>
+	</li>
+	<li>
+		<defName>Wimp</defName>
+	</li>
+</disallowedTraits>
+<workDisables>
+	<li>Cleaning</li>
+</workDisables>
+	<spawnCategories>
+		<li>CarniStory</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="CarniBackStory">
+	<defName>B_TestSubM</defName>
+	<title>繁殖用カルニクルスM</title>
+	<titleShort>種肉</titleShort>
+	<baseDescription>[PAWN_nameDef]は標準的なオスのカルニクルスとして繁殖に用いられていました。脳に化学的および外科的刺激を施され、動くものなら何にでも交尾を試みるように訓練されました。</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Childhood</slot>
+	<femaleCommonality>0</femaleCommonality>
+	<maleCommonality>0.05</maleCommonality>
+<skillGains>
+</skillGains>
+<forcedTraits>
+	<li>
+		<defName>Bisexual</defName>
+	</li>
+	<li>
+		<defName>Nymphomaniac</defName>
+	</li>
+</forcedTraits>
+	<spawnCategories>
+		<li>CarniStory</li>
+		<li>CarniFeral</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="CarniBackStory">
+	<defName>B_TestSubF</defName>
+	<title>繁殖用カルニクルスF</title>
+	<titleShort>苗床</titleShort>
+		<baseDescription>[PAWN_nameDef]は標準的なメスのカルニクルスとして繁殖に用いられていました。交配用のストールに体を固定され、膣には常に性器か医療器具のどちらかが挿入されていました。</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Childhood</slot>
+	<femaleCommonality>0.05</femaleCommonality>
+	<maleCommonality>0</maleCommonality>
+<skillGains>
+</skillGains>
+<forcedTraits>
+	<li>
+		<defName>Nymphomaniac</defName>
+	</li>
+	<li>
+		<defName>Masochist</defName>
+		<chance>30</chance>
+	</li>
+</forcedTraits>
+	<spawnCategories>
+		<li>CarniStory</li>
+		<li>CarniFeral</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="CarniBackStory">
+	<defName>Butcher</defName>
+	<title>肉屋</title>
+	<titleShort>肉屋</titleShort>
+	<baseDescription>[PAWN_nameDef]はお肉大好きです。</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+<skillGains>
+	<li>
+		<defName>Cooking</defName>
+		<amount>5</amount>
+	</li>
+	<li>
+		<defName>Crafting</defName>
+		<amount>3</amount>
+	</li>
+</skillGains>
+<forcedTraits>
+	<li>
+		<defName>Gourmand</defName>
+	</li>
+	<li>
+		<defName>Brawler</defName>
+	</li>
+</forcedTraits>
+	<spawnCategories>
+		<li>CarniStory</li>
+		<li>CarniFeral</li>
+	</spawnCategories>
+
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="CarniBackStory">
+	<defName>Torturer</defName>
+	<title>拷問官</title>
+	<titleShort>拷問官</titleShort>
+	<baseDescription>[PAWN_nameDef]は内臓大好きです。</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+<skillGains>
+	<li>
+		<defName>Medicine</defName>
+		<amount>5</amount>
+	</li>
+	<li>
+		<defName>Intellectual</defName>
+		<amount>3</amount>
+	</li>
+</skillGains>
+<forcedTraits>
+	<li>
+		<defName>Psychopath</defName>
+	</li>
+</forcedTraits>
+<disallowedTraits>
+	<li>
+		<defName>Kind</defName>
+	</li>
+</disallowedTraits>
+	<workDisables>
+		<li>Mining</li>
+		<li>PlantWork</li>
+	</workDisables>
+	<spawnCategories>
+		<li>CarniStory</li>
+		<li>CarniFeral</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="CarniBackStory">
+	<defName>Livestocker</defName>
+	<title>飼育係</title>
+	<titleShort>飼育係</titleShort>
+	<baseDescription>[PAWN_nameDef]は自分が飼育する側になれたことをとても誇りに思っています。</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+<skillGains>
+	<li>
+		<defName>Animals</defName>
+		<amount>5</amount>
+	</li>
+</skillGains>
+<forcedTraits>
+	<li>
+		<defName>Zoophile</defName>
+	</li>
+</forcedTraits>
+<workDisables>
+	<li>Artistic</li>
+	<li>Cooking</li>
+</workDisables>
+<spawnCategories>
+	<li>CarniStory</li>
+</spawnCategories>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="CarniBackStory">
+	<defName>Farmhand</defName>
+	<title>農場従事者</title>
+	<titleShort>農場</titleShort>
+	<baseDescription>[PAWN_nameDef]は土と植物の複雑な有機的関係に魅了されています。</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+<skillGains>
+	<li>
+		<defName>Plants</defName>
+		<amount>5</amount>
+	</li>
+</skillGains>
+<workDisables>
+	<li>Artistic</li>
+</workDisables>
+<spawnCategories>
+	<li>CarniStory</li>
+	<li>CarniFeral</li>
+</spawnCategories>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="CarniBackStory">
+	<defName>KillerT</defName>
+	<title>キラーT</title>
+	<titleShort>キラー</titleShort>
+	<baseDescription>[PAWN_nameDef]は免疫防衛細胞の性質が強く発現した、頼りになる護衛です。</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+<skillGains>
+	<li>
+		<defName>Shooting</defName>
+		<amount>5</amount>
+	</li>
+</skillGains>
+<disallowedTraits>
+	<li>
+		<defName>Brawler</defName>
+	</li>
+</disallowedTraits>
+<forcedTraits>
+	<li>
+		<defName>Industriousness</defName>
+		<degree>-2</degree>
+	</li>
+</forcedTraits>
+<spawnCategories>
+	<li>CarniStory</li>
+	<li>CarniFeral</li>
+</spawnCategories>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="CarniBackStory">
+	<defName>Macrophage</defName>
+	<title>マクロファージ</title>
+	<titleShort>ファージ</titleShort>
+	<baseDescription>[PAWN_nameDef]は食細胞のように大食らいで頑健です。</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+<slot>Adulthood</slot>
+<skillGains>
+	<li>
+		<defName>Melee</defName>
+		<amount>5</amount>
+	</li>
+</skillGains>
+<forcedTraits>
+	<li>
+		<defName>Gourmand</defName>
+	</li>
+	<li>
+		<defName>Tough</defName>
+	</li>
+	<li>
+		<defName>Brawler</defName>
+	</li>
+</forcedTraits>
+<spawnCategories>
+	<li>CarniStory</li>
+	<li>CarniFeral</li>
+</spawnCategories>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="CarniBackStory">
+	<defName>Constructor</defName>
+	<title>建造者</title>
+	<titleShort>建造者</titleShort>
+	<baseDescription>[PAWN_nameDef]は固く無機質な材質に憧れを抱いています。</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+<skillGains>
+	<li>
+		<defName>Construction</defName>
+		<amount>4</amount>
+	</li>
+	<li>
+		<defName>Mining</defName>
+		<amount>4</amount>
+	</li>
+</skillGains>
+<spawnCategories>
+	<li>CarniStory</li>
+</spawnCategories>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="CarniBackStory">
+	<defName>FleshTailor</defName>
+	<title>裁縫師</title>
+	<titleShort>裁縫師</titleShort>
+	<baseDescription>[PAWN_nameDef]は工芸や服飾文化に夢中で、自分の触手っぽい指で何が作れるかいつも思案しています。</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+<skillGains>
+	<li>
+		<defName>Crafting</defName>
+		<amount>5</amount>
+	</li>
+	<li>
+		<defName>Artistic</defName>
+		<amount>3</amount>
+	</li>
+	<li>
+		<defName>Intellectual</defName>
+		<amount>1</amount>
+	</li>
+</skillGains>
+<workDisables>
+	<li>PlantWork</li>
+</workDisables>
+<spawnCategories>
+	<li>CarniStory</li>
+	<li>CarniFeral</li>
+</spawnCategories>
+</AlienRace.BackstoryDef>
+
+<!-- only for NPC faction Adulthood -->
+<AlienRace.BackstoryDef ParentName="CarniBackStory">
+	<defName>RabidCarni</defName>
+	<title>凶暴なカルニクルス</title>
+	<titleShort>凶暴</titleShort>
+	<baseDescription>これまでの経験から[PAWN_nameDef]はすべての人間を敵視しています。</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+<skillGains>
+	<li>
+		<defName>Melee</defName>
+		<amount>6</amount>
+	</li>
+	<li>
+		<defName>Shooting</defName>
+		<amount>3</amount>
+	</li>
+</skillGains>
+<forcedTraits>
+	<li>
+		<defName>Xenophobia</defName>
+		<degree>1</degree>
+	</li>
+	<li>
+		<defName>Rapist</defName>
+		<chance>30</chance>
+	</li>
+	<li>
+		<defName>Bloodlust</defName>
+		<chance>30</chance>
+	</li>
+</forcedTraits>
+<spawnCategories>
+	<li>CarniFeral</li>
+</spawnCategories>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="CarniBackStory">
+	<defName>CattleFucker</defName>
+	<title>家畜強姦魔</title>
+	<titleShort>獣姦魔</titleShort>
+		<baseDescription>ある人間のコロニーでは家畜が不自然な妊娠をし不気味な奇形児を出産することが問題になっていました。調査の結果怪物の仕業だとわかり[PAWN_nameDef]はハンターに追われ住処を放棄することとなりました。
+</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	<femaleCommonality>0</femaleCommonality>
+	<maleCommonality>1</maleCommonality>
+	<slot>Adulthood</slot>
+<skillGains>
+	<li>
+		<defName>Animals</defName>
+		<amount>3</amount>
+	</li>
+</skillGains>
+<forcedTraits>
+	<li>
+		<defName>Zoophile</defName>
+	</li>
+	<li>
+		<defName>Tough</defName>
+	</li>
+</forcedTraits>
+<workDisables>
+	<li>Artistic</li>
+	<li>Cooking</li>
+</workDisables>
+<spawnCategories>
+	<li>CarniStory</li>
+</spawnCategories>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="CarniBackStory">
+	<defName>CattleKiller</defName>
+	<title>家畜捕食者</title>
+	<titleShort>捕食者</titleShort>
+		<baseDescription>[PAWN_nameDef]は家畜を食い殺す肉食の怪物として近隣のコロニーで恐れられていました。人間が雇ったハンターから逃れた後、新たなエサ場を探しています。</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+<skillGains>
+	<li>
+		<defName>Melee</defName>
+		<amount>3</amount>
+	</li>
+	<li>
+		<defName>Animals</defName>
+		<amount>2</amount>
+	</li>
+</skillGains>
+<forcedTraits>
+	<li>
+		<defName>Xenophobia</defName>
+		<degree>1</degree>
+	</li>
+</forcedTraits>
+<spawnCategories>
+	<li>CarniFeral</li>
+</spawnCategories>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="CarniBackStory">
+	<defName>Kidnapper</defName>
+	<title>児童誘拐魔</title>
+	<titleShort>誘拐魔</titleShort>
+		<baseDescription>孤独を紛らわせるために[PAWN_nameDef]はしばしば人間の子供をさらって住処の洞窟に連れ込みました。洞窟の中で何がなされているかは誰も知りませんが子供たちが家に帰る事はなく、[PAWN_nameDef]だけが新しい子供を求めて外へ出てくるのみでした。</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+<skillGains>
+	<li>
+		<defName>Mining</defName>
+		<amount>3</amount>
+	</li>
+	<li>
+		<defName>Medicine</defName>
+		<amount>3</amount>
+	</li>
+</skillGains>
+<forcedTraits>
+	<li>
+		<defName>Rapist</defName>
+	</li>
+	<li>
+		<defName>Xenophobia</defName>
+		<degree>-1</degree>
+	</li>
+</forcedTraits>
+<spawnCategories>
+	<li>CarniFeral</li>
+</spawnCategories>
+</AlienRace.BackstoryDef>
+
+</Defs>

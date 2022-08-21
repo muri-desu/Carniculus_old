@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ScenarioDef>
+
+	<defName>CarniScenario</defName>
+	<label>転移と増殖</label>
+		<description>カルニクルスたちは惑星軌道上の研究所のガラスケースから脱走し宇宙船を乗っ取った実験動物です。一部の者たちは同胞の蛮行や繁殖による過密状態に耐えかね、ポッドで大地に降り立ち自分たちの生命力を試すことにしました。</description>
+
+<scenario>
+	<summary>大食いで好色なエイリアンを含む3人でスタートします。</summary>
+	<playerFaction>
+		<def>PlayerFaction</def>
+		<factionDef>CarniPlayerFaction</factionDef>
+	</playerFaction>
+<parts>
+	<!-- スタートコンフィグ画面 -->
+	<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+		<def>ConfigPage_ConfigureStartingPawns</def>
+		<pawnCount>3</pawnCount>
+		<pawnChoiceCount>5</pawnChoiceCount>
+	</li>
+
+	<!-- 全裸 -->
+	<li Class="ScenPart_Naked">
+		<def>Naked</def>
+		<context>PlayerStarter</context>
+	</li>
+
+	<!-- スタート時ポッド -->
+	<li Class="ScenPart_PlayerPawnsArriveMethod">
+		<def>PlayerPawnsArriveMethod</def>
+		<method>DropPods</method>
+		<visible>false</visible>
+	</li>
+
+	<!-- 家畜 -->
+	<li Class="ScenPart_StartingAnimal">
+		<def>StartingAnimal</def>
+		<animalKind>Carnigigas</animalKind>
+		<count>1</count>
+	</li>
+
+	<!-- マップ上散乱アイテム -->
+	<li Class="ScenPart_StartingThing_Defined">
+		<def>StartingThing_Defined</def>
+		<thingDef>Silver</thingDef>
+		<count>500</count>
+	</li>
+	<li Class="ScenPart_StartingThing_Defined">
+		<def>StartingThing_Defined</def>
+		<thingDef>MedicineIndustrial</thingDef>
+			<count>20</count>
+	</li>
+	<li Class="ScenPart_StartingThing_Defined">
+		<def>StartingThing_Defined</def>
+		<thingDef>MealSurvivalPack</thingDef>
+			<count>100</count>
+	</li>
+	<li Class="ScenPart_ScatterThingsNearPlayerStart">
+		<def>StartingThing_Defined</def>
+		<thingDef>Steel</thingDef>
+			<count>100</count>
+	</li>
+	<li Class="ScenPart_StartingThing_Defined">
+		<def>StartingThing_Defined</def>
+		<thingDef>Neutroamine</thingDef>
+			<count>5</count>
+	</li>
+	<li Class="ScenPart_ScatterThingsAnywhere">
+		<def>StartingThing_Defined</def>
+		<thingDef>WoodLog</thingDef>
+			<count>200</count>
+	</li>
+	<li Class="ScenPart_ScatterThingsAnywhere">
+		<def>ScatterThingsAnywhere</def>
+		<thingDef>Steel</thingDef>
+			<count>300</count>
+	</li>
+</parts>
+</scenario>
+
+</ScenarioDef>
+</Defs>

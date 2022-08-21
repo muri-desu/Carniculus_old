@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<BabiesAndChildren.AlienChildDef>
+		<defName>Alien_Carniculus</defName>
+		<disableBackstories>true</disableBackstories>
+		<babyGraphic>Things/Pawn/Carni/Bodies/Naked_Fat</babyGraphic>
+		<toddlerGraphic>Things/Pawn/Carni/Bodies/Naked_Thin</toddlerGraphic>
+	</BabiesAndChildren.AlienChildDef>
+
+</Defs>

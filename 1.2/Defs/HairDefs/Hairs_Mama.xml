@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<HairDef>
+	<defName>Mama_Basic</defName>
+	<label>Mama basic</label>
+	<hairGender>Any</hairGender>
+	<texPath>Hairs/MamaBasic</texPath>
+		<hairTags>
+			<li>Mama_HairTag</li>
+		</hairTags>
+</HairDef>
+
+</Defs>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<PawnKindDef Name="BaseCarniPawnKind" Abstract="True">
+	<combatPower>40</combatPower>
+	<isFighter>true</isFighter>
+	<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+	<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+	<initialWillRange>1~3</initialWillRange>
+	<initialResistanceRange>10~20</initialResistanceRange>
+	<apparelTags>
+		<li>CarniApparel</li>
+	</apparelTags>
+</PawnKindDef>
+
+<!-- player colonist プレイヤー -->
+<PawnKindDef ParentName="BaseCarniPawnKind">
+	<defName>CarniColonist</defName>
+	<label>colonist</label>
+	<race>Alien_Carniculus</race>
+	<minGenerationAge>4</minGenerationAge>
+	<maxGenerationAge>5</maxGenerationAge>
+	<apparelMoney>100~3000</apparelMoney>
+	<techHediffsMoney>50~3000</techHediffsMoney>
+	<techHediffsChance>0.02</techHediffsChance>
+	<defaultFactionType>CarniPlayerFaction</defaultFactionType>
+	<techHediffsTags>
+		<li>Poor</li>
+		<li>Simple</li>
+	</techHediffsTags>
+	<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>CarniStory</li>
+			</categories>
+		</li>
+	</backstoryFiltersOverride>
+	</PawnKindDef>
+
+<!-- Slave 奴隷 -->
+<PawnKindDef ParentName="BaseCarniPawnKind">
+	<defName>CarniSlave</defName>
+	<label>carniculus slave</label>
+	<race>Alien_Carniculus</race>
+	<minGenerationAge>1</minGenerationAge>
+	<maxGenerationAge>30</maxGenerationAge>
+	<combatPower>25</combatPower>
+	<initialWillRange>2~6</initialWillRange>
+	<initialResistanceRange>10~15</initialResistanceRange>
+	<baseRecruitDifficulty>0.3</baseRecruitDifficulty>
+	<defaultFactionType>OutlanderCivil</defaultFactionType>
+	<itemQuality>Poor</itemQuality>
+	<gearHealthRange>0.2~0.6</gearHealthRange>
+	<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>CarniFeral</li>
+			</categories>
+		</li>
+	</backstoryFiltersOverride>
+</PawnKindDef>
+
+<!-- Refugee 難民 -->
+<PawnKindDef ParentName="BaseCarniPawnKind">
+	<defName>CarniRefugee</defName>
+	<label>carniculus refugee</label>
+	<race>Alien_Carniculus</race>
+	<minGenerationAge>1</minGenerationAge>
+	<maxGenerationAge>50</maxGenerationAge>
+	<defaultFactionType>OutlanderCivil</defaultFactionType>
+	<itemQuality>Normal</itemQuality>
+	<gearHealthRange>0.2~0.6</gearHealthRange>
+	<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>CarniFeral</li>
+				<li>CarniStory</li>
+			</categories>
+		</li>
+	</backstoryFiltersOverride>
+</PawnKindDef>
+
+</Defs>

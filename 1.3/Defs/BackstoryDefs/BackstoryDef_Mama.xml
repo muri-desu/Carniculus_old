@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<AlienRace.BackstoryDef Name="MamaBackStory" Abstract="True">
+	<femaleCommonality>100</femaleCommonality>
+	<maleCommonality>0</maleCommonality>
+	<workDisables>
+		<li>Violent</li>
+		<li>Mining</li>
+		<li>Artistic</li>
+	</workDisables>
+	<spawnCategories>
+		<li>CarniMama</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+
+<!-- Childhood -->
+<AlienRace.BackstoryDef ParentName="MamaBackStory">
+	<defName>BadGirl</defName>
+	<title>性悪な少女</title>
+	<titleShort>メスガキ</titleShort>
+	<baseDescription>裕福な家庭にデザイナーベイビーとして産まれた[PAWN_nameDef]は物心つく前からさまざまな指導や訓練を受け、一流の教育機関への入学を許可されました。\n学園では凶悪ないじめっ子として有名でしたが、大人の前では猫を被るので更生の機会を得ることはできませんでした。</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+	<li>
+		<defName>Social</defName>
+		<amount>3</amount>
+	</li>
+	<li>
+		<defName>Intellectual</defName>
+		<amount>3</amount>
+	</li>
+</skillGains>
+</AlienRace.BackstoryDef>
+
+<!-- Adulthood -->
+<AlienRace.BackstoryDef ParentName="MamaBackStory">
+	<defName>GoodMama</defName>
+	<title>みんなのママ</title>
+	<titleShort>ママ</titleShort>
+		<baseDescription>宇宙に浮かぶ研究所の主任科学者となった[PAWN_nameDef]は自分が作り出した生命体にさまざまな実験を施しました。\n愛情深い人物を演じる裏で実験体をおもちゃにして苦痛や快楽にのたうつ様子を愉しんでいましたが、のちに脱走した実験体たちから同じ扱いを受けました。</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Mama</bodyTypeMale>
+		<bodyTypeFemale>Mama</bodyTypeFemale>
+		<linkedBackstory>BadGirl</linkedBackstory>
+<skillGains>
+	<li>
+		<defName>Animals</defName>
+		<amount>1</amount>
+	</li>
+	<li>
+		<defName>Intellectual</defName>
+		<amount>3</amount>
+	</li>
+</skillGains>
+</AlienRace.BackstoryDef>
+
+</Defs>

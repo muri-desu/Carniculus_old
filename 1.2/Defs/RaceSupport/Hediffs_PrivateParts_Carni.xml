@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Regular privates -->
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>CarniPenis</defName>
+		<label>carniculus penis</label>
+		<labelNoun>a penis</labelNoun>
+		<description>奇形の男性器です。\n勃起時の陰茎には不規則になめくじの触覚のような突起が生えており成分不明の分泌液を犠牲者の粘膜に擦り込みます。</description>
+		<descriptionHyperlinks><ThingDef>CarniPenis</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>CarniPenis</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartVagina">
+		<defName>CarniVagina</defName>
+		<label>carniculus vagina</label>
+		<labelNoun>a vagina</labelNoun>
+		<description>軟体動物のようにうねる陰唇を持つ異様な女性器です。\n上の口のように貪欲で、何かが挿入されると持ち主の意志とは無関係に食らいついて満足するまで放そうとしません。</description>
+		<descriptionHyperlinks><ThingDef>CarniVagina</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>CarniVagina</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+
+	<!-- Natural Breasts -->
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartBreast">
+		<defName>CarniBreasts</defName>
+		<label>carniculus breasts</label>
+		<labelNoun>A pair of breasts</labelNoun>
+		<description>大きく変異した乳房です。</description>
+		<descriptionHyperlinks><ThingDef>CarniBreasts</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>CarniBreasts</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	
+	<!-- Natural Breasts or rather lack of -->
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartBase">
+		<defName>FeaturelessChest</defName>
+		<label>featureless chest</label>
+		<labelNoun>a featureless chest</labelNoun>
+		<description>a flat chest without any nipples where there should be.</description>
+		<descriptionHyperlinks><ThingDef>FeaturelessChest</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>FeaturelessChest</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+</Defs>

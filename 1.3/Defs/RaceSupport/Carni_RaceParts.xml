@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<rjw.RacePartDef>
+		<defName>CarniBreasts</defName>
+		<hediffName>CarniBreasts</hediffName>
+		<fluidType>Milk</fluidType>
+		<fluidModifier>2.0</fluidModifier>
+	</rjw.RacePartDef>
+
+	<rjw.RacePartDef>
+		<defName>CarniPenis</defName>
+		<hediffName>CarniPenis</hediffName>
+		<fluidType>Cum</fluidType>
+	</rjw.RacePartDef>
+
+	<rjw.RacePartDef>
+		<defName>CarniVagina</defName>
+		<hediffName>CarniVagina</hediffName>
+		<fluidType>Cum</fluidType>
+	</rjw.RacePartDef>
+</Defs>

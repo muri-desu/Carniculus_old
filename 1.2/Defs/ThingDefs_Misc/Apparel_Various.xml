@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingCategoryDef>
+	<defName>CarniApparel</defName>
+	<label>カルニクルス装備</label>
+	<parent>Apparel</parent>
+</ThingCategoryDef>
+
+<ThingDef><!-- 独自未完成品 -->
+	<defName>UnfinishedCarniApparel</defName>
+	<thingClass>UnfinishedThing</thingClass>
+	<category>Item</category>
+	<label>unfinished thing</label>
+	<graphicData>
+		<texPath>Things/Item/Unfinished/UnfinishedSculpture</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<altitudeLayer>Item</altitudeLayer>
+	<useHitPoints>true</useHitPoints>
+	<isUnfinishedThing>true</isUnfinishedThing>
+	<scatterableOnMapGen>false</scatterableOnMapGen>
+	<selectable>true</selectable>
+	<tradeability>None</tradeability>
+	<drawerType>RealtimeOnly</drawerType>
+	<!-- For CompForbiddable -->
+	<statBases>
+		<MaxHitPoints>50</MaxHitPoints>
+		<DeteriorationRate>2.0</DeteriorationRate>
+		<Beauty>-8</Beauty>
+		<Mass>1</Mass> <!-- ingredients are added to this value -->
+	</statBases>
+	<comps>
+		<li Class="CompProperties_Forbiddable"/>
+	</comps>
+	<alwaysHaulable>true</alwaysHaulable>
+	<rotatable>false</rotatable>
+	<pathCost>14</pathCost>
+	<thingCategories>
+		<li>Unfinished</li>
+	</thingCategories>
+</ThingDef>
+
+<ThingDef Name="CarniApparelBase" Abstract="True">	
+	<!-- <followStuffColor>false</followStuffColor> -->
+	<thingClass>Apparel</thingClass>
+	<category>Item</category>
+	<selectable>True</selectable>
+	<pathCost>10</pathCost>
+	<useHitPoints>True</useHitPoints>
+	<techLevel>Medieval</techLevel>
+	<drawGUIOverlay>true</drawGUIOverlay>
+	<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Flammability>1.0</Flammability>
+		<DeteriorationRate>2</DeteriorationRate>
+		<Beauty>-2</Beauty>
+	</statBases>
+	<altitudeLayer>Item</altitudeLayer>
+	<alwaysHaulable>True</alwaysHaulable>
+	<tickerType>Never</tickerType>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+
+<ThingDef Name="CarniApparelMakeableBase" ParentName="CarniApparelBase" Abstract="True">
+	<recipeMaker>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<recipeUsers>
+			<li>HandTailoringBench</li>
+			<li>ElectricTailoringBench</li>
+		</recipeUsers>
+	</recipeMaker>
+	<apparel>
+		<tags>
+			<li>CarniApparel</li>
+		</tags>
+	</apparel>
+	<thingCategories>
+		<li>CarniApparel</li>
+	</thingCategories>
+</ThingDef>
+
+<ThingDef Name="CarniArmorBase" ParentName="ApparelBase" Abstract="True">
+	<recipeMaker>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Smith</soundWorking>
+		<recipeUsers>
+			<li>FabricationBench</li>
+		</recipeUsers>
+		<unfinishedThingDef>UnfinishedCarniApparel</unfinishedThingDef>
+	</recipeMaker>
+	<researchPrerequisites>
+		<li>PlateArmor</li>
+	</researchPrerequisites>
+	<apparel>
+		<tags>
+			<li>CarniApparel</li>
+		</tags>
+	</apparel>
+	<thingCategories>
+		<li>CarniApparel</li>
+	</thingCategories>
+</ThingDef>
+
+<!-- レザーエプロン -->
+<ThingDef ParentName="CarniApparelMakeableBase">
+	<defName>Apparel_Apron</defName>
+		<label>レザーエプロン</label>
+		<description>ポケット付きの前掛けです。料理や家事にぴったり</description>
+		<techLevel>Medieval</techLevel>
+
+	<recipeMaker>
+		<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+		</recipeMaker>
+
+	<graphicData>
+		<texPath>Things/Apparel/Apron/Apron</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+
+	<statBases>
+		<WorkToMake>5000</WorkToMake>
+		<MaxHitPoints>200</MaxHitPoints>
+		<Mass>2</Mass>
+		<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+		<EquipDelay>1.0</EquipDelay>
+	</statBases>
+
+	<stuffCategories>
+		<li>Leathery</li>
+	</stuffCategories>
+	<costStuffCount>55</costStuffCount>
+
+	<equippedStatOffsets>
+		<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+		<GeneralLaborSpeed>0.05</GeneralLaborSpeed>
+		<FoodPoisonChance>-0.25</FoodPoisonChance>
+		<MedicalTendQuality>0.05</MedicalTendQuality>
+	</equippedStatOffsets>
+
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<layers>
+			<li>Shell</li>
+		</layers>
+		<wornGraphicPath>Things/Apparel/Apron/Apron</wornGraphicPath>
+		<useWornGraphicMask>true</useWornGraphicMask>
+	</apparel>
+
+	<colorGenerator Class="ColorGenerator_Options">
+		<options>
+			<li>
+				<weight>10</weight>
+				<only>RGBA(0.4,0.3,0.1,1)</only>
+			</li>
+		</options>
+	</colorGenerator>
+</ThingDef>
+
+<!-- グローブ -->
+<ThingDef ParentName="CarniApparelMakeableBase">
+	<defName>Apparel_Gloves</defName>
+		<label>手袋</label>
+		<description>カルニクルスのねちょねちょした腕を肘上までカバーする長手袋です。</description>
+
+	<recipeMaker>
+		<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+	</recipeMaker>
+
+	<graphicData>
+		<texPath>Things/Apparel/Gloves</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+
+	<statBases>
+		<WorkToMake>3000</WorkToMake>
+		<MaxHitPoints>200</MaxHitPoints>
+		<Mass>0.5</Mass>
+		<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+		<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+		<StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+		<EquipDelay>1</EquipDelay>
+	</statBases>
+
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<costStuffCount>45</costStuffCount>
+
+	<equippedStatOffsets>
+		<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+		<GeneralLaborSpeed>0.05</GeneralLaborSpeed>
+	</equippedStatOffsets>
+
+	<apparel>
+		<bodyPartGroups>
+			<li>Arms</li>
+			<li>Hands</li>
+		</bodyPartGroups>
+		<layers>
+			<li>Middle</li>
+		</layers>
+	</apparel>
+</ThingDef>
+
+<!-- 脂肪 -->
+<ThingDef ParentName="CarniApparelMakeableBase">
+	<defName>Apparel_Fat</defName>
+		<label>脂肪</label>
+		<description>抽出した脂肪を加工したインナーです。厳しい寒さを防ぎます</description>
+
+	<recipeMaker>
+		<unfinishedThingDef>UnfinishedCarniApparel</unfinishedThingDef>
+	</recipeMaker>
+
+	<graphicData>
+		<texPath>Things/Apparel/Fat/Fat</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+
+	<statBases>
+		<WorkToMake>5000</WorkToMake>
+		<MaxHitPoints>200</MaxHitPoints>
+		<Mass>1</Mass>
+		<Insulation_Cold>20</Insulation_Cold>
+		<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.1</ArmorRating_Heat>
+		<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+		<EquipDelay>3</EquipDelay>
+	</statBases>
+
+	<costList>
+		<Cloth>5</Cloth>
+		<Neutroamine>1</Neutroamine>
+		<Meat_Human>45</Meat_Human>
+	</costList>
+
+	<equippedStatOffsets>
+		<HungerRateMultiplier>-0.1</HungerRateMultiplier>
+	</equippedStatOffsets>
+
+	<apparel>
+		<bodyPartGroups>
+			<li>Neck</li>
+			<li>Torso</li>
+			<li>Shoulders</li>
+			<li>Arms</li>
+			<li>Legs</li>
+		</bodyPartGroups>
+	<layers>
+		<li>OnSkin</li>
+	</layers>
+	<wornGraphicPath>Things/Apparel/Fat/Fat</wornGraphicPath>
+	</apparel>
+
+</ThingDef>
+
+<!-- 血管 -->
+<ThingDef ParentName="CarniApparelMakeableBase">
+	<defName>Apparel_Vein</defName>
+		<label>放熱網</label>
+		<description>再構成した静脈のネットです。体表からの放熱を促します。</description>
+
+	<recipeMaker>
+		<unfinishedThingDef>UnfinishedCarniApparel</unfinishedThingDef>
+	</recipeMaker>
+
+	<graphicData>
+		<texPath>Things/Apparel/Vein/Vein</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+
+	<statBases>
+		<WorkToMake>5000</WorkToMake>
+		<MaxHitPoints>200</MaxHitPoints>
+		<Mass>1</Mass>
+		<Insulation_Heat>20</Insulation_Heat>
+		<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.1</ArmorRating_Heat>
+		<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+		<EquipDelay>3</EquipDelay>
+	</statBases>
+
+	<costList>
+		<Cloth>5</Cloth>
+		<Neutroamine>1</Neutroamine>
+		<Meat_Human>45</Meat_Human>
+	</costList>
+
+	<equippedStatOffsets>
+		<MoveSpeed>0.1</MoveSpeed>
+	</equippedStatOffsets>
+
+	<apparel>
+		<bodyPartGroups>
+			<li>Neck</li>
+			<li>Torso</li>
+			<li>Shoulders</li>
+			<li>Arms</li>
+			<li>Legs</li>
+		</bodyPartGroups>
+	<layers>
+		<li>OnSkin</li>
+	</layers>
+		<wornGraphicPath>Things/Apparel/Vein/Vein</wornGraphicPath>
+	</apparel>
+
+</ThingDef>
+
+<!-- 触手アーマー -->
+<ThingDef ParentName="CarniArmorBase">
+	<defName>Apparel_FleshArmor</defName>
+		<label>触手アーマー</label>
+		<description>生物の組織を加工した防具です。血管から栄養を取られるため着用者は空腹率が上がります。</description>
+		<techLevel>Industrial</techLevel>
+
+	<recipeMaker>
+		<unfinishedThingDef>UnfinishedCarniApparel</unfinishedThingDef>
+	</recipeMaker>
+
+	<graphicData>
+		<texPath>Things/Apparel/FleshArmor/FleshArmor</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+	</graphicData>
+
+	<statBases>
+		<WorkToMake>50000</WorkToMake>
+		<MaxHitPoints>450</MaxHitPoints>
+		<Mass>12</Mass>
+		<StuffEffectMultiplierArmor>0.9</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+		<ArmorRating_Blunt>1.2</ArmorRating_Blunt>
+		<ArmorRating_Heat>1.1</ArmorRating_Heat>
+		<ArmorRating_Sharp>1.15</ArmorRating_Sharp>
+		<EquipDelay>7</EquipDelay>
+	</statBases>
+
+	<costList>
+		<Neutroamine>10</Neutroamine>
+		<Heart>1</Heart>
+		<Meat_Human>65</Meat_Human>
+	</costList>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>35</costStuffCount>
+
+	<equippedStatOffsets>
+		<PawnBeauty>-2</PawnBeauty>
+		<HungerRateMultiplier>0.15</HungerRateMultiplier>
+	</equippedStatOffsets>
+
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Neck</li>
+			<li>Shoulders</li>
+			<li>Arms</li>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<layers>
+			<li>Shell</li>
+		</layers>
+		<wornGraphicPath>Things/Apparel/FleshArmor/FleshArmor</wornGraphicPath>
+	</apparel>
+
+</ThingDef>
+
+<StuffCategoryDef>
+	<defName>Flesh</defName>
+	<label>flesh</label>
+	<destroySoundSmall>BuildingDestroyed_Soft_Small</destroySoundSmall>
+	<destroySoundMedium>BuildingDestroyed_Soft_Medium</destroySoundMedium>
+</StuffCategoryDef>
+
+</Defs>
