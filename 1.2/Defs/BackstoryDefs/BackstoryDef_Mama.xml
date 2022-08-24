@@ -38,7 +38,7 @@
 	<defName>GoodMama</defName>
 	<title>みんなのママ</title>
 	<titleShort>ママ</titleShort>
-		<baseDescription>宇宙に浮かぶ研究所の主任科学者となった[PAWN_nameDef]は自分が作り出した生命体にさまざまな実験を施しました。\n愛情深い人物を演じる裏で実験体をおもちゃにして苦痛や快楽にのたうつ様子を愉しんでいましたが、のちに脱走した実験体たちから同じ扱いを受けました。</baseDescription>
+		<baseDescription>宇宙に浮かぶ研究所の主任科学者となった[PAWN_nameDef]は自分が作り出した生命体にさまざまな実験を施しました。\n愛情深い人物を演じる裏でカルニクルスの実験体をおもちゃにして苦痛や快楽にのたうつ様子を愉しんでいましたが、のちに脱走した彼らから同じ扱いを受けました。</baseDescription>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Mama</bodyTypeMale>
 		<bodyTypeFemale>Mama</bodyTypeFemale>

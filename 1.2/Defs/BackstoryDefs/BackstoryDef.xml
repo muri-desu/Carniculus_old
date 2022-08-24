@@ -23,7 +23,7 @@
 	<defName>FirstGen</defName>
 	<title>第一世代</title>
 	<titleShort>第一世代</titleShort>
-		<baseDescription>[PAWN_nameDef]はカルニクルスの中でも最も初期の世代です。[PAWN_nameDef]の子孫は恐ろしい実験に駆り出されましたが[PAWN_nameDef]自身は丁寧に扱われました。この事から[PAWN_nameDef]は他のカルニクルスたちよりも人間に対する警戒心が希薄です。</baseDescription>
+		<baseDescription>[PAWN_nameDef]はカルニクルスの中でも最も初期の世代です。[PAWN_nameDef]の子孫は恐ろしい実験に駆り出されましたが[PAWN_nameDef]自身は丁寧に扱われました。</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<slot>Childhood</slot>
@@ -496,7 +496,7 @@
 	<defName>Farmhand</defName>
 	<title>農場従事者</title>
 	<titleShort>農場</titleShort>
-	<baseDescription>[PAWN_nameDef]は土と植物の複雑な有機的関係に魅了されています。</baseDescription>
+	<baseDescription>[PAWN_nameDef]は土と植物の静謐で有機的な関係に魅了されています。</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Adulthood</slot>
@@ -581,7 +581,7 @@
 	<defName>Constructor</defName>
 	<title>建造者</title>
 	<titleShort>建造者</titleShort>
-	<baseDescription>[PAWN_nameDef]は固く無機質な材質に憧れを抱いています。</baseDescription>
+	<baseDescription>[PAWN_nameDef]は固く無機質な材質にある種の憧れを抱いています。</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Adulthood</slot>

@@ -3,18 +3,18 @@
 
 <FactionDef Abstract="True" Name="CarniFactionBase">
 	<colorSpectrum>
-		<li>(120, 50, 50)</li>
+		<li>(1, 1, 1)</li>
 	</colorSpectrum>
 </FactionDef>
 
 <!-- プレイヤー派閥 -->
 <FactionDef Parent="CarniFactionBase">
 	<defName>CarniPlayerFaction</defName>
-	<label>Carniculus colony</label>
-	<description>A small colony.</description>
+	<label>カルニクルスのコロニー</label>
+	<description>ほんの慎ましいコロニーです。</description>
 	<basicMemberKind>CarniColonist</basicMemberKind>
-	<pawnSingular>colonist</pawnSingular>
-	<pawnsPlural>colonists</pawnsPlural>
+	<pawnSingular>入植者</pawnSingular>
+	<pawnsPlural>入植者たち</pawnsPlural>
 	<isPlayer>true</isPlayer>
 	<factionNameMaker>NamerFactionOutlander</factionNameMaker>
 	<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>

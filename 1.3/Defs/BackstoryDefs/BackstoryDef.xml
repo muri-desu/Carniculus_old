@@ -23,7 +23,7 @@
 	<defName>FirstGen</defName>
 	<title>第一世代</title>
 	<titleShort>第一世代</titleShort>
-		<baseDescription>[PAWN_nameDef]はカルニクルスの中でも最も初期の世代です。[PAWN_nameDef]の子孫は恐ろしい実験に駆り出されましたが[PAWN_nameDef]自身は丁寧に扱われました。この事から[PAWN_nameDef]は他のカルニクルスたちよりも人間に対する警戒心が希薄です。</baseDescription>
+		<baseDescription>[PAWN_nameDef]はカルニクルスの中でも最も初期の世代です。[PAWN_nameDef]の子孫は恐ろしい実験に駆り出されましたが[PAWN_nameDef]自身は丁寧に扱われました。</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<slot>Childhood</slot>
@@ -45,7 +45,7 @@
 <AlienRace.BackstoryDef ParentName="CarniBackStory">
 	<defName>MazeRunner</defName>
 	<title>メイズランナー</title>
-	<titleShort>迷路</titleShort>
+	<titleShort>メイズランナー</titleShort>
 		<baseDescription>[PAWN_nameDef]は毎日無機質な迷路の中に放り込まれ出口を目指して走り回されました。足を止めれば餌の代わりに物理的な罰を与えられました。</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -183,7 +183,7 @@
 </AlienRace.BackstoryDef>
 
 <AlienRace.BackstoryDef ParentName="CarniBackStory">
-	<defName>DeadStock</defName>
+	<defName>PlayingDead</defName>
 	<title>廃棄された死骸</title>
 	<titleShort>死骸</titleShort>
 	<baseDescription>過酷な実験を逃れるため死んだふりをした[PAWN_nameDef]は不用心な科学者によって廃棄区画へ送られました。その後は焼却場手前の機材の隙間に潜み、送り込まれてくるゴミや同胞の死体をつまみ食いしながら生き延びました。</baseDescription>
@@ -496,7 +496,7 @@
 	<defName>Farmhand</defName>
 	<title>農場従事者</title>
 	<titleShort>農場</titleShort>
-	<baseDescription>[PAWN_nameDef]は土と植物の複雑な有機的関係に魅了されています。</baseDescription>
+	<baseDescription>[PAWN_nameDef]は土と植物の静謐で有機的な関係に魅了されています。</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Adulthood</slot>
@@ -581,7 +581,7 @@
 	<defName>Constructor</defName>
 	<title>建造者</title>
 	<titleShort>建造者</titleShort>
-	<baseDescription>[PAWN_nameDef]は固く無機質な材質に憧れを抱いています。</baseDescription>
+	<baseDescription>[PAWN_nameDef]は固く無機質な材質にある種の憧れを抱いています。</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Adulthood</slot>
@@ -631,7 +631,7 @@
 </spawnCategories>
 </AlienRace.BackstoryDef>
 
-<!-- only for NPC faction Adulthood -->
+<!-- NPC　Adulthood -->
 <AlienRace.BackstoryDef ParentName="CarniBackStory">
 	<defName>RabidCarni</defName>
 	<title>凶暴なカルニクルス</title>

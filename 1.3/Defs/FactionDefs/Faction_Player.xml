@@ -6,41 +6,26 @@
 		<li>CarniCultures</li>
 	</allowedCultures>
 	<colorSpectrum>
-		<li>(120, 50, 50)</li>
+		<li>(1, 1, 1)</li>
 	</colorSpectrum>
-	<disallowedPrecepts>
-		<li MayRequire="rjw.sexperience.ideology">Rape_Abhorrent</li>
-		<li MayRequire="rjw.sexperience.ideology">Rape_Horrible</li>
-		<li MayRequire="rjw.sexperience.ideology">Rape_Disapproved</li>
-		<li MayRequire="rjw.sexperience.ideology">Incestuos_Disapproved</li>
-		<li MayRequire="rjw.sexperience.ideology">Incestuos_Forbidden</li>
-		<li MayRequire="rjw.sexperience.ideology">Bestiality_Abhorrent</li>
-		<li MayRequire="rjw.sexperience.ideology">Bestiality_Horrible</li>
-		<li MayRequire="rjw.sexperience.ideology">Bestiality_Disapproved</li>
-		<li MayRequire="rjw.sexperience.ideology">Necrophilia_Abhorrent</li>
-		<li MayRequire="rjw.sexperience.ideology">Necrophilia_Horrible</li>
-		<li MayRequire="rjw.sexperience.ideology">Necrophilia_Disapproved</li>
-	</disallowedPrecepts>
 </FactionDef>
 
 <!-- プレイヤー派閥 -->
 <FactionDef Parent="CarniFactionBase">
 	<defName>CarniPlayerFaction</defName>
-	<label>Carniculus colony</label>
-	<description>A small colony.</description>
+	<label>カルニクルスのコロニー</label>
+	<description>ほんの慎ましいコロニーです。</description>
 	<basicMemberKind>CarniColonist</basicMemberKind>
-	<pawnSingular>colonist</pawnSingular>
-	<pawnsPlural>colonists</pawnsPlural>
+	<pawnSingular>入植者</pawnSingular>
+	<pawnsPlural>入植者たち</pawnsPlural>
 	<isPlayer>true</isPlayer>
 	<factionNameMaker>NamerFactionOutlander</factionNameMaker>
 	<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 	<techLevel>Industrial</techLevel>
-
 	<backstoryCategories>
 		<li>CarniStory</li>
 		<li>CarniMama</li>
 	</backstoryCategories>
-
 	<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
 	<geneticVariance>0.1</geneticVariance>
 	<startingResearchTags>
@@ -62,6 +47,9 @@
 		<li>Cloth</li>
 	</thingDefs>
 </apparelStuffFilter>
-</FactionDef>
+<disallowedPrecepts>
+	<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+	<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+</disallowedPrecepts></FactionDef>
 
 </Defs>

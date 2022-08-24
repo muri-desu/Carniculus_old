@@ -183,6 +183,61 @@
 </colorGenerator>
 </ThingDef>
 
+<!-- 革マスク -->
+<ThingDef ParentName="Carni_HatBase">
+	<defName>Apparel_LeatherMask</defName>
+		<label>レザーマスク</label>
+		<description>厚手の皮で作った防毒マスクです。</description>
+		<techLevel>Industrial</techLevel>
+
+	<graphicData>
+		<texPath>Things/Apparel/Hats/LeatherMask</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+
+	<statBases>
+		<WorkToMake>5500</WorkToMake>
+		<MaxHitPoints>175</MaxHitPoints>
+		<Mass>1</Mass>
+		<StuffEffectMultiplierArmor>0.7</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
+		<EquipDelay>1.5</EquipDelay>
+		</statBases>
+
+	<stuffCategories>
+			<li>Leathery</li>
+	</stuffCategories>
+	<costStuffCount>75</costStuffCount>
+
+	<equippedStatOffsets>
+		<EatingSpeed>-0.05</EatingSpeed>
+		<PawnBeauty>0.5</PawnBeauty>
+		<ToxicSensitivity>-1.0</ToxicSensitivity>
+	</equippedStatOffsets>
+
+	<apparel>
+		<bodyPartGroups>
+			<li>FullHead</li>
+			<li>Neck</li>
+		</bodyPartGroups>
+		<layers>
+			<li>Overhead</li>
+		</layers>
+	<wornGraphicPath>Things/Apparel/Hats/LeatherMask</wornGraphicPath>
+		<useWornGraphicMask>true</useWornGraphicMask>
+	</apparel>
+
+<colorGenerator Class="ColorGenerator_Options">
+	<options>
+		<li>
+			<weight>1</weight>
+			<only>RGBA(0.7,0.37,0.7,0.1)</only>
+		</li>
+	</options>
+</colorGenerator>
+</ThingDef>
+
 <!-- 頭アーマー  -->
 <ThingDef ParentName="CarniArmorBase">
 	<defName>Apparel_FleshHelm</defName>
@@ -317,7 +372,7 @@
 	</costList>
 
 	<equippedStatOffsets>
-		<ToxicSensitivity>-0.5</ToxicSensitivity>
+		<ToxicSensitivity>-0.8</ToxicSensitivity>
 	</equippedStatOffsets>
 
 	<thingCategories Inherit="False">

@@ -4,7 +4,6 @@
 
 <defName>CarniRaceSettings</defName>
 <pawnKindSettings>
-
 <startingColonists><!-- start member -->
 <li>
 	<pawnKindEntries>
@@ -12,16 +11,15 @@
 		<kindDefs>
 			<li>CarniColonist</li>
 		</kindDefs>
-		<chance>100.0</chance>
+		<chance>1.0</chance>
 	</li>
 	<li>
 		<kindDefs>
 			<li>ColonistMama</li>
 		</kindDefs>
-		<chance>30.0</chance>
+		<chance>0.2</chance>
 	</li>
 	</pawnKindEntries>
-
 	<factionDefs>
 		<li>CarniPlayerFaction</li>
 	</factionDefs>
@@ -33,34 +31,27 @@
 		<kindDefs>
 			<li>CarniSlave</li>
 		</kindDefs>
-		<chance>100.0</chance>
+		<chance>1.0</chance>
 	</li>
 	<li>
 		<kindDefs>
 			<li>SlaveMama</li>
 		</kindDefs>
-		<chance>30.0</chance>
+		<chance>0.2</chance>
 	</li>
 </alienslavekinds>
 
-<alienwandererkinds>
+<alienwandererkinds><!-- 放浪者 -->
 	<li>
 		<pawnKindEntries>
-		<li>
-		<kindDefs>
-			<li>CarniRefugee</li>
-		</kindDefs>
-		<chance>100.0</chance>
-	</li>
-	<li>
-		<kindDefs>
-			<li>MamaRefugee</li>
-		</kindDefs>
-		<chance>50.0</chance>
-	</li>
+			<li>
+				<kindDefs>
+					<li>CarniSlave</li>
+				</kindDefs>
+				<chance>1.0</chance>
+			</li>
 		</pawnKindEntries>
 	</li>
-
 </alienwandererkinds>
 
 </pawnKindSettings>

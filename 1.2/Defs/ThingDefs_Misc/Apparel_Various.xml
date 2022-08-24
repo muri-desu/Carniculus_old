@@ -119,7 +119,7 @@
 <ThingDef ParentName="CarniApparelMakeableBase">
 	<defName>Apparel_Apron</defName>
 		<label>レザーエプロン</label>
-		<description>ポケット付きの前掛けです。料理や家事にぴったり</description>
+		<description>料理や鍛治仕事にぴったりのエプロンです。</description>
 		<techLevel>Medieval</techLevel>
 
 	<recipeMaker>
@@ -327,12 +327,75 @@
 
 </ThingDef>
 
+<!-- レザースーツ -->
+<ThingDef ParentName="CarniApparelMakeableBase">
+	<defName>Apparel_LeatherSuit</defName>
+		<label>レザースーツ</label>
+		<description>全身を覆う革の作業服です。</description>
+		<techLevel>Medieval</techLevel>
+
+	<recipeMaker>
+		<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+		</recipeMaker>
+
+	<graphicData>
+		<texPath>Things/Apparel/Suit/Suit</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+
+	<statBases>
+		<WorkToMake>38000</WorkToMake>
+		<MaxHitPoints>290</MaxHitPoints>
+		<Mass>15</Mass>
+		<StuffEffectMultiplierArmor>0.7</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
+		<EquipDelay>10</EquipDelay>
+	</statBases>
+
+	<stuffCategories>
+		<li>Leathery</li>
+	</stuffCategories>
+	<costStuffCount>100</costStuffCount>
+
+	<equippedStatOffsets>
+		<MoveSpeed>-0.05</MoveSpeed>
+		<PainShockThreshold>0.1</PainShockThreshold>
+		<PawnBeauty>0.1</PawnBeauty>
+	</equippedStatOffsets>
+
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Neck</li>
+			<li>Shoulders</li>
+			<li>Arms</li>
+			<li>Legs</li>
+			<li>Feet</li>
+		</bodyPartGroups>
+		<layers>
+			<li>Shell</li>
+		</layers>
+		<wornGraphicPath>Things/Apparel/Suit/Suit</wornGraphicPath>
+		<useWornGraphicMask>true</useWornGraphicMask>
+	</apparel>
+
+	<colorGenerator Class="ColorGenerator_Options">
+		<options>
+			<li>
+				<weight>10</weight>
+				<only>RGBA(0.8,0.8,0.8,1)</only>
+			</li>
+		</options>
+	</colorGenerator>
+</ThingDef>
+
 <!-- 触手アーマー -->
 <ThingDef ParentName="CarniArmorBase">
 	<defName>Apparel_FleshArmor</defName>
 		<label>触手アーマー</label>
 		<description>生物の組織を加工した防具です。血管から栄養を取られるため着用者は空腹率が上がります。</description>
-		<techLevel>Industrial</techLevel>
+		<techLevel>Spacer</techLevel>
 
 	<recipeMaker>
 		<unfinishedThingDef>UnfinishedCarniApparel</unfinishedThingDef>
@@ -385,6 +448,15 @@
 		</layers>
 		<wornGraphicPath>Things/Apparel/FleshArmor/FleshArmor</wornGraphicPath>
 	</apparel>
+
+	<colorGenerator Class="ColorGenerator_Options">
+		<options>
+			<li>
+				<weight>1</weight>
+					<only>(1,1,1)</only>
+			</li>
+		</options>
+	</colorGenerator>
 
 </ThingDef>
 

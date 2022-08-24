@@ -1,5 +1,6 @@
-lewd alien race mod for Rimworld. requires rjw
-肉塊でできたエイリアン種族”カルニクルス”を追加します。要RJW
+lewd gluttonous alien race mod for Rimworld. requires HAR and RJW
+
+肉塊でできたエイリアン種族”カルニクルス”を追加します。要HAR&RJW
 
 追加要素
 ”カルニクルス”（オス＆メス）

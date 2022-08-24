@@ -6,6 +6,13 @@
 	<isFighter>true</isFighter>
 	<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 	<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+	<initialWillRange>1~3</initialWillRange>
+	<initialResistanceRange>10~20</initialResistanceRange>
+	<minGenerationAge>10</minGenerationAge>
+	<maxGenerationAge>30</maxGenerationAge>
+	<itemQuality>Normal</itemQuality>
+	<gearHealthRange>0.2~0.6</gearHealthRange>
+	<baseRecruitDifficulty>0.3</baseRecruitDifficulty>
 	<apparelTags>
 		<li>CarniApparel</li>
 	</apparelTags>
@@ -14,13 +21,11 @@
 <!-- player colonist プレイヤー -->
 <PawnKindDef ParentName="BaseCarniPawnKind">
 	<defName>CarniColonist</defName>
-	<label>colonist</label>
+	<label>入植者</label>
 	<race>Alien_Carniculus</race>
-	<minGenerationAge>4</minGenerationAge>
-	<maxGenerationAge>5</maxGenerationAge>
 	<apparelMoney>100~3000</apparelMoney>
 	<techHediffsMoney>50~3000</techHediffsMoney>
-	<techHediffsChance>0.02</techHediffsChance>
+	<techHediffsChance>0.05</techHediffsChance>
 	<defaultFactionType>CarniPlayerFaction</defaultFactionType>
 	<techHediffsTags>
 		<li>Poor</li>
@@ -38,15 +43,9 @@
 <!-- Slave 奴隷 -->
 <PawnKindDef ParentName="BaseCarniPawnKind">
 	<defName>CarniSlave</defName>
-	<label>carniculus slave</label>
+	<label>奴隷</label>
 	<race>Alien_Carniculus</race>
-	<minGenerationAge>1</minGenerationAge>
-	<maxGenerationAge>30</maxGenerationAge>
-	<combatPower>25</combatPower>
-	<baseRecruitDifficulty>0.3</baseRecruitDifficulty>
 	<defaultFactionType>OutlanderCivil</defaultFactionType>
-	<itemQuality>Poor</itemQuality>
-	<gearHealthRange>0.2~0.6</gearHealthRange>
 	<backstoryFiltersOverride>
 		<li>
 			<categories>
@@ -56,16 +55,12 @@
 	</backstoryFiltersOverride>
 </PawnKindDef>
 
-<!-- Refugee 難民 -->
+<!-- Wanderer -->
 <PawnKindDef ParentName="BaseCarniPawnKind">
-	<defName>CarniRefugee</defName>
-	<label>carniculus refugee</label>
+	<defName>CarniWanderer</defName>
+	<label>放浪者</label>
 	<race>Alien_Carniculus</race>
-	<minGenerationAge>1</minGenerationAge>
-	<maxGenerationAge>50</maxGenerationAge>
 	<defaultFactionType>OutlanderCivil</defaultFactionType>
-	<itemQuality>Normal</itemQuality>
-	<gearHealthRange>0.2~0.6</gearHealthRange>
 	<backstoryFiltersOverride>
 		<li>
 			<categories>

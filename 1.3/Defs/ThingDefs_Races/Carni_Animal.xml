@@ -67,7 +67,7 @@
 			<trainability>Advanced</trainability>
 			<useMeatFrom>Human</useMeatFrom>
 			<wildness>0</wildness>
-			<gestationPeriodDays>45</gestationPeriodDays>
+			<gestationPeriodDays>13</gestationPeriodDays>
 			<manhunterOnDamageChance>0.50</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
 		<wildBiomes Inherit="False">

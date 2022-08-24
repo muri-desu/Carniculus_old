@@ -5,7 +5,6 @@
 	<defName>Alien_Carniculus</defName>
 	<label>カルニクルス</label>
 	<description>異星人の病変組織から作られた生命体です。\n強い肉体を持ち大抵の気温は裸でもへっちゃらですが外見が醜く、食欲・性欲共に旺盛で床をよく汚します。</description>
-
 <race>
 	<body>Human</body>
 	<baseBodySize>1.3</baseBodySize>
@@ -178,23 +177,23 @@
 						<first Class="ColorGenerator_Options">
 							<options>
 								<li>
-									<weight>50</weight>
+									<weight>1</weight>
 									<only>RGBA(230,175,180)</only>
 								</li>
 								<li>
-									<weight>50</weight>
+									<weight>1</weight>
 									<only>RGBA(230,145,180)</only>
 								</li>
 								<li>
-									<weight>50</weight>
+									<weight>1</weight>
 									<only>RGBA(150,85,105)</only>
 								</li>
 								<li>
-									<weight>50</weight>
+									<weight>1</weight>
 									<only>RGBA(130,40,65)</only>
 								</li>
 								<li>
-									<weight>50</weight>
+									<weight>1</weight>
 									<only>RGBA(120,15,50)</only>
 								</li>
 							</options>
@@ -288,9 +287,11 @@
 	<apparelList>
 		<li>Apparel_Sack</li>
 		<li>Apparel_Veil</li>
-		<li>Apparel_Apron</li>
 		<li>Apparel_Fat</li>
 		<li>Apparel_Vein</li>
+		<li>Apparel_Apron</li>
+		<li>Apparel_LeatherSuit</li>
+		<li>Apparel_LeatherMask</li>
 		<li>Apparel_Gloves</li>
 		<li>Apparel_FleshHelm</li>
 		<li>Apparel_FleshArmor</li>
@@ -305,6 +306,7 @@
 		<li>Melee_Butcherknife</li>
 		<li>Melee_GardenScissors</li>
 		<li>Melee_Pickax</li>
+		<li>Melee_Prod</li>
 	</weaponList>
 </raceRestriction>
 
@@ -351,23 +353,6 @@
 		<li MayRequire="Dubwise.DubsBadHygiene">ToiletPrivacy</li>
 		<li MayRequire="Dubwise.DubsBadHygiene">openDefecation</li>
 <!-- RJW -->
-		<li>MySonDied_Beast</li>
-		<li>MyDaughterDied_Beast</li>
-		<li>MyBrotherDied_Beast</li>
-		<li>MySisterDied_Beast</li>
-		<li>MyGrandchildDied_Beast</li>
-		<li>MyNieceDied_Beast</li>
-		<li>MyNephewDied_Beast</li>
-		<li>MyHalfSiblingDied_Beast</li>
-		<li>MyAuntDied_Beast</li>
-		<li>MyUncleDied_Beast</li>
-		<li>MyGrandparentDied_Beast</li>
-		<li>MyCousinDied_Beast</li>
-		<li>MyKinDied_Beast</li>
-		<li>MyPupDied</li>
-		<li>MyPupDiedFemale</li>
-		<li>KilledMyPup</li>
-		<li>KilledMyPupFemale</li>
 		<li>GotBredByAnimal</li>
 		<li>GotAnalBredByAnimal</li>
 		<li>AllowedAnimalToBreed</li>
@@ -385,6 +370,7 @@
 </alienRace>
 
 <statBases>
+	<MarketValue>1750</MarketValue>
 	<Mass>75</Mass>
 	<MoveSpeed>5</MoveSpeed>
 	<CarryingCapacity>110</CarryingCapacity>
@@ -408,7 +394,7 @@
 	<ArmorRating_Heat>0.10</ArmorRating_Heat>
 	<PainShockThreshold>1.2</PainShockThreshold>
 	<RoyalFavorValue>1</RoyalFavorValue>
-	<SexFrequency>1.5</SexFrequency>
+	<SexFrequency>1.3</SexFrequency>
 </statBases>
 
 <recipes>

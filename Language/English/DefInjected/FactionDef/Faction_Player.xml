@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+<CarniPlayerFaction.label>carniculus' colony</CarniPlayerFaction.label>
+<CarniPlayerFaction.description>A small colony.</CarniPlayerFaction.description>
+<CarniPlayerFaction.pawnSingular>colonist</CarniPlayerFaction.pawnSingular>
+<CarniPlayerFaction.pawnsPlural>colonists</CarniPlayerFaction.pawnsPlural>
+<CarniCultures.label>carniculus' culture</CarniCultures.label>
+<CarniCultures.description>carniculus' culture.</CarniCultures.description>
+</LanguageData>

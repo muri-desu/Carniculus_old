@@ -319,8 +319,6 @@
 		<li>SharedBed</li>
 		<li>SleepDisturbed</li>
 		<li>SleptInBarracks</li>
-		<li>ObservedLayingCorpse</li>
-		<li>ObservedLayingRottingCorpse</li>
 		<li>Naked</li>
 		<li>ButcheredHumanlikeCorpse</li>
 		<li>KnowButcheredHumanlikeCorpse</li>

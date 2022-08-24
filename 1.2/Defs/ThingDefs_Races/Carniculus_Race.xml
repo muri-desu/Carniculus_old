@@ -138,7 +138,7 @@
 		<li>Head3</li>
 	</aliencrowntypes>
 		<useGenderedHeads>true</useGenderedHeads>
-		<useGenderedBodies>true</useGenderedBodies>
+		<!-- <useGenderedBodies>true</useGenderedBodies> -->
 	<alienbodytypes>
 		<li>Female</li>
 		<li>Male</li>
@@ -271,9 +271,11 @@
 	<apparelList>
 		<li>Apparel_Sack</li>
 		<li>Apparel_Veil</li>
-		<li>Apparel_Apron</li>
 		<li>Apparel_Fat</li>
 		<li>Apparel_Vein</li>
+		<li>Apparel_Apron</li>
+		<li>Apparel_LeatherSuit</li>
+		<li>Apparel_LeatherMask</li>
 		<li>Apparel_Gloves</li>
 		<li>Apparel_FleshHelm</li>
 		<li>Apparel_FleshArmor</li>
@@ -288,6 +290,7 @@
 		<li>Melee_Butcherknife</li>
 		<li>Melee_GardenScissors</li>
 		<li>Melee_Pickax</li>
+		<li>Melee_Prod</li>
 	</weaponList>
 </raceRestriction>
 
@@ -330,10 +333,6 @@
 		<li MayRequire="Dubwise.DubsBadHygiene">ToiletPrivacy</li>
 		<li MayRequire="Dubwise.DubsBadHygiene">openDefecation</li>
 <!-- RJW -->
-		<li>MyPupDied</li>
-		<li>MyPupDiedFemale</li>
-		<li>KilledMyPup</li>
-		<li>KilledMyPupFemale</li>
 		<li>GotBredByAnimal</li>
 		<li>GotAnalBredByAnimal</li>
 		<li>AllowedAnimalToBreed</li>
@@ -351,6 +350,7 @@
 </alienRace>
 
 <statBases>
+	<MarketValue>1750</MarketValue>
 	<Mass>75</Mass>
 	<MoveSpeed>5</MoveSpeed>
 	<CarryingCapacity>110</CarryingCapacity>

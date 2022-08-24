@@ -85,7 +85,7 @@
 
 	<tools>
 		<li>
-		<label>head</label>
+		<label>point</label>
 			<capacities>
 				<li>Stab</li>
 			</capacities>
@@ -132,7 +132,7 @@
 		<ConstructionSpeed>0.1</ConstructionSpeed>
 		<ConstructSuccessChance>0.1</ConstructSuccessChance>
 	</equippedStatOffsets>
-	<equippedAngleOffset>15</equippedAngleOffset>
+	<equippedAngleOffset>-15</equippedAngleOffset>
 
 	<tools>
 		<li>
@@ -151,6 +151,63 @@
 			<power>20</power>
 			<armorPenetration>0.50</armorPenetration>
 			<cooldownTime>1.7</cooldownTime>
+		</li>
+	</tools>
+</ThingDef>
+
+<!-- 牛追い棒 -->
+<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+	<defName>Melee_Prod</defName>
+		<label>牛追い棒</label>
+		<description>電気刺激で家畜をコントロールする道具です。もちろん牛以外にも有効です</description>
+		<techLevel>Industrial</techLevel>
+	<weaponClasses>
+		<li>MeleePiercer</li>
+	</weaponClasses>
+
+	<graphicData>
+		<texPath>Things/Item/Equipment/WeaponMelee/Prod</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<uiIconScale>0.4</uiIconScale>
+
+	<statBases>
+		<WorkToMake>20000</WorkToMake>
+		<Mass>2.0</Mass>
+	</statBases>
+
+	<costList>
+		<Steel>75</Steel>
+		<ComponentIndustrial>1</ComponentIndustrial>
+	</costList>
+
+	<equippedStatOffsets>
+		<AnimalGatherSpeed>0.1</AnimalGatherSpeed>
+		<AnimalGatherYield>0.1</AnimalGatherYield>
+		<ArrestSuccessChance>0.1</ArrestSuccessChance>
+		<TrainAnimalChance>0.1</TrainAnimalChance>
+	</equippedStatOffsets>
+	<equippedAngleOffset>-15</equippedAngleOffset>
+
+	<tools>
+		<li>
+		<label>head</label>
+		<labelUsedInLogging>false</labelUsedInLogging>
+			<capacities>
+				<li>Poke</li>
+			</capacities>
+			<power>20</power>
+			<cooldownTime>2.5</cooldownTime>
+		<extraMeleeDamages>
+			<li>
+				<def>EMP</def>
+				<amount>9</amount>
+			</li>
+			<li>
+				<def>Stun</def>
+				<amount>14</amount>
+			</li>
+		</extraMeleeDamages>
 		</li>
 	</tools>
 </ThingDef>

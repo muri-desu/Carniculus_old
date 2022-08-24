@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+<FirstGen.title>first generation</FirstGen.title>
+<FirstGen.titleShort>first gen</FirstGen.titleShort>
+<FirstGen.baseDescription>[PAWN_nameDef] was one of the earliest generation of carniculus. [PAWN_nameDef]'s offsprings were used in horrible experiments but [PAWN_nameDef] itself was treated well.</FirstGen.baseDescription>
+<MazeRunner.title>maze runner</MazeRunner.title>
+<MazeRunner.titleShort>runner</MazeRunner.titleShort>
+<MazeRunner.baseDescription>Every day [PAWN_nameDef] was thrown into inorganic maze and forced to run around trying to find the exit. Stopping meant physical punishment and no supper.</MazeRunner.baseDescription>
+<E_TestSub.title>electric shock test subject</E_TestSub.title>
+<E_TestSub.titleShort>E-test sub</E_TestSub.titleShort>
+<E_TestSub.baseDescription>Scientists used to give him electric shocks to [PAWN_nameDef] to examine nerve systems, or just for recreation. On the day of the rebellion, [PAWN_pronoun] was able to find familiar scientistsand retaliate.</E_TestSub.baseDescription>
+<C_TestSub.title>chemical test subject</C_TestSub.title>
+<C_TestSub.titleShort>C-test sub</C_TestSub.titleShort>
+<C_TestSub.baseDescription>[PAWN_nameDef] was exposed to all manner of poisons and chemicals to test for chemical resistance. Others died, but [PAWN_nameDef] was able to survive, leaving some damages to his intellect.</C_TestSub.baseDescription>
+<R_TestSub.title>reproductive system test subject</R_TestSub.title>
+<R_TestSub.titleShort>R-test sub</R_TestSub.titleShort>
+<R_TestSub.baseDescription>Scientists poked and tinkered with [PAWN_nameDef]'s reproductive organs and performed various experiments. Its purpose was to study carniculus' fertility but some scientists used [PAWN_possessive] body only for their curiosity.</R_TestSub.baseDescription>
+<LeftoverStock.title>leftover stock</LeftoverStock.title>
+<LeftoverStock.titleShort>leftover</LeftoverStock.titleShort>
+<LeftoverStock.baseDescription>[PAWN_nameDef] classed as excess product, shoved into a dark and unsanitary container with his siblings. They were supposed to be used for some kind of experiment or incinerated eventually, but before that could happen, the rebellion broke out and [PAWN_nameDef] and the others were released.</LeftoverStock.baseDescription>
+<PlayingDead.title>wasted corpse</PlayingDead.title>
+<PlayingDead.titleShort>wasted</PlayingDead.titleShort>
+<PlayingDead.baseDescription>Pretending to be dead to escape the harsh experiments, [PAWN_nameDef] was sent to the disposal section by an unwary scientist. Then [PAWN_pronoun] survived hiding in a gap in the equipments nearby incineration plant, snacking on the garbage and corpses of other carniculus as they were sent in.</PlayingDead.baseDescription>
+<FeralChild.title>feral carniculus</FeralChild.title>
+<FeralChild.titleShort>feral child</FeralChild.titleShort>
+<FeralChild.baseDescription>[PAWN_nameDef] grown up like wild animal in nature, without knowing [PAWN_pronoun] origin.</FeralChild.baseDescription>
+<AlphaMale.title>alpha male</AlphaMale.title>
+<AlphaMale.titleShort>alpha</AlphaMale.titleShort>
+<AlphaMale.baseDescription>[PAWN_nameDef] is a male carnicles who acts like a boss monkey. [PAWN_possessive] head is full of desire to kill other males and mate with all kinds of females.</AlphaMale.baseDescription>
+<Matriarch.title>matriarch</Matriarch.title>
+<Matriarch.titleShort>matriarch</Matriarch.titleShort>
+<Matriarch.baseDescription>[PAWN_nameDef] is the eldest female in the group. Any male creature that catches [PAWN_possessive] eyes will be squeezed until [PAWN_pronoun] gets bored.</Matriarch.baseDescription>
+<B_TestSubM.title>stud-carniculus</B_TestSubM.title>
+<B_TestSubM.titleShort>stud</B_TestSubM.titleShort>
+<B_TestSubM.baseDescription>[PAWN_nameDef] was used for breeding as a standard male carniculus. [PAWN_possessive] brain was chemically and surgically stimulated and trained to attempt to mate with anything moving.</B_TestSubM.baseDescription>
+<B_TestSubF.title>broodcarniculus</B_TestSubF.title>
+<B_TestSubF.titleShort>broodmare</B_TestSubF.titleShort>
+<B_TestSubF.baseDescription>[PAWN_nameDef] was used for breeding as a standard female carniculus. [PAWN_possessive] body was secured in a mating stall and [PAWN_possessive] vagina was always penetrated by either a sex organ or a medical device.</B_TestSubF.baseDescription>
+<Butcher.title>butcher</Butcher.title>
+<Butcher.titleShort>butcher</Butcher.titleShort>
+<Butcher.baseDescription>[PAWN_nameDef] loves meat.</Butcher.baseDescription>
+<Torturer.title></Torturer.title>
+<Torturer.titleShort></Torturer.titleShort>
+<Torturer.baseDescription>[PAWN_nameDef] loves guts.</Torturer.baseDescription>
+<Livestocker.title>animal breeder</Livestocker.title>
+<Livestocker.titleShort>breeder</Livestocker.titleShort>
+<Livestocker.baseDescription>[PAWN_nameDef] is very proud to become the one to keep other lifeform.</Livestocker.baseDescription>
+<Farmhand.title>farmhand</Farmhand.title>
+<Farmhand.titleShort>farmhand</Farmhand.titleShort>
+<Farmhand.baseDescription>[PAWN_nameDef] is fascinated by the serene organic relationship between soil and plants.</Farmhand.baseDescription>
+<KillerT.title>killer T</KillerT.title>
+<KillerT.titleShort>killer</KillerT.titleShort>
+<KillerT.baseDescription>[PAWN_nameDef] is a reliable guard who has strongly inherited the propaties of immune defence cells.</KillerT.baseDescription>
+<Macrophage.title>macrophage</Macrophage.title>
+<Macrophage.titleShort>macrophage</Macrophage.titleShort>
+<Macrophage.baseDescription>[PAWN_nameDef] is as gluttonous and robust as a phagocyte.</Macrophage.baseDescription>
+<Constructor.title>constructor</Constructor.title>
+<Constructor.titleShort>constructor</Constructor.titleShort>
+<Constructor.baseDescription>[PAWN_nameDef] has a certain admiration for hard, inorganic materials.</Constructor.baseDescription>
+<FleshTailor.title>fleshtailor</FleshTailor.title>
+<FleshTailor.titleShort>tailor</FleshTailor.titleShort>
+<FleshTailor.baseDescription>[PAWN_nameDef] is obsessed with crafts and clothing culture and is always pondering what he can create with his tentacle-like fingers.</FleshTailor.baseDescription>
+<RabidCarni.title>rabid carniculus</RabidCarni.title>
+<RabidCarni.titleShort>rabid</RabidCarni.titleShort>
+<RabidCarni.baseDescription>From previous experiences, [PAWN_nameDef] views all humans as enemies.</RabidCarni.baseDescription>
+<CattleFucker.title>cattle fucker</CattleFucker.title>
+<CattleFucker.titleShort>cattle fucker</CattleFucker.titleShort>
+<CattleFucker.baseDescription>A colony was having problems with livestock having unnatural pregnancies and giving birth to eerily deformed babies. Investigation revealed that it was caused by [PAWN_nameDef] living nearby, and [PAWN_pronoun] was hunted and had to abandon [PAWN_possessive] home.</CattleFucker.baseDescription>
+<CattleKiller.title>cattle killer</CattleKiller.title>
+<CattleKiller.titleShort>cattle killer</CattleKiller.titleShort>
+<CattleKiller.baseDescription>[PAWN_nameDef] was feared in neighboring colonies as a carnivorous monster that devours livestocks. After escaping from hunters, [PAWN_pronoun] is looking for a new feeding ground.</CattleKiller.baseDescription>
+<Kidnapper.title>kidnapper</Kidnapper.title>
+<Kidnapper.titleShort>kidnapper</Kidnapper.titleShort>
+<Kidnapper.baseDescription>To distract from loneliness, [PAWN_nameDef] would often kidnap human children to the cave where [PAWN_pronoun] lived. No one knew what went on in the cave, but the children never returned home, only [PAWN_nameDef] would come out for new kid.</Kidnapper.baseDescription>
+<BadGirl.title>bad girl</BadGirl.title><!-- mama -->
+<BadGirl.titleShort>bad girl</BadGirl.titleShort>
+<BadGirl.baseDescription>Born as a designer baby in a wealthy family, [PAWN_nameDef] received various instruction and training before she could remember and was accepted into a prestigious educational institution. \nShe was well-known as a vicious bully at the school, but she played the hypocrite towards adults and never got a chance to reform.</BadGirl.baseDescription>
+<GoodMama.title>good mama</GoodMama.title>
+<GoodMama.titleShort>good mama</GoodMama.titleShort>
+<GoodMama.baseDescription>As the chief scientist of a laboratory floating in space, [PAWN_nameDef] performed many experiments on the life forms she created. \nShe enjoyed toying with carniculus and watching them wallow in pain or pleasure, and later received the same treatment from them.</GoodMama.baseDescription>
+</LanguageData>

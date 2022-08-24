@@ -1,21 +1,31 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 <PawnKindDef Name="BaseCarniMamaPawnKind" Abstract="True">
 	<race>Alien_CarniMama</race>
 	<combatPower>40</combatPower>
 	<isFighter>false</isFighter>
 	<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
-	<backstoryCryptosleepCommonality>0.5</backstoryCryptosleepCommonality>
+	<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+	<minGenerationAge>18</minGenerationAge>
+	<maxGenerationAge>25</maxGenerationAge>
+	<initialWillRange>1~3</initialWillRange>
+	<initialResistanceRange>10~20</initialResistanceRange>
+	<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>CarniMama</li>
+			</categories>
+		</li>
+	</backstoryFiltersOverride>
 	<apparelTags>
 		<li>CarniMamaApparel</li>
 	</apparelTags>
 </PawnKindDef>
 
-<!-- mama ママ -->
+<!-- Player -->
 <PawnKindDef ParentName="BaseCarniMamaPawnKind">
 	<defName>ColonistMama</defName>
-	<label>colony mama</label>
+	<label>入植者</label>
 	<apparelMoney>100~3000</apparelMoney>
 	<techHediffsMoney>1000~3000</techHediffsMoney>
 	<techHediffsChance>0.2</techHediffsChance>
@@ -28,50 +38,15 @@
 	<techHediffsDisallowTags>
 		<li>PainCauser</li>
 	</techHediffsDisallowTags>
-	<backstoryFiltersOverride>
-		<li>
-			<categories>
-				<li>CarniMama</li>
-			</categories>
-		</li>
-	</backstoryFiltersOverride>
-	</PawnKindDef>
+</PawnKindDef>
 
 <!-- Slave 奴隷 -->
 <PawnKindDef ParentName="BaseCarniMamaPawnKind">
 	<defName>SlaveMama</defName>
-	<label>sex slave</label>
-	<minGenerationAge>18</minGenerationAge>
-	<maxGenerationAge>25</maxGenerationAge>
+	<label>性奴隷</label>
 	<itemQuality>Poor</itemQuality>
 	<gearHealthRange>0.2~0.6</gearHealthRange>
 	<defaultFactionType>OutlanderCivil</defaultFactionType>
-	<backstoryFiltersOverride>
-		<li>
-			<categories>
-				<li>CarniMama</li>
-			</categories>
-		</li>
-	</backstoryFiltersOverride>
-</PawnKindDef>
-
-<!-- Refugee 難民 -->
-<PawnKindDef ParentName="BaseCarniMamaPawnKind">
-	<defName>MamaRefugee</defName>
-	<label>refugee</label>
-	<race>Alien_CarniMama</race>
-	<minGenerationAge>16</minGenerationAge>
-	<maxGenerationAge>20</maxGenerationAge>
-	<defaultFactionType>OutlanderCivil</defaultFactionType>
-	<itemQuality>Poor</itemQuality>
-	<gearHealthRange>0.2~0.6</gearHealthRange>
-	<backstoryFiltersOverride>
-		<li>
-			<categories>
-				<li>CarniMama</li>
-			</categories>
-		</li>
-	</backstoryFiltersOverride>
 </PawnKindDef>
 
 </Defs>

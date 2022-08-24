@@ -11,7 +11,7 @@
 <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Astropolitan</leaderTitleMaker>
 <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalAstropolitan</festivalNameMaker>
     <allowedPlaceTags>
-      <li>OriginSpacer</li>
+        <li>OriginTribal</li>
     </allowedPlaceTags>
     <iconPath>World/WorldObjects/Expanding/PirateOutpost</iconPath>
     <iconColor>(0.8, 0.5, 0.5)</iconColor>

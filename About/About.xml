@@ -2,7 +2,7 @@
 <ModMetaData>
 	<name>Carniculus</name>
 	<author>muri</author>
-	<packageId>muri.Carniculus</packageId>
+	<packageId>muri.carniculus</packageId>
 	<url></url>
 <supportedVersions>
 	<li>1.2</li>
@@ -25,22 +25,7 @@
 	<li>erdelf.HumanoidAlienRaces</li>
 </loadAfter>
 	<description>alien mutant tumorous meaty monster race.
-
-カルニクルス（オス＆メス）
-- 強姦魔がつきやすくレイプされても心情デバフがつかない
-- 大食いで早食い
-- 醜い・床を汚しやすい
-- 研究と医療はやや得意
-- 社交と建築と採掘はやや苦手
-
-亜種”ママ”
-- マゾヒスト
-- 美しい・脆弱性が高い
-
-カルニギガス（家畜）
-- 解体で人肉が取れる
-- 大体象と同じ
-
+RJW用好色肉塊種族
 </description>
 
 </ModMetaData>
