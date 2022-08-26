@@ -4,8 +4,8 @@
 <!-- クソデカ包丁 -->
 <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 	<defName>Melee_Butcherknife</defName>
-		<label>肉切り包丁</label>
-		<description>死んだ肉も生きた肉もよく切れる大ぶりの包丁です。</description>
+		<label>butcher knife</label>
+		<description>a large knife that cuts well through both dead and live meat.</description>
 		<techLevel>Medieval</techLevel>
 
 	<graphicData>
@@ -57,8 +57,8 @@
 <!-- 剪定バサミ -->
 <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 	<defName>Melee_GardenScissors</defName>
-		<label>刈り込みバサミ</label>
-		<description>両手で使うタイプの特大ハサミです。</description>
+		<label>great scissors</label>
+		<description>big scissors used with both hands.</description>
 		<techLevel>Medieval</techLevel>
 
 	<graphicData>
@@ -106,8 +106,8 @@
 <!-- ツルハシ -->
 <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 	<defName>Melee_Pickax</defName>
-		<label>ツルハシ</label>
-		<description>カルニクルスが苦手な土木作業をサポートする、頑丈な棒です。</description>
+		<label>pickax</label>
+		<description>a sturdy stick to support engineering work.</description>
 		<techLevel>Medieval</techLevel>
 
 	<graphicData>
@@ -158,8 +158,8 @@
 <!-- 牛追い棒 -->
 <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 	<defName>Melee_Prod</defName>
-		<label>牛追い棒</label>
-		<description>電気刺激で家畜をコントロールする道具です。もちろん牛以外にも有効です</description>
+		<label>cattle prod</label>
+		<description>a tool to control livestock through electrical stimulation. Of course effective for more than just cattle.</description>
 		<techLevel>Industrial</techLevel>
 	<weaponClasses>
 		<li>MeleePiercer</li>

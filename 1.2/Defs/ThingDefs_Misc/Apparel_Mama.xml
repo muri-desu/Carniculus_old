@@ -3,7 +3,7 @@
 
 <ThingCategoryDef>
 	<defName>CarniMamaApparel</defName>
-	<label>ママの服</label>
+	<label>mama's apparel</label>
 	<parent>Apparel</parent>
 </ThingCategoryDef>
 
@@ -33,8 +33,8 @@
 <!-- ニーソ -->
 <ThingDef ParentName="CarniMamaApparelBase">
 	<defName>Apparel_HighSocks</defName>
-		<label>ママのニーソ</label>
-		<description>ももから下を保護します。</description>
+		<label>mama's stockings</label>
+		<description>Protects from the thigh down.</description>
 
 	<graphicData>
 		<texPath>Things/Apparel/Mama/HighSo</texPath>
@@ -85,9 +85,9 @@
 <!-- ハーネス -->
 <ThingDef ParentName="CarniMamaApparelBase">
 	<defName>Apparel_Harness</defName>
-		<label>ママのハーネス</label>
-		<description>繁殖用奴隷におすすめのハーネスです。</description>
-		
+		<label>mama's harness</label>
+		<description>harness perfect for sex slaves.</description>
+
 	<graphicData>
 		<texPath>Things/Apparel/Mama/Harness</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -139,9 +139,9 @@
 <!-- コルセット -->
 <ThingDef ParentName="CarniMamaApparelBase">
 	<defName>Apparel_MamaCorset</defName>
-		<label>ママのコルセット</label>
-		<description>胴を締めて乳房をきれいに見せる下着です。</description>
-		
+		<label>mama's corset</label>
+		<description>underwear tightens the torso and makes the breasts look beautiful.</description>
+
 	<graphicData>
 		<texPath>Things/Apparel/Mama/Corset</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -194,9 +194,9 @@
 <!-- シャツセットアップ -->
 <ThingDef ParentName="CarniMamaApparelBase">
 	<defName>Apparel_ShirtSet</defName>
-		<label>ママのタイ＆シャツ</label>
-		<description>シャツとタイとスカートのセットアップです。</description>
-		
+		<label>mama's tie n shirt</label>
+		<description>Set-up of shirt, tie and skirt.</description>
+
 	<graphicData>
 		<texPath>Things/Apparel/Mama/ShirtSet</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -251,9 +251,9 @@
 <!-- 修道女服 -->
 <ThingDef ParentName="CarniMamaApparelBase">
 	<defName>Apparel_Nun</defName>
-		<label>ママの修道服</label>
-		<description>ママの肉体は聖なるものなのでこれでいやらしいということはありません。</description>
-		
+		<label>mama's monastic dress</label>
+		<description>mama's body is sacred and should not be hidden.</description>
+
 	<graphicData>
 		<texPath>Things/Apparel/Mama/NunDress</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -308,9 +308,9 @@
 <!-- メイド服 -->
 <ThingDef ParentName="CarniMamaApparelBase">
 	<defName>Apparel_Maid</defName>
-		<label>ママのメイド服</label>
-		<description>忙しいママのためにオープンな作りにしてある作業服です。</description>
-		
+		<label>mama's maid dress</label>
+		<description>work clothes openly made for busy mama.</description>
+
 	<graphicData>
 		<texPath>Things/Apparel/Mama/MaidDress</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -365,9 +365,9 @@
 <!-- 看守ジャケット -->
 <ThingDef ParentName="CarniMamaApparelBase">
 	<defName>Apparel_WardenJacket</defName>
-		<label>ママの看守ジャケット</label>
-		<description>襟のしっかりした看守のジャケットです。</description>
-		
+		<label>mama's warden jacket</label>
+		<description>guard's jacket with a solid collar.</description>
+
 	<graphicData>
 		<texPath>Things/Apparel/Mama/WardenJacket</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -423,9 +423,9 @@
 <!-- 白衣 -->
 <ThingDef ParentName="CarniMamaApparelBase">
 	<defName>Apparel_DrCoat</defName>
-		<label>ママの白衣</label>
-		<description>オリジナルのママが現役時代に着こなしていたモデルです。</description>
-		
+		<label>mama's white coat</label>
+		<description>same model of white coat that the original mama wore during her working years.</description>
+
 	<graphicData>
 		<texPath>Things/Apparel/Mama/DrCoat</texPath>
 		<graphicClass>Graphic_Single</graphicClass>

@@ -3,13 +3,13 @@
 
 <ThingCategoryDef>
 	<defName>CarniHeadgear</defName>
-	<label>カルニクルス頭装備</label>
+	<label>carniculus' headgears</label>
 	<parent>CarniApparel</parent>
 </ThingCategoryDef>
 
 <ThingCategoryDef>
 	<defName>CarniMamaHeadgear</defName>
-	<label>ママの頭装備</label>
+	<label>mama's headgears</label>
 	<parent>CarniMamaApparel</parent>
 </ThingCategoryDef>
 
@@ -60,8 +60,8 @@
 <!-- ♂袋 -->
 <ThingDef ParentName="Carni_HatBase">
 	<defName>Apparel_Sack</defName>
-		<label>ずだ袋</label>
-		<description>コワイ顔を隠す簡素なかぶりものです。これで簡単に人間と友達になれます。</description>
+		<label>sack</label>
+		<description>simple headgear that hides a scary face. Maybe you can make human friends easily now.</description>
 		<techLevel>Medieval</techLevel>
 		<recipeMaker>
 		<recipeUsers>
@@ -123,8 +123,8 @@
 <!-- ♀ベール -->
 <ThingDef ParentName="Carni_HatBase">
 	<defName>Apparel_Veil</defName>
-		<label>ベール</label>
-		<description>シャイな淑女向けのベールです。顔さえ隠れていれば何が出ててもいいのです</description>
+		<label>veil</label>
+		<description>veil for shy ladies. As long as your face is hidden, you don't mind anything else's out there.</description>
 		<techLevel>Medieval</techLevel>
 		<recipeMaker>
 		<recipeUsers>
@@ -186,8 +186,8 @@
 <!-- 革マスク -->
 <ThingDef ParentName="Carni_HatBase">
 	<defName>Apparel_LeatherMask</defName>
-		<label>レザーマスク</label>
-		<description>厚手の皮で作った防毒マスクです。</description>
+		<label>leather mask</label>
+		<description>Gas masks made of thick leather.</description>
 		<techLevel>Industrial</techLevel>
 
 	<graphicData>
@@ -241,13 +241,14 @@
 <!-- 頭アーマー  -->
 <ThingDef ParentName="CarniArmorBase">
 	<defName>Apparel_FleshHelm</defName>
-	<label>触手ヘルム</label>
-	<description>生物の組織を加工した頭防具です。着用者の神経に接続し視力を向上させます。</description>
+	<label>flesh helm</label>
+	<description>head protection device processed from biological tissues. It connects to the wearer's nerves and improves vision.</description>
 	<techLevel>Industrial</techLevel>
 
 	<graphicData>
 		<texPath>Things/Apparel/FleshHelm/FleshHelm</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
 		<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
 		</graphicData>
 
@@ -297,8 +298,8 @@
 <!-- メガネ -->
 <ThingDef ParentName="CarniMama_HatBase">
 	<defName>Apparel_Glasses</defName>
-		<label>ママの眼鏡</label>
-		<description>近視を補うメガネです</description>
+		<label>mama's glasses</label>
+		<description>Mama's thick glasses.</description>
 		<techLevel>Industrial</techLevel>
 
 	<graphicData>
@@ -342,8 +343,8 @@
 <!-- ガスマスク -->
 <ThingDef ParentName="CarniMama_HatBase">
 	<defName>Apparel_Gasmask</defName>
-		<label>ママの防毒マスク</label>
-		<description>毒ガスや大気中浮遊塵を防ぐマスクです。</description>
+		<label>mama's gasmask</label>
+		<description>protects against poisonous gases and airborne dust.</description>
 		<techLevel>Industrial</techLevel>
 
 	<graphicData>
@@ -405,8 +406,8 @@
 <!-- 修道女頭 -->
 <ThingDef ParentName="CarniMama_HatBase">
 	<defName>Apparel_NunHead</defName>
-		<label>ママの修道女ベール</label>
-		<description>修道女風のヘッドドレスです。</description>
+		<label>mama's veil</label>
+		<description>mama's devotee veil.</description>
 		<techLevel>Industrial</techLevel>
 
 	<graphicData>
@@ -462,8 +463,8 @@
 <!-- メイド頭 -->
 <ThingDef ParentName="CarniMama_HatBase">
 	<defName>Apparel_MaidHead</defName>
-		<label>ママのメイドカチューシャ</label>
-		<description>メイドのヘッドドレスです。</description>
+		<label>mama's brim</label>
+		<description>mama's maid head dress.</description>
 		<techLevel>Industrial</techLevel>
 
 	<graphicData>
@@ -519,8 +520,8 @@
 <!-- 看守頭 -->
 <ThingDef ParentName="CarniMama_HatBase">
 	<defName>Apparel_WardenCap</defName>
-		<label>ママの看守帽</label>
-		<description>監獄ごっこがはかどる制帽です。</description>
+		<label>mama's warden cap</label>
+		<description>mama's warden cap.</description>
 		<techLevel>Industrial</techLevel>
 
 	<graphicData>

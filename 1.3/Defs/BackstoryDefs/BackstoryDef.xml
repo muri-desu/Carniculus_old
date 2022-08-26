@@ -21,9 +21,9 @@
 <!-- Childhood -->
 <AlienRace.BackstoryDef ParentName="CarniBackStory">
 	<defName>FirstGen</defName>
-	<title>第一世代</title>
-	<titleShort>第一世代</titleShort>
-		<baseDescription>[PAWN_nameDef]はカルニクルスの中でも最も初期の世代です。[PAWN_nameDef]の子孫は恐ろしい実験に駆り出されましたが[PAWN_nameDef]自身は丁寧に扱われました。</baseDescription>
+	<title>first generation</title>
+	<titleShort>first gen</titleShort>
+		<baseDescription>[PAWN_nameDef] was one of the earliest generation of carniculus. [PAWN_nameDef]'s offsprings were used in horrible experiments but [PAWN_nameDef] itself was treated well.</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<slot>Childhood</slot>
@@ -44,9 +44,9 @@
 
 <AlienRace.BackstoryDef ParentName="CarniBackStory">
 	<defName>MazeRunner</defName>
-	<title>メイズランナー</title>
-	<titleShort>メイズランナー</titleShort>
-		<baseDescription>[PAWN_nameDef]は毎日無機質な迷路の中に放り込まれ出口を目指して走り回されました。足を止めれば餌の代わりに物理的な罰を与えられました。</baseDescription>
+	<title>maze runner</title>
+	<titleShort>runner</titleShort>
+		<baseDescription>Every day [PAWN_nameDef] was thrown into inorganic maze and forced to run around trying to find the exit. Stopping meant physical punishment and no supper.</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Childhood</slot>
@@ -74,9 +74,9 @@
 
 <AlienRace.BackstoryDef ParentName="CarniBackStory">
 	<defName>E_TestSub</defName>
-	<title>電気刺激実験被験体</title>
-	<titleShort>E実験体</titleShort>
-	<baseDescription>科学者たちは神経系の働きを調べるため、または憂さ晴らしで[PAWN_nameDef]の肉体のあらゆる角度から電気ショックを与え続けました。反乱の日、[PAWN_nameDef]は顔馴染みの科学者を探し出して報復を果たすことができました。</baseDescription>
+	<title>electric shock test subject</title>
+	<titleShort>E-test sub</titleShort>
+	<baseDescription>Scientists used to give him electric shocks to [PAWN_nameDef] to examine nerve systems, or just for recreation. On the day of the rebellion, [PAWN_pronoun] was able to find familiar scientistsand retaliate.</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Childhood</slot>
@@ -103,9 +103,9 @@
 
 <AlienRace.BackstoryDef ParentName="CarniBackStory">
 	<defName>C_TestSub</defName>
-	<title>化学薬品テスト被験体</title>
-	<titleShort>C実験体</titleShort>
-	<baseDescription>[PAWN_nameDef]は化学物質への耐性を調べるためあらゆる毒物や薬品に曝露されました。他の者は死にましたが[PAWN_nameDef]は知性へのダメージを残しつつも生き延びることができました。</baseDescription>
+	<title>chemical test subject</title>
+	<titleShort>C-test sub</titleShort>
+	<baseDescription>[PAWN_nameDef] was exposed to all manner of poisons and chemicals to test for chemical resistance. Others died, but [PAWN_nameDef] was able to survive, leaving some damages to his intellect.</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Childhood</slot>
@@ -135,9 +135,9 @@
 
 <AlienRace.BackstoryDef ParentName="CarniBackStory">
 	<defName>R_TestSub</defName>
-	<title>生殖機能研究被験体</title>
-	<titleShort>R実験体</titleShort>
-	<baseDescription>科学者たちは[PAWN_nameDef]の生殖器をいじくり回しさまざまな実験を行いました。繁殖能力の研究のためという名目でしたが、しばしば科学者の好奇心を満たすためだけに[PAWN_nameDef]の肉体が使われました。</baseDescription>
+	<title>reproductive system test subject</title>
+	<titleShort>R-test sub</titleShort>
+	<baseDescription>Scientists poked and tinkered with [PAWN_nameDef]'s reproductive organs and performed various experiments. Its purpose was to study carniculus' fertility but some scientists used [PAWN_possessive] body only for their curiosity.</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Childhood</slot>
@@ -159,9 +159,9 @@
 
 <AlienRace.BackstoryDef ParentName="CarniBackStory">
 	<defName>LeftoverStock</defName>
-	<title>在庫被験体</title>
-	<titleShort>在庫</titleShort>
-	<baseDescription>[PAWN_nameDef]は余分に繁殖した個体として兄弟と一緒に暗く不衛生なコンテナに押し込まれ育ちました。そのうち何らかの実験に使われるか焼却処分されるはずでしたが、その前に反乱が起こり[PAWN_nameDef]たちは解放されました。</baseDescription>
+	<title>leftover stock</title>
+	<titleShort>leftover</titleShort>
+	<baseDescription>[PAWN_nameDef] classed as excess product, shoved into a dark and unsanitary container with his siblings. They were supposed to be used for some kind of experiment or incinerated eventually, but before that could happen, the rebellion broke out and [PAWN_nameDef] and the others were released.</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Childhood</slot>
@@ -184,9 +184,9 @@
 
 <AlienRace.BackstoryDef ParentName="CarniBackStory">
 	<defName>PlayingDead</defName>
-	<title>廃棄された死骸</title>
-	<titleShort>死骸</titleShort>
-	<baseDescription>過酷な実験を逃れるため死んだふりをした[PAWN_nameDef]は不用心な科学者によって廃棄区画へ送られました。その後は焼却場手前の機材の隙間に潜み、送り込まれてくるゴミや同胞の死体をつまみ食いしながら生き延びました。</baseDescription>
+	<title>wasted corpse</title>
+	<titleShort>wasted</titleShort>
+	<baseDescription>Pretending to be dead to escape the harsh experiments, [PAWN_nameDef] was sent to the disposal section by an unwary scientist. Then [PAWN_pronoun] survived hiding in a gap in the equipments nearby incineration plant, snacking on the garbage and corpses of other carniculus as they were sent in.</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Childhood</slot>
@@ -210,9 +210,9 @@
 <!-- Childhood NPC -->
 <AlienRace.BackstoryDef ParentName="CarniBackStory">
 	<defName>FeralChild</defName>
-	<title>野生のカルニクルス</title>
-	<titleShort>野生</titleShort>
-	<baseDescription>[PAWN_nameDef]は自分の起源を知らず自然の中で野生動物のように育ちました。</baseDescription>
+	<title>feral carniculus</title>
+	<titleShort>feral child</titleShort>
+	<baseDescription>[PAWN_nameDef] grown up like wild animal in nature, without knowing [PAWN_pronoun] origin.</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Childhood</slot>
@@ -242,9 +242,9 @@
 <!-- Adulthood -->
 <AlienRace.BackstoryDef ParentName="CarniBackStory">
 	<defName>AlphaMale</defName>
-	<title>アルファオス</title>
-	<titleShort>アルファ</titleShort>
-	<baseDescription>[PAWN_nameDef]はボス猿のように振る舞うカルニクルスです。彼の頭の中は他のオスを殺害しあらゆるメスと交尾する事でいっぱいです。</baseDescription>
+	<title>alpha male</title>
+	<titleShort>alpha</titleShort>
+	<baseDescription>[PAWN_nameDef] is a male carnicles who acts like a boss monkey. [PAWN_possessive] head is full of desire to kill other males and mate with all kinds of females.</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Adulthood</slot>
@@ -295,9 +295,9 @@
 
 <AlienRace.BackstoryDef ParentName="CarniBackStory">
 	<defName>Matriarch</defName>
-	<title>家母長</title>
-	<titleShort>家母長</titleShort>
-	<baseDescription>[PAWN_nameDef]はグループの中でも古株のメスです。目をつけられたオスは彼女が飽きるまで搾り取られます。</baseDescription>
+	<title>matriarch</title>
+	<titleShort>matriarch</titleShort>
+	<baseDescription>[PAWN_nameDef] is the eldest female in the group. Any male creature that catches [PAWN_possessive] eyes will be squeezed until [PAWN_pronoun] gets bored.</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Adulthood</slot>
@@ -342,9 +342,9 @@
 
 <AlienRace.BackstoryDef ParentName="CarniBackStory">
 	<defName>B_TestSubM</defName>
-	<title>繁殖用カルニクルスM</title>
-	<titleShort>種肉</titleShort>
-	<baseDescription>[PAWN_nameDef]は標準的なオスのカルニクルスとして繁殖に用いられていました。脳に化学的および外科的刺激を施され、動くものなら何にでも交尾を試みるように訓練されました。</baseDescription>
+	<title>stud carniculus</title>
+	<titleShort>stud</titleShort>
+	<baseDescription>[PAWN_nameDef] was used for breeding as a standard male carniculus. [PAWN_possessive] brain was chemically and surgically stimulated and trained to attempt to mate with anything moving.</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Childhood</slot>
@@ -368,9 +368,9 @@
 
 <AlienRace.BackstoryDef ParentName="CarniBackStory">
 	<defName>B_TestSubF</defName>
-	<title>繁殖用カルニクルスF</title>
-	<titleShort>苗床</titleShort>
-		<baseDescription>[PAWN_nameDef]は標準的なメスのカルニクルスとして繁殖に用いられていました。交配用のストールに体を固定され、膣には常に性器か医療器具のどちらかが挿入されていました。</baseDescription>
+	<title>broodcarniculus</title>
+	<titleShort>broodmare</titleShort>
+		<baseDescription>[PAWN_nameDef] was used for breeding as a standard female carniculus. [PAWN_possessive] body was secured in a mating stall and [PAWN_possessive] vagina was always penetrated by either a sex organ or a medical device.</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Childhood</slot>
@@ -395,9 +395,9 @@
 
 <AlienRace.BackstoryDef ParentName="CarniBackStory">
 	<defName>Butcher</defName>
-	<title>肉屋</title>
-	<titleShort>肉屋</titleShort>
-	<baseDescription>[PAWN_nameDef]はお肉大好きです。</baseDescription>
+	<title>butcher</title>
+	<titleShort>butcher</titleShort>
+	<baseDescription>[PAWN_nameDef] loves meat.</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Adulthood</slot>
@@ -428,9 +428,9 @@
 
 <AlienRace.BackstoryDef ParentName="CarniBackStory">
 	<defName>Torturer</defName>
-	<title>拷問官</title>
-	<titleShort>拷問官</titleShort>
-	<baseDescription>[PAWN_nameDef]は内臓大好きです。</baseDescription>
+	<title>torturer</title>
+	<titleShort>torturer</titleShort>
+	<baseDescription>[PAWN_nameDef] loves guts.</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Adulthood</slot>
@@ -466,9 +466,9 @@
 
 <AlienRace.BackstoryDef ParentName="CarniBackStory">
 	<defName>Livestocker</defName>
-	<title>飼育係</title>
-	<titleShort>飼育係</titleShort>
-	<baseDescription>[PAWN_nameDef]は自分が飼育する側になれたことをとても誇りに思っています。</baseDescription>
+	<title>animal breeder</title>
+	<titleShort>breeder</titleShort>
+	<baseDescription>[PAWN_nameDef] is very proud to become the one to keep other lifeform.</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Adulthood</slot>
@@ -494,9 +494,9 @@
 
 <AlienRace.BackstoryDef ParentName="CarniBackStory">
 	<defName>Farmhand</defName>
-	<title>農場従事者</title>
-	<titleShort>農場</titleShort>
-	<baseDescription>[PAWN_nameDef]は土と植物の静謐で有機的な関係に魅了されています。</baseDescription>
+	<title>farmhand</title>
+	<titleShort>farmhand</titleShort>
+	<baseDescription>[PAWN_nameDef] is fascinated by the serene organic relationship between soil and plants.</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Adulthood</slot>
@@ -517,9 +517,9 @@
 
 <AlienRace.BackstoryDef ParentName="CarniBackStory">
 	<defName>KillerT</defName>
-	<title>キラーT</title>
-	<titleShort>キラー</titleShort>
-	<baseDescription>[PAWN_nameDef]は免疫防衛細胞の性質が強く発現した、頼りになる護衛です。</baseDescription>
+	<title>killer T</title>
+	<titleShort>killer</titleShort>
+	<baseDescription>[PAWN_nameDef] is a reliable guard who has strongly inherited the propaties of immune defence cells.</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Adulthood</slot>
@@ -548,9 +548,9 @@
 
 <AlienRace.BackstoryDef ParentName="CarniBackStory">
 	<defName>Macrophage</defName>
-	<title>マクロファージ</title>
-	<titleShort>ファージ</titleShort>
-	<baseDescription>[PAWN_nameDef]は食細胞のように大食らいで頑健です。</baseDescription>
+	<title>macrophage</title>
+	<titleShort>macrophage</titleShort>
+	<baseDescription>[PAWN_nameDef] is as gluttonous and robust as a phagocyte.</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 <slot>Adulthood</slot>
@@ -579,9 +579,9 @@
 
 <AlienRace.BackstoryDef ParentName="CarniBackStory">
 	<defName>Constructor</defName>
-	<title>建造者</title>
-	<titleShort>建造者</titleShort>
-	<baseDescription>[PAWN_nameDef]は固く無機質な材質にある種の憧れを抱いています。</baseDescription>
+	<title>constructor</title>
+	<titleShort>constructor</titleShort>
+	<baseDescription>[PAWN_nameDef] has a certain admiration for hard, inorganic materials.</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Adulthood</slot>
@@ -602,9 +602,9 @@
 
 <AlienRace.BackstoryDef ParentName="CarniBackStory">
 	<defName>FleshTailor</defName>
-	<title>裁縫師</title>
-	<titleShort>裁縫師</titleShort>
-	<baseDescription>[PAWN_nameDef]は工芸や服飾文化に夢中で、自分の触手っぽい指で何が作れるかいつも思案しています。</baseDescription>
+	<title>fleshtailor</title>
+	<titleShort>tailor</titleShort>
+	<baseDescription>[PAWN_nameDef] is obsessed with crafts and clothing culture and is always pondering what he can create with his tentacle-like fingers.</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Adulthood</slot>
@@ -634,9 +634,9 @@
 <!-- NPC　Adulthood -->
 <AlienRace.BackstoryDef ParentName="CarniBackStory">
 	<defName>RabidCarni</defName>
-	<title>凶暴なカルニクルス</title>
-	<titleShort>凶暴</titleShort>
-	<baseDescription>これまでの経験から[PAWN_nameDef]はすべての人間を敵視しています。</baseDescription>
+	<title>rabid carniculus</title>
+	<titleShort>rabid</titleShort>
+	<baseDescription>From previous experiences, [PAWN_nameDef] views all humans as enemies.</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Adulthood</slot>
@@ -671,10 +671,9 @@
 
 <AlienRace.BackstoryDef ParentName="CarniBackStory">
 	<defName>CattleFucker</defName>
-	<title>家畜強姦魔</title>
-	<titleShort>獣姦魔</titleShort>
-		<baseDescription>ある人間のコロニーでは家畜が不自然な妊娠をし不気味な奇形児を出産することが問題になっていました。調査の結果怪物の仕業だとわかり[PAWN_nameDef]はハンターに追われ住処を放棄することとなりました。
-</baseDescription>
+	<title>cattle fucker</title>
+	<titleShort>cattle fucker</titleShort>
+		<baseDescription>A colony was having problems with livestock having unnatural pregnancies and giving birth to eerily deformed babies. Investigation revealed that it was caused by [PAWN_nameDef] living nearby, and [PAWN_pronoun] was hunted and had to abandon [PAWN_possessive] home.</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 	<femaleCommonality>0</femaleCommonality>
@@ -705,9 +704,9 @@
 
 <AlienRace.BackstoryDef ParentName="CarniBackStory">
 	<defName>CattleKiller</defName>
-	<title>家畜捕食者</title>
-	<titleShort>捕食者</titleShort>
-		<baseDescription>[PAWN_nameDef]は家畜を食い殺す肉食の怪物として近隣のコロニーで恐れられていました。人間が雇ったハンターから逃れた後、新たなエサ場を探しています。</baseDescription>
+	<title>cattle killer</title>
+	<titleShort>cattle killer</titleShort>
+		<baseDescription>[PAWN_nameDef] was feared in neighboring colonies as a carnivorous monster that devours livestocks. After escaping from hunters, [PAWN_pronoun] is looking for a new feeding ground.</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Adulthood</slot>
@@ -734,9 +733,9 @@
 
 <AlienRace.BackstoryDef ParentName="CarniBackStory">
 	<defName>Kidnapper</defName>
-	<title>児童誘拐魔</title>
-	<titleShort>誘拐魔</titleShort>
-		<baseDescription>孤独を紛らわせるために[PAWN_nameDef]はしばしば人間の子供をさらって住処の洞窟に連れ込みました。洞窟の中で何がなされているかは誰も知りませんが子供たちが家に帰る事はなく、[PAWN_nameDef]だけが新しい子供を求めて外へ出てくるのみでした。</baseDescription>
+	<title>kidnapper</title>
+	<titleShort>kidnapper</titleShort>
+		<baseDescription>To distract from loneliness, [PAWN_nameDef] would often kidnap human children to the cave where [PAWN_pronoun] lived. No one knew what went on in the cave, but the children never returned home, only [PAWN_nameDef] would come out for new kid.</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Adulthood</slot>

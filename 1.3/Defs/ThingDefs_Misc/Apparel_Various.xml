@@ -3,7 +3,7 @@
 
 <ThingCategoryDef>
 	<defName>CarniApparel</defName>
-	<label>カルニクルス装備</label>
+	<label>carniculus' apparel</label>
 	<parent>Apparel</parent>
 </ThingCategoryDef>
 
@@ -125,8 +125,8 @@
 <!-- レザーエプロン -->
 <ThingDef ParentName="CarniApparelMakeableBase">
 	<defName>Apparel_Apron</defName>
-		<label>レザーエプロン</label>
-		<description>料理や鍛治仕事にぴったりのエプロンです。</description>
+		<label>leather apron</label>
+		<description>apron perfect for cooking and forge work.</description>
 		<techLevel>Medieval</techLevel>
 
 	<recipeMaker>
@@ -187,8 +187,8 @@
 <!-- グローブ -->
 <ThingDef ParentName="CarniApparelMakeableBase">
 	<defName>Apparel_Gloves</defName>
-		<label>グローブ</label>
-		<description>カルニクルスのねちょねちょした腕を肘上までカバーする長手袋です。</description>
+		<label>gloves</label>
+		<description>long gloves that covers sticky arms up to the elbow.</description>
 
 	<recipeMaker>
 		<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
@@ -235,8 +235,8 @@
 <!-- 脂肪 -->
 <ThingDef ParentName="CarniApparelMakeableBase">
 	<defName>Apparel_Fat</defName>
-		<label>脂肪</label>
-		<description>抽出した脂肪を加工したインナーです。厳しい寒さを防ぎます</description>
+		<label>wearable fat</label>
+		<description>Innerwear processed from extracted fat. Prevents severe cold</description>
 
 	<recipeMaker>
 		<unfinishedThingDef>UnfinishedCarniApparel</unfinishedThingDef>
@@ -287,8 +287,8 @@
 <!-- 血管 -->
 <ThingDef ParentName="CarniApparelMakeableBase">
 	<defName>Apparel_Vein</defName>
-		<label>放熱網</label>
-		<description>再構成した静脈のネットです。体表からの放熱を促します。</description>
+		<label>wearable vein</label>
+		<description>A net of reconstituted veins. It promotes heat dissipation from the body surface.</description>
 
 	<recipeMaker>
 		<unfinishedThingDef>UnfinishedCarniApparel</unfinishedThingDef>
@@ -338,8 +338,8 @@
 <!-- レザースーツ -->
 <ThingDef ParentName="CarniApparelMakeableBase">
 	<defName>Apparel_LeatherSuit</defName>
-		<label>レザースーツ</label>
-		<description>全身を覆う革の作業服です。</description>
+		<label>leather suit</label>
+		<description>leather suit that cover the entire body.</description>
 		<techLevel>Medieval</techLevel>
 
 	<recipeMaker>
@@ -403,8 +403,8 @@
 <!-- 触手アーマー -->
 <ThingDef ParentName="CarniArmorBase">
 	<defName>Apparel_FleshArmor</defName>
-		<label>触手アーマー</label>
-		<description>生物の組織を加工した防具です。血管から栄養を取られるため着用者は空腹率が上がります。</description>
+		<label>flesh armor</label>
+		<description>This armor is made of processed biological tissue. The wearer's hunger rate increases as nourishment is taken from the blood vessels.</description>
 		<techLevel>Spacer</techLevel>
 
 	<recipeMaker>
@@ -414,6 +414,7 @@
 	<graphicData>
 		<texPath>Things/Apparel/FleshArmor/FleshArmor</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
 	</graphicData>
 
 	<statBases>

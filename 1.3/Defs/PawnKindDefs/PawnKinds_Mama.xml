@@ -25,7 +25,7 @@
 <!-- Player -->
 <PawnKindDef ParentName="BaseCarniMamaPawnKind">
 	<defName>ColonistMama</defName>
-	<label>入植者</label>
+	<label>colony mama</label>
 	<apparelMoney>100~3000</apparelMoney>
 	<techHediffsMoney>1000~3000</techHediffsMoney>
 	<techHediffsChance>0.2</techHediffsChance>
@@ -43,7 +43,7 @@
 <!-- Slave 奴隷 -->
 <PawnKindDef ParentName="BaseCarniMamaPawnKind">
 	<defName>SlaveMama</defName>
-	<label>性奴隷</label>
+	<label>sex slave</label>
 	<itemQuality>Poor</itemQuality>
 	<gearHealthRange>0.2~0.6</gearHealthRange>
 	<defaultFactionType>OutlanderCivil</defaultFactionType>

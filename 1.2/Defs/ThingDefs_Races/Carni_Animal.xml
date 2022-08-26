@@ -4,8 +4,8 @@
 <ThingDef ParentName="AnimalThingBase">
 	<thingClass>Pawn</thingClass>
 		<defName>Carnigigas</defName>
-		<label>カルニギガス</label>
-		<description>カルニクルスたちが自らをさらに強い種に進化させようとして作り出した変異種です。強靭な肉体は実現したものの、知能を発達させることには失敗したようです。</description>
+		<label>carnigigas</label>
+		<description>A mutated variant which got intentionally mutated in an attempt to evolve carniculus themselves into an stronger species. Although they achieved a stronger body, they seem to have failed to develop intelligence.</description>
 
 		<statBases>
 			<MoveSpeed>4.6</MoveSpeed>
@@ -108,7 +108,7 @@
 
 <PawnKindDef ParentName="AnimalKindBase">
 		<defName>Carnigigas</defName>
-		<label>カルニギガス</label>
+		<label>carnigigas</label>
 		<race>Carnigigas</race>
 		<combatPower>200</combatPower>
 		<ecoSystemWeight>2</ecoSystemWeight>

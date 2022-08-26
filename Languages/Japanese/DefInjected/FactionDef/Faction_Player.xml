@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+<CarniPlayerFaction.label>カルニクルスのコロニー</CarniPlayerFaction.label>
+<CarniPlayerFaction.description>ほんの慎ましいコロニーです。</CarniPlayerFaction.description>
+<CarniPlayerFaction.pawnSingular>入植者</CarniPlayerFaction.pawnSingular>
+<CarniPlayerFaction.pawnsPlural>入植者たち</CarniPlayerFaction.pawnsPlural>
+<CarniCultures.label>カルニクルスの文化</CarniCultures.label>
+<CarniCultures.description>カルニクルスの文化</CarniCultures.description>
+</LanguageData>

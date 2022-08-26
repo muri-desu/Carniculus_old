@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 <!-- thing category -->
-<CarniMamaApparel.label>carniculus' apparel</CarniMamaApparell.label>
+<CarniApparel.label>carniculus' apparel</CarniApparel.label>
 <CarniApparel.label>carniculus' headgears</CarniApparel.label>
-<CarniMamaApparel.label>mama's apparel</CarniMamaApparell.label>
+<CarniMamaApparel.label>mama's apparel</CarniMamaApparel.label>
 <CarniMamaHeadgear.label>mama's headgears</CarniMamaHeadgear.label>
 
 <!-- apparel -->

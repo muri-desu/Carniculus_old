@@ -3,11 +3,11 @@
 <ScenarioDef>
 
 	<defName>CarniScenario</defName>
-	<label>転移と増殖</label>
-		<description>カルニクルスたちは惑星軌道上の研究所のガラスケースから脱走し宇宙船を乗っ取った実験動物です。一部の者たちは同胞の蛮行や繁殖による過密状態に耐えかね、ポッドで大地に降り立ち自分たちの生命力を試すことにしました。</description>
+	<label>metastasis and proliferation</label>
+		<description>Carniculus are experimental life form which have escaped from the glass cases  and taken over a laboratory in planetary orbit. Some of them, unable to bear the brutality of their brethren and the overcrowding caused by their reproduction, decided to test their own vitality by descending to the earth in pods.</description>
 
 <scenario>
-	<summary>大食いで好色なエイリアンを含む3人でスタートします。</summary>
+	<summary>Starts with three gluttonous horny aliens.</summary>
 	<playerFaction>
 		<def>PlayerFaction</def>
 		<factionDef>CarniPlayerFaction</factionDef>

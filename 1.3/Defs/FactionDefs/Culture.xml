@@ -3,8 +3,8 @@
 
 <CultureDef>
     <defName>CarniCultures</defName>
-    <label>カルニクルスの文化</label>
-    <description>carniculus cultures</description>
+    <label>carniculus' culture</label>
+    <description>carniculus' culture</description>
 <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoAstropolitan</ideoNameMaker>
 <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityAstropolitan</deityNameMaker>
 <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerAstropolitan</deityTypeMaker>

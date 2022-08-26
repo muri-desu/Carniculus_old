@@ -3,8 +3,8 @@
 
 <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
 	<defName>Alien_Carniculus</defName>
-	<label>カルニクルス</label>
-	<description>異星人の病変組織から作られた生命体です。\n強い肉体を持ち大抵の気温は裸でもへっちゃらですが外見が醜く、食欲・性欲共に旺盛で床をよく汚します。</description>
+	<label>carniculus</label>
+	<description>A life form created from alien diseased tissue. \nThey have strong bodies and can stand naked in most temperatures, but they are ugly and have voracious appetites and sexual appetites, often soiling the floor.</description>
 
 <race>
 	<body>Human</body>

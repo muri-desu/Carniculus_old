@@ -21,7 +21,7 @@
 <!-- player colonist プレイヤー -->
 <PawnKindDef ParentName="BaseCarniPawnKind">
 	<defName>CarniColonist</defName>
-	<label>入植者</label>
+	<label>colonist</label>
 	<race>Alien_Carniculus</race>
 	<apparelMoney>100~3000</apparelMoney>
 	<techHediffsMoney>50~3000</techHediffsMoney>
@@ -43,7 +43,7 @@
 <!-- Slave 奴隷 -->
 <PawnKindDef ParentName="BaseCarniPawnKind">
 	<defName>CarniSlave</defName>
-	<label>奴隷</label>
+	<label>slave</label>
 	<race>Alien_Carniculus</race>
 	<defaultFactionType>OutlanderCivil</defaultFactionType>
 	<backstoryFiltersOverride>
@@ -58,7 +58,7 @@
 <!-- Wanderer -->
 <PawnKindDef ParentName="BaseCarniPawnKind">
 	<defName>CarniWanderer</defName>
-	<label>放浪者</label>
+	<label>wanderer</label>
 	<race>Alien_Carniculus</race>
 	<defaultFactionType>OutlanderCivil</defaultFactionType>
 	<backstoryFiltersOverride>

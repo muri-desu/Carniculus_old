@@ -3,7 +3,7 @@
 
   <TraderKindDef>
     <defName>Orbital_Carni</defName>
-    <label>カルニクルスの貿易船</label>
+     <label>carniculus' space trader</label>
     <orbital>true</orbital>
     <stockGenerators>
 

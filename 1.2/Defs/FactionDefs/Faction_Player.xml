@@ -10,11 +10,11 @@
 <!-- プレイヤー派閥 -->
 <FactionDef Parent="CarniFactionBase">
 	<defName>CarniPlayerFaction</defName>
-	<label>カルニクルスのコロニー</label>
-	<description>ほんの慎ましいコロニーです。</description>
+	<label>carniculus' colony</label>
+	<description>A small colony.</description>
 	<basicMemberKind>CarniColonist</basicMemberKind>
-	<pawnSingular>入植者</pawnSingular>
-	<pawnsPlural>入植者たち</pawnsPlural>
+	<pawnSingular>colonist</pawnSingular>
+	<pawnsPlural>colonists</pawnsPlural>
 	<isPlayer>true</isPlayer>
 	<factionNameMaker>NamerFactionOutlander</factionNameMaker>
 	<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>

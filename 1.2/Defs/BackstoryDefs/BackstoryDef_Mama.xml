@@ -17,9 +17,9 @@
 <!-- Childhood -->
 <AlienRace.BackstoryDef ParentName="MamaBackStory">
 	<defName>BadGirl</defName>
-	<title>性悪な少女</title>
-	<titleShort>メスガキ</titleShort>
-	<baseDescription>裕福な家庭にデザイナーベイビーとして産まれた[PAWN_nameDef]は物心つく前からさまざまな指導や訓練を受け、一流の教育機関への入学を許可されました。\n学園では凶悪ないじめっ子として有名でしたが、大人の前では猫を被るので更生の機会を得ることはできませんでした。</baseDescription>
+	<title>bad girl</title>
+	<titleShort>bad girl</titleShort>
+	<baseDescription>Born as a designer baby in a wealthy family, [PAWN_nameDef] received various instruction and training before she could remember and was accepted into a prestigious educational institution. \nShe was well-known as a vicious bully at the school, but she played the hypocrite towards adults and never got a chance to reform.</baseDescription>
 	<slot>Childhood</slot>
 	<skillGains>
 	<li>
@@ -36,9 +36,9 @@
 <!-- Adulthood -->
 <AlienRace.BackstoryDef ParentName="MamaBackStory">
 	<defName>GoodMama</defName>
-	<title>みんなのママ</title>
-	<titleShort>ママ</titleShort>
-		<baseDescription>宇宙に浮かぶ研究所の主任科学者となった[PAWN_nameDef]は自分が作り出した生命体にさまざまな実験を施しました。\n愛情深い人物を演じる裏でカルニクルスの実験体をおもちゃにして苦痛や快楽にのたうつ様子を愉しんでいましたが、のちに脱走した彼らから同じ扱いを受けました。</baseDescription>
+	<title>good mama</title>
+	<titleShort>good mama</titleShort>
+		<baseDescription>As the chief scientist of a laboratory floating in space, [PAWN_nameDef] performed many experiments on the life forms she created. \nShe enjoyed toying with carniculus and watching them wallow in pain or pleasure, and later received the same treatment from them.</baseDescription>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Mama</bodyTypeMale>
 		<bodyTypeFemale>Mama</bodyTypeFemale>

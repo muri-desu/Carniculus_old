@@ -39,8 +39,8 @@
 <Butcher.title>butcher</Butcher.title>
 <Butcher.titleShort>butcher</Butcher.titleShort>
 <Butcher.baseDescription>[PAWN_nameDef] loves meat.</Butcher.baseDescription>
-<Torturer.title></Torturer.title>
-<Torturer.titleShort></Torturer.titleShort>
+<Torturer.title>torturer</Torturer.title>
+<Torturer.titleShort>torturer</Torturer.titleShort>
 <Torturer.baseDescription>[PAWN_nameDef] loves guts.</Torturer.baseDescription>
 <Livestocker.title>animal breeder</Livestocker.title>
 <Livestocker.titleShort>breeder</Livestocker.titleShort>
