@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<!-- apparel -->
+<Apparel_Apron.label>レザーエプロン</Apparel_Apron.label>
+<Apparel_Apron.description>料理や鍛治仕事にぴったりのエプロンです。</Apparel_Apron.description>
+<Apparel_Gloves.label>グローブ</Apparel_Gloves.label>
+<Apparel_Gloves.description>カルニクルスのねちょねちょした腕を肘上までカバーする長手袋です。</Apparel_Gloves.description>
+<Apparel_Fat.label>脂肪</Apparel_Fat.label>
+<Apparel_Fat.description>抽出した脂肪を加工したインナーです。厳しい寒さを防ぎます</Apparel_Fat.description>
+<Apparel_Vein.label>放熱網</Apparel_Vein.label>
+<Apparel_Vein.description>再構成した静脈のネットです。体表からの放熱を促します。</Apparel_Vein.description>
+<Apparel_LeatherSuit.label>レザースーツ</Apparel_LeatherSuit.label>
+<Apparel_LeatherSuit.description>全身を覆う革の作業服です。</Apparel_LeatherSuit.description>
+<Apparel_FleshArmor.label>触手アーマー</Apparel_FleshArmor.label>
+<Apparel_FleshArmor.description>生物の組織を加工した防具です。血管から栄養を取られるため着用者は空腹率が上がります。</Apparel_FleshArmor.description>
+
+</LanguageData>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<!-- headgear -->
+<Apparel_Sack.label>ずだ袋</Apparel_Sack.label>
+<Apparel_Sack.description>コワイ顔を隠す簡素なかぶりものです。これで簡単に人間と友達になれます。</Apparel_Sack.description>
+<Apparel_Veil.label>ベール</Apparel_Veil.label>
+<Apparel_Veil.description>シャイな淑女向けのベールです。顔さえ隠れていれば何が出ててもいいのです</Apparel_Veil.description>
+<Apparel_LeatherMask.label>レザーマスク</Apparel_LeatherMask.label>
+<Apparel_LeatherMask.description>厚手の皮で作った防毒マスクです。</Apparel_LeatherMask.description>
+<Apparel_FleshHelm.label>触手ヘルム</Apparel_FleshHelm.label>
+<Apparel_FleshHelm.description>生物の組織を加工した頭防具です。着用者の神経に接続し視力を向上させます。</Apparel_FleshHelm.description>
+<!-- mama headgear -->
+<Apparel_Glasses.label>ママの眼鏡</Apparel_Glasses.label>
+<Apparel_Glasses.description>近視を補うメガネです</Apparel_Glasses.description>
+<Apparel_Gasmask.label>ママの防毒マスク</Apparel_Gasmask.label>
+<Apparel_Gasmask.description>毒ガスや大気中浮遊塵を防ぐマスクです。</Apparel_Gasmask.description>
+<Apparel_NunHead.label>ママのベール</Apparel_NunHead.label>
+<Apparel_NunHead.description>修道女風のヘッドドレスです。</Apparel_NunHead.description>
+<Apparel_MaidHead.label>ママのメイドカチューシャ</Apparel_MaidHead.label>
+<Apparel_MaidHead.description>メイドのヘッドドレスです。</Apparel_MaidHead.description>
+<Apparel_WardenCap.label>ママの看守帽</Apparel_WardenCap.label>
+<Apparel_WardenCap.description>監獄ごっこがはかどる制帽です。</Apparel_WardenCap.description>
+
+</LanguageData>

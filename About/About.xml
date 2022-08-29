@@ -21,7 +21,9 @@
 		<downloadUrl>https://gitgud.io/Ed86/rjw</downloadUrl>
 	</li>
 </modDependencies>
-<loadAfter>
+<loadBefore>
+	<li>shauaputa.rimnudeworld</li>
+</loadBefore><loadAfter>
 	<li>erdelf.HumanoidAlienRaces</li>
 </loadAfter>
 	<description>alien mutant tumorous meaty monster race.
