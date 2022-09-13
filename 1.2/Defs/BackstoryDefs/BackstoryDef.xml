@@ -45,7 +45,7 @@
 <AlienRace.BackstoryDef ParentName="CarniBackStory">
 	<defName>MazeRunner</defName>
 	<title>maze runner</title>
-	<titleShort>runner/titleShort>
+	<titleShort>runner</titleShort>
 		<baseDescription>Every day [PAWN_nameDef] was thrown into inorganic maze and forced to run around trying to find the exit. Stopping meant physical punishment and no supper.</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
