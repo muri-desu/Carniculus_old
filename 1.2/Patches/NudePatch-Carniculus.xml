@@ -31,9 +31,9 @@
 							</hiddenUnderApparelFor>
 
 						<hediffGraphics>
-							<CarniPenis>
+							<Penis>
 								<path>Things/Pawn/Carni/Genitals/penis_carni_average</path>
-							</CarniPenis>
+							</Penis>
 						</hediffGraphics>
 
 						<offsets><!-- オフセット -->
@@ -70,14 +70,14 @@
 							</hiddenUnderApparelFor>
 
 						<hediffGraphics>
-							<CarniVagina MayRequire="Abraxas.RJW.RaceSupport">
+							<Vagina>
 								<path>Things/Pawn/Carni/Genitals/vagina_carni_average</path>
 								<severity>
 									<a0.8>Things/Pawn/Carni/Genitals/vagina_carni_average</a0.8>
 									<a0.4>Things/Pawn/Carni/Genitals/vagina_carni_small</a0.4>
 									<a0.01>Things/Pawn/Carni/Genitals/vagina_carni_micro</a0.01>
 								</severity>
-							</CarniVagina>
+							</Vagina>
 						</hediffGraphics>
 
 						<offsets>
