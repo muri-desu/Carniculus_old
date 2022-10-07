@@ -2,17 +2,17 @@
 <LanguageData>
 
 <!-- apparel -->
-<Apparel_Apron.label>レザーエプロン</Apparel_Apron.label>
-<Apparel_Apron.description>料理や鍛治仕事にぴったりのエプロンです。</Apparel_Apron.description>
-<Apparel_Gloves.label>グローブ</Apparel_Gloves.label>
-<Apparel_Gloves.description>カルニクルスのねちょねちょした腕を肘上までカバーする長手袋です。</Apparel_Gloves.description>
-<Apparel_Fat.label>脂肪</Apparel_Fat.label>
-<Apparel_Fat.description>抽出した脂肪を加工したインナーです。厳しい寒さを防ぎます</Apparel_Fat.description>
-<Apparel_Vein.label>放熱網</Apparel_Vein.label>
-<Apparel_Vein.description>再構成した静脈のネットです。体表からの放熱を促します。</Apparel_Vein.description>
-<Apparel_LeatherSuit.label>レザースーツ</Apparel_LeatherSuit.label>
-<Apparel_LeatherSuit.description>全身を覆う革の作業服です。</Apparel_LeatherSuit.description>
-<Apparel_FleshArmor.label>触手アーマー</Apparel_FleshArmor.label>
-<Apparel_FleshArmor.description>生物の組織を加工した防具です。血管から栄養を取られるため着用者は空腹率が上がります。</Apparel_FleshArmor.description>
+<Apparel_CarniApron.label>レザーエプロン</Apparel_CarniApron.label>
+<Apparel_CarniApron.description>料理や鍛治仕事にぴったりのエプロンです。</Apparel_CarniApron.description>
+<Apparel_CarniGloves.label>グローブ</Apparel_CarniGloves.label>
+<Apparel_CarniGloves.description>カルニクルスのねちょねちょした腕を肘上までカバーする長手袋です。</Apparel_CarniGloves.description>
+<Apparel_CarniFat.label>脂肪</Apparel_CarniFat.label>
+<Apparel_CarniFat.description>抽出した脂肪を加工したインナーです。厳しい寒さを防ぎます</Apparel_CarniFat.description>
+<Apparel_CarniVein.label>放熱網</Apparel_CarniVein.label>
+<Apparel_CarniVein.description>再構成した静脈のネットです。体表からの放熱を促します。</Apparel_CarniVein.description>
+<Apparel_CarniLeatherSuit.label>レザースーツ</Apparel_CarniLeatherSuit.label>
+<Apparel_CarniLeatherSuit.description>全身を覆う革の作業服です。</Apparel_CarniLeatherSuit.description>
+<Apparel_CarniFleshArmor.label>触手アーマー</Apparel_CarniFleshArmor.label>
+<Apparel_CarniFleshArmor.description>生物の組織を加工した防具です。血管から栄養を取られるため着用者は空腹率が上がります。</Apparel_CarniFleshArmor.description>
 
 </LanguageData>

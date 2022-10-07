@@ -115,7 +115,7 @@
 		<capacities>
 			<li>Blunt</li>
 		</capacities>
-		<power>23</power>
+		<power>10</power>
 		<cooldownTime>2</cooldownTime>
 		<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -134,10 +134,10 @@
 	<aliencrowntypes>
 		<li>Average</li>
 	</aliencrowntypes>
-		<headOffsetDirectional><!-- オフセット　x軸：+すると左に移動　-すると右に -->
+		<headOffsetDirectional>
 			<north>(0.0,0.345)</north>
-			<west>(-0.115,0.375)</west><!--  -->
-			<east>(0.13,0.375)</east><!--  -->
+			<west>(-0.115,0.375)</west>
+			<east>(0.13,0.375)</east>
 			<south>(0.0,0.35)</south>
 		</headOffsetDirectional>
 	<alienbodytypes>
@@ -161,7 +161,6 @@
 							</options>
 						</first>
 					</li>
-
 					<li>
 					<name>hair</name>
 						<first Class="ColorGenerator_Options">
@@ -266,19 +265,19 @@
 	<onlyEatRaceRestrictedFood>false</onlyEatRaceRestrictedFood>
 <!-- 服リスト -->
 	<apparelList>
-		<li>Apparel_Glasses</li>
-		<li>Apparel_Gasmask</li>
-		<li>Apparel_NunHead</li>
-		<li>Apparel_MaidHead</li>
-		<li>Apparel_WardenCap</li>
-		<li>Apparel_HighSocks</li>
-		<li>Apparel_Harness</li>
+		<li>Apparel_MamaGlasses</li>
+		<li>Apparel_MamaGasmask</li>
+		<li>Apparel_MamaNunHead</li>
+		<li>Apparel_MamaMaidHead</li>
+		<li>Apparel_MamaWardenCap</li>
+		<li>Apparel_MamaHighSocks</li>
+		<li>Apparel_MamaHarness</li>
 		<li>Apparel_MamaCorset</li>
-		<li>Apparel_ShirtSet</li>
-		<li>Apparel_Nun</li>
-		<li>Apparel_Maid</li>
-		<li>Apparel_WardenJacket</li>
-		<li>Apparel_DrCoat</li>
+		<li>Apparel_MamaShirtSet</li>
+		<li>Apparel_MamaNun</li>
+		<li>Apparel_MamaMaid</li>
+		<li>Apparel_MamaWardenJacket</li>
+		<li>Apparel_MamaDrCoat</li>
 	</apparelList>
 	<whiteApparelList>
 		<li>Apparel_ShieldBelt</li>
@@ -294,13 +293,13 @@
 </raceRestriction>
 
 <relationSettings>
-	<relationChanceModifierChild>0.01</relationChanceModifierChild>
+	<relationChanceModifierChild>0</relationChanceModifierChild>
 	<relationChanceModifierExLover>0</relationChanceModifierExLover>
 	<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
 	<relationChanceModifierFiance>0</relationChanceModifierFiance>
 	<relationChanceModifierLover>0</relationChanceModifierLover>
-	<relationChanceModifierParent>0.0001</relationChanceModifierParent>
-	<relationChanceModifierSibling>0.0001</relationChanceModifierSibling>
+	<relationChanceModifierParent>0</relationChanceModifierParent>
+	<relationChanceModifierSibling>0</relationChanceModifierSibling>
 	<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
 </relationSettings>
 
@@ -395,7 +394,6 @@
 	<SocialImpact>1.25</SocialImpact>
 	<NegotiationAbility>1.25</NegotiationAbility>
 	<Vulnerability>3</Vulnerability>
-	<SexAbility MayRequire="rjw.sexperience">1.5</SexAbility>
 </statBases>
 
 <recipes>

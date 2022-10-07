@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 <!-- weapons -->
-<Melee_Butcherknife.label>肉切り包丁</Melee_Butcherknife.label>
-<Melee_Butcherknife.description>死んだ肉も生きた肉もよく切れる大ぶりの包丁です。</Melee_Butcherknife.description>
-<Melee_GardenScissors.label>刈り込みバサミ</Melee_GardenScissors.label>
-<Melee_GardenScissors.description>両手で使うタイプの特大ハサミです。</Melee_GardenScissors.description>
-<Melee_Pickax.label>ツルハシ</Melee_Pickax.label>
-<Melee_Pickax.description>カルニクルスが苦手な土木作業をサポートする、頑丈な棒です。</Melee_Pickax.description>
-<Melee_Prod.label>牛追い棒</Melee_Prod.label>
-<Melee_Prod.description>電気刺激で家畜をコントロールする道具です。もちろん牛以外にも有効です</Melee_Prod.description>
+<Melee_CarniButcherknife.label>肉切り包丁</Melee_CarniButcherknife.label>
+<Melee_CarniButcherknife.description>死んだ肉も生きた肉もよく切れる大ぶりの包丁です。</Melee_CarniButcherknife.description>
+<Melee_CarniGardenScissors.label>刈り込みバサミ</Melee_CarniGardenScissors.label>
+<Melee_CarniGardenScissors.description>両手で使うタイプの特大ハサミです。</Melee_CarniGardenScissors.description>
+<Melee_CarniPickax.label>ツルハシ</Melee_CarniPickax.label>
+<Melee_CarniPickax.description>カルニクルスが苦手な土木作業をサポートする、頑丈な棒です。</Melee_CarniPickax.description>
+<Melee_CarniProd.label>牛追い棒</Melee_CarniProd.label>
+<Melee_CarniProd.description>電気刺激で家畜をコントロールする道具です。もちろん牛以外にも有効です</Melee_CarniProd.description>
 </LanguageData>

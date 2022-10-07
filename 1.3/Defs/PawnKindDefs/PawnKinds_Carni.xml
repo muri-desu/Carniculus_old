@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 <PawnKindDef Name="BaseCarniPawnKind" Abstract="True">
 	<combatPower>40</combatPower>
 	<isFighter>true</isFighter>
@@ -13,9 +12,6 @@
 	<itemQuality>Normal</itemQuality>
 	<gearHealthRange>0.2~0.6</gearHealthRange>
 	<baseRecruitDifficulty>0.3</baseRecruitDifficulty>
-	<apparelTags>
-		<li>CarniApparel</li>
-	</apparelTags>
 </PawnKindDef>
 
 <!-- player colonist プレイヤー -->
@@ -23,14 +19,7 @@
 	<defName>CarniColonist</defName>
 	<label>colonist</label>
 	<race>Alien_Carniculus</race>
-	<apparelMoney>100~3000</apparelMoney>
-	<techHediffsMoney>50~3000</techHediffsMoney>
-	<techHediffsChance>0.05</techHediffsChance>
 	<defaultFactionType>CarniPlayerFaction</defaultFactionType>
-	<techHediffsTags>
-		<li>Poor</li>
-		<li>Simple</li>
-	</techHediffsTags>
 	<backstoryFiltersOverride>
 		<li>
 			<categories>

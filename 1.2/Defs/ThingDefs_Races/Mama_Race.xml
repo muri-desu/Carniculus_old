@@ -136,8 +136,8 @@
 	</aliencrowntypes>
 		<headOffsetDirectional><!-- オフセット -->
 			<north>(0.0,0.345)</north>
-			<west>(-0.115,0.375)</west><!--  -->
-			<east>(0.13,0.375)</east><!--  -->
+			<west>(-0.115,0.375)</west>
+			<east>(0.13,0.375)</east>
 			<south>(0.0,0.35)</south>
 		</headOffsetDirectional>
 	<alienbodytypes>

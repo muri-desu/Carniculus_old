@@ -3,7 +3,7 @@
 
 <!-- Male -->
 <HairDef>
-	<defName>Bald</defName>
+	<defName>CarniBald</defName>
 	<label>Bald</label>
 	<hairGender>Male</hairGender>
 	<texPath>Hairs/Bald</texPath>
@@ -14,7 +14,7 @@
 
 <!-- Female -->
 <HairDef>
-	<defName>ShortF</defName>
+	<defName>CarniShortF</defName>
 	<label>ShortF</label>
 	<hairGender>Female</hairGender>
 	<texPath>Hairs/ShortF</texPath>
@@ -24,7 +24,7 @@
 </HairDef>
 
 <HairDef>
-	<defName>MiddleF</defName>
+	<defName>CarniMiddleF</defName>
 	<label>MiddleF</label>
 	<hairGender>Female</hairGender>
 	<texPath>Hairs/MiddleF</texPath>
@@ -34,7 +34,7 @@
  </HairDef>
 
 <HairDef>
-	<defName>LongF</defName>
+	<defName>CarniLongF</defName>
 	<label>LongF</label>
 	<hairGender>Female</hairGender>
 	<texPath>Hairs/LongF</texPath>

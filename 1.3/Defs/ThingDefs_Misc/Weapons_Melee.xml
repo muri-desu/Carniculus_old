@@ -3,7 +3,7 @@
 
 <!-- クソデカ包丁 -->
 <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-	<defName>Melee_Butcherknife</defName>
+	<defName>Melee_CarniButcherknife</defName>
 		<label>butcher knife</label>
 		<description>a large knife that cuts well through both dead and live meat.</description>
 		<techLevel>Medieval</techLevel>
@@ -56,7 +56,7 @@
 
 <!-- 剪定バサミ -->
 <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-	<defName>Melee_GardenScissors</defName>
+	<defName>Melee_CarniGardenScissors</defName>
 		<label>great scissors</label>
 		<description>big scissors used with both hands.</description>
 		<techLevel>Medieval</techLevel>
@@ -105,7 +105,7 @@
 
 <!-- ツルハシ -->
 <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-	<defName>Melee_Pickax</defName>
+	<defName>Melee_CarniPickax</defName>
 		<label>pickax</label>
 		<description>a sturdy stick to support engineering work.</description>
 		<techLevel>Medieval</techLevel>
@@ -157,7 +157,7 @@
 
 <!-- 牛追い棒 -->
 <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-	<defName>Melee_Prod</defName>
+	<defName>Melee_CarniProd</defName>
 		<label>cattle prod</label>
 		<description>a tool to control livestock through electrical stimulation. Of course effective for more than just cattle.</description>
 		<techLevel>Industrial</techLevel>

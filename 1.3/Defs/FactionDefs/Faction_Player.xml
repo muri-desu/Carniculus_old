@@ -42,14 +42,9 @@
 	</raidLootValueFromPointsCurve>
 	<settlementTexturePath>WorldIcon/Carnicolonylarge</settlementTexturePath>
 	<factionIconPath>WorldIcon/Carnicolony</factionIconPath>
-<apparelStuffFilter>
-	<thingDefs>
-		<li>Cloth</li>
-	</thingDefs>
-</apparelStuffFilter>
 <disallowedPrecepts>
 	<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
 	<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
-</disallowedPrecepts></FactionDef>
-
+</disallowedPrecepts>
+</FactionDef>
 </Defs>

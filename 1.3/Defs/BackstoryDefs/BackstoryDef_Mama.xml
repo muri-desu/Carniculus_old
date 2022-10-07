@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 <AlienRace.BackstoryDef Name="MamaBackStory" Abstract="True">
 	<femaleCommonality>100</femaleCommonality>
 	<maleCommonality>0</maleCommonality>
@@ -14,8 +13,7 @@
 	</spawnCategories>
 </AlienRace.BackstoryDef>
 
-<!-- Childhood -->
-<AlienRace.BackstoryDef ParentName="MamaBackStory">
+<AlienRace.BackstoryDef ParentName="MamaBackStory"><!-- Childhood -->
 	<defName>BadGirl</defName>
 	<title>bad girl</title>
 	<titleShort>bad girl</titleShort>
@@ -33,8 +31,7 @@
 </skillGains>
 </AlienRace.BackstoryDef>
 
-<!-- Adulthood -->
-<AlienRace.BackstoryDef ParentName="MamaBackStory">
+<AlienRace.BackstoryDef ParentName="MamaBackStory"><!-- Adulthood -->
 	<defName>GoodMama</defName>
 	<title>good mama</title>
 	<titleShort>good mama</titleShort>
@@ -54,5 +51,4 @@
 	</li>
 </skillGains>
 </AlienRace.BackstoryDef>
-
 </Defs>

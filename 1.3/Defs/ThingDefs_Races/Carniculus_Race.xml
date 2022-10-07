@@ -285,16 +285,16 @@
 	<onlyEatRaceRestrictedFood>false</onlyEatRaceRestrictedFood>
 <!-- 服リスト -->
 	<apparelList>
-		<li>Apparel_Sack</li>
-		<li>Apparel_Veil</li>
-		<li>Apparel_Fat</li>
-		<li>Apparel_Vein</li>
-		<li>Apparel_Apron</li>
-		<li>Apparel_LeatherSuit</li>
-		<li>Apparel_LeatherMask</li>
-		<li>Apparel_Gloves</li>
-		<li>Apparel_FleshHelm</li>
-		<li>Apparel_FleshArmor</li>
+		<li>Apparel_CarniSack</li>
+		<li>Apparel_CarniVeil</li>
+		<li>Apparel_CarniFat</li>
+		<li>Apparel_CarniVein</li>
+		<li>Apparel_CarniApron</li>
+		<li>Apparel_CarniLeatherSuit</li>
+		<li>Apparel_CarniLeatherMask</li>
+		<li>Apparel_CarniGloves</li>
+		<li>Apparel_CarniFleshHelm</li>
+		<li>Apparel_CarniFleshArmor</li>
 	</apparelList>
 	<whiteApparelList>
 		<li>Apparel_ShieldBelt</li>
@@ -303,10 +303,10 @@
 		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackBroadshield</li>
 	</whiteApparelList>
 	<weaponList>
-		<li>Melee_Butcherknife</li>
-		<li>Melee_GardenScissors</li>
-		<li>Melee_Pickax</li>
-		<li>Melee_Prod</li>
+		<li>Melee_CarniButcherknife</li>
+		<li>Melee_CarniGardenScissors</li>
+		<li>Melee_CarniPickax</li>
+		<li>Melee_CarniProd</li>
 	</weaponList>
 </raceRestriction>
 

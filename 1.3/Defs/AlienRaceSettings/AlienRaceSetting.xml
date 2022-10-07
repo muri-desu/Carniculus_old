@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <Defs>
 <AlienRace.RaceSettings>
-
 <defName>CarniRaceSettings</defName>
 <pawnKindSettings>
 <startingColonists><!-- start member -->
@@ -31,13 +30,13 @@
 		<kindDefs>
 			<li>CarniSlave</li>
 		</kindDefs>
-		<chance>1.0</chance>
+		<chance>100.0</chance>
 	</li>
 	<li>
 		<kindDefs>
 			<li>SlaveMama</li>
 		</kindDefs>
-		<chance>0.2</chance>
+		<chance>100.0</chance>
 	</li>
 </alienslavekinds>
 
@@ -48,7 +47,7 @@
 				<kindDefs>
 					<li>CarniSlave</li>
 				</kindDefs>
-				<chance>1.0</chance>
+				<chance>100.0</chance>
 			</li>
 		</pawnKindEntries>
 	</li>

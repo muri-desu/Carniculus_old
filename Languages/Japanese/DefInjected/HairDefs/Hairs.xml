@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 <Carni_Hair.label>カルニクルスのスタイル</Carni_Hair.label>
-<Bald.label>bald</Bald.label>
-<ShortF.label>ShortF</ShortF.label>
-<MiddleF.label>MiddleF</MiddleF.label>
-<LongF.label>LongF</LongF.label>
+<CarniBald.label>bald</CarniBald.label>
+<CarniShortF.label>ShortF</CarniShortF.label>
+<CarniMiddleF.label>MiddleF</CarniMiddleF.label>
+<CarniLongF.label>LongF</CarniLongF.label>
 </LanguageData>
