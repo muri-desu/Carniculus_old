@@ -479,6 +479,7 @@
 			<li>Shell</li>
 		</layers>
 		<wornGraphicPath>Things/Apparel/FleshArmor/FleshArmor</wornGraphicPath>
+		<useWornGraphicMask>true</useWornGraphicMask>
 	</apparel>
 
 	<colorGenerator Class="ColorGenerator_Options">

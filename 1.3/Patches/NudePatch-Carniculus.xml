@@ -30,7 +30,7 @@
 
 		<hediffGraphics>
 		<Penis>
-			<path>Things/Pawn/Carni/Genitals/penis_carni_average</path>
+			<path>Genitals/penis_carni_average</path>
 		</Penis>
 		</hediffGraphics>
 
@@ -69,11 +69,11 @@
 
 		<hediffGraphics>
 		<Vagina>
-			<path>Things/Pawn/Carni/Genitals/vagina_carni_average</path>
+			<path>Genitals/vagina_carni_average</path>
 				<severity>
-					<a0.8>Things/Pawn/Carni/Genitals/vagina_carni_average</a0.8>
-					<a0.4>Things/Pawn/Carni/Genitals/vagina_carni_small</a0.4>
-					<a0.01>Things/Pawn/Carni/Genitals/vagina_carni_micro</a0.01>
+					<a0.8>Genitals/vagina_carni_average</a0.8>
+					<a0.4>Genitals/vagina_carni_small</a0.4>
+					<a0.01>Genitals/vagina_carni_micro</a0.01>
 				</severity>
 		</Vagina>
 		</hediffGraphics>

@@ -29,7 +29,7 @@
 
 						<hediffGraphics>
 							<Penis>
-								<path>Things/Pawn/Carni/Genitals/penis_carni_average</path>
+								<path>Genitals/penis_carni_average</path>
 							</Penis>
 						</hediffGraphics>
 						<offsets><!-- オフセット　x軸：-すると左に移動　+すると右に(????) -->
@@ -54,6 +54,7 @@
 <!-- ボテ腹　bellies -->
 					<li>
 						<path>Genitals/FeaturelessCrotch</path>
+						<bodyPart>Torso</bodyPart>
 						<shaderType>Transparent</shaderType>
 						<inFrontOfBody>true</inFrontOfBody>
 						<layerOffset>-0.28</layerOffset>

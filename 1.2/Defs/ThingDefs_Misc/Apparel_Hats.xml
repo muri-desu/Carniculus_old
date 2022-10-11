@@ -72,7 +72,7 @@
 	<graphicData>
 		<texPath>Things/Apparel/Hats/Sack</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
-		<drawSize>(1.2, 1.2)</drawSize>
+		<drawSize>(1.3, 1.3)</drawSize>
 	</graphicData>
 
 	<statBases>
@@ -109,15 +109,6 @@
 		</layers>
 	<wornGraphicPath>Things/Apparel/Hats/Sack</wornGraphicPath>
 	</apparel>
-
-<colorGenerator Class="ColorGenerator_Options">
-	<options>
-		<li>
-			<weight>10</weight>
-			<only>RGBA(0.33,0.33,0.33,1)</only>
-		</li>
-	</options>
-</colorGenerator>
 </ThingDef>
 
 <!-- ♀ベール -->
@@ -135,6 +126,7 @@
 	<graphicData>
 		<texPath>Things/Apparel/Hats/Veil</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>(1.3, 1.3)</drawSize>
 	</graphicData>
 
 	<statBases>
@@ -172,15 +164,6 @@
 	<wornGraphicPath>Things/Apparel/Hats/Veil</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
 	</apparel>
-
-<colorGenerator Class="ColorGenerator_Options">
-	<options>
-		<li>
-			<weight>10</weight>
-			<only>RGBA(0.33,0.33,0.33,0.1)</only>
-		</li>
-	</options>
-</colorGenerator>
 </ThingDef>
 
 <!-- 革マスク -->
@@ -193,6 +176,7 @@
 	<graphicData>
 		<texPath>Things/Apparel/Hats/LeatherMask</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
 	</graphicData>
 
 	<statBases>
@@ -228,14 +212,14 @@
 		<useWornGraphicMask>true</useWornGraphicMask>
 	</apparel>
 
-<colorGenerator Class="ColorGenerator_Options">
-	<options>
-		<li>
-			<weight>1</weight>
-			<only>RGBA(0.7,0.37,0.7,0.1)</only>
-		</li>
-	</options>
-</colorGenerator>
+	<colorGenerator Class="ColorGenerator_Options">
+		<options>
+			<li>
+				<weight>1</weight>
+					<only>RGBA(1,1,1,0)</only>
+			</li>
+		</options>
+	</colorGenerator>
 </ThingDef>
 
 <!-- 頭アーマー  -->
@@ -291,7 +275,17 @@
 			<li>Overhead</li>
 		</layers>
 		<wornGraphicPath>Things/Apparel/FleshHelm/FleshHelm</wornGraphicPath>
+		<useWornGraphicMask>true</useWornGraphicMask>
 	</apparel>
+
+	<colorGenerator Class="ColorGenerator_Options">
+		<options>
+			<li>
+				<weight>1</weight>
+					<only>RGBA(1,1,1,0)</only>
+			</li>
+		</options>
+	</colorGenerator>
 </ThingDef>
 
 <!-- ママ頭装備 -->
