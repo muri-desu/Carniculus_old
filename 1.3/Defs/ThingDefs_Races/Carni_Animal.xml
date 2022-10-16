@@ -258,7 +258,7 @@
 				<label>piglet</label>
 				<bodyGraphicData>
 					<texPath>Animal/HomoPecudes/Toddler</texPath>
-					<drawSize>2</drawSize>
+					<drawSize>1</drawSize>
 					<shaderType>CutoutSkin</shaderType>
 					<color>(211,190,174)</color>
 					<shadowData>
