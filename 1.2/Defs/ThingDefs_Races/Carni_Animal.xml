@@ -164,4 +164,171 @@
 		</lifeStages>
 </PawnKindDef>
 
+<ThingDef ParentName="AnimalThingBase">
+	<defName>HomoPecudes</defName>
+		<label>homo pecudes</label>
+		<description>Domestic animals developed by carniculus who have awakened to ethics in order to obtain human flesh without pain of conscience.\nOfficially, it's said that their brain is as good as that of a beast, but there are rumors that thay actually remains as intelligent and perceptive as a human being, but their behavior just looks animal-like because they are constantly have a mental breakdown.</description>
+
+		<statBases>
+			<MoveSpeed>3.9</MoveSpeed>
+			<MarketValue>300</MarketValue>
+			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
+			<FilthRate>16</FilthRate>
+		</statBases>
+	<tools>
+		<li>
+			<capacities>
+				<li>Bite</li>
+			</capacities>
+			<power>7.3</power>
+			<cooldownTime>2</cooldownTime>
+			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+			<chanceFactor>0.7</chanceFactor>
+		</li>
+		<li>
+			<label>head</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>6</power>
+			<cooldownTime>2</cooldownTime>
+			<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+			<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+			<chanceFactor>0.2</chanceFactor>
+		</li>
+	</tools>
+	<race>
+		<body>QuadrupedAnimalWithHooves</body>
+		<baseBodySize>1.7</baseBodySize>
+		<baseHealthScale>0.7</baseHealthScale>
+		<baseHungerRate>0.50</baseHungerRate>
+		<foodType>OmnivoreRoughAnimal</foodType>
+		<leatherDef>Leather_Human</leatherDef>
+		<wildness>0</wildness>
+		<roamMtbDays>3</roamMtbDays>
+		<trainability>None</trainability>
+		<useMeatFrom>Human</useMeatFrom>
+		<gestationPeriodDays>5.661</gestationPeriodDays>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(1.5, 1)</li>
+					<li>(2.0, 0)</li>
+				</points>
+			</litterSizeCurve>
+		<lifeExpectancy>12</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.1</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.3333</minAge>
+          <soundWounded>Pawn_Wildboar_Wounded</soundWounded>
+          <soundDeath>Pawn_Wildboar_Death</soundDeath>
+          <soundCall>Pawn_Wildboar_Call</soundCall>
+          <soundAngry>Pawn_Wildboar_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+	<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+	<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+	<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+</race>
+	<tradeTags>
+		<li>Animal_Carni</li>
+	</tradeTags>
+	</ThingDef>
+
+<PawnKindDef ParentName="AnimalKindBase">
+		<defName>HomoPecudes</defName>
+		<label>homo pacudes</label>
+		<race>HomoPecudes</race>
+		<combatPower>45</combatPower>
+		<ecoSystemWeight>0.5</ecoSystemWeight>
+	<lifeStages>
+			<li>
+				<label>piglet</label>
+				<bodyGraphicData>
+					<texPath>Animal/HomoPecudes/Toddler</texPath>
+					<drawSize>2</drawSize>
+					<shaderType>CutoutSkin</shaderType>
+					<color>(211,190,174)</color>
+					<shadowData>
+						<volume>(0.25, 0.25, 0.25)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</texPath>
+					<drawSize>0.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Animal/HomoPecudes/HomoPecudes_Male</texPath>
+					<drawSize>1.15</drawSize>
+					<shaderType>CutoutSkin</shaderType>
+					<color>(167,145,128)</color>
+					<shadowData>
+						<volume>(0.375, 0.375, 0.375)</volume>
+						<offset>(0,0,0)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Animal/HomoPecudes/HomoPecudes_Female</texPath>
+					<drawSize>1.15</drawSize>
+					<shaderType>CutoutSkin</shaderType>
+					<color>(211,190,174)</color>
+					<shadowData>
+						<volume>(0.375, 0.375, 0.375)</volume>
+						<offset>(0,0,0)</offset>
+					</shadowData>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</texPath>
+					<drawSize>1.15</drawSize>
+				</dessicatedBodyGraphicData>
+				<femaleDessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</texPath>
+ 					<drawSize>1.15</drawSize>
+				</femaleDessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Animal/HomoPecudes/HomoPecudes_Male</texPath>
+					<drawSize>1.6</drawSize>
+					<shaderType>CutoutSkin</shaderType>
+					<color>(167,145,128)</color>
+					<shadowData>
+						<volume>(0.5, 0.5, 0.5)</volume>
+						<offset>(0,0,0)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Animal/HomoPecudes/HomoPecudes_Female</texPath>
+					<drawSize>1.6</drawSize>
+					<shaderType>CutoutSkin</shaderType>
+					<color>(211,190,174)</color>
+					<shadowData>
+						<volume>(0.5, 0.5, 0.5)</volume>
+						<offset>(0,0,0)</offset>
+					</shadowData>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</texPath>
+					<drawSize>1.6</drawSize>
+				</dessicatedBodyGraphicData>
+				<femaleDessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</texPath>
+ 					<drawSize>1.6</drawSize>
+				</femaleDessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+</PawnKindDef>
 </Defs>

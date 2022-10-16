@@ -49,7 +49,7 @@
 			<cooldownTime>1.5</cooldownTime>
 		</li>
 	</tools>
-	<weaponTags>
+	<weaponTags Inherit="false">
 		<li>CarniMelee</li>
 	</weaponTags>
 </ThingDef>
@@ -101,6 +101,9 @@
 			<cooldownTime>2.3</cooldownTime>
 		</li>
 	</tools>
+	<weaponTags Inherit="false">
+		<li>CarniMelee</li>
+	</weaponTags>
 </ThingDef>
 
 <!-- ツルハシ -->
@@ -153,6 +156,9 @@
 			<cooldownTime>1.7</cooldownTime>
 		</li>
 	</tools>
+	<weaponTags Inherit="false">
+		<li>CarniMelee</li>
+	</weaponTags>
 </ThingDef>
 
 <!-- 牛追い棒 -->
@@ -210,6 +216,9 @@
 		</extraMeleeDamages>
 		</li>
 	</tools>
+	<weaponTags Inherit="false">
+		<li>CarniMelee</li>
+	</weaponTags>
 </ThingDef>
 
 </Defs>
