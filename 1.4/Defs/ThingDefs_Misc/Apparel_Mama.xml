@@ -471,6 +471,8 @@
 		<wornGraphicPath>Things/Apparel/Mama/DrCoat</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
 	</apparel>
+
+	<colorGenerator Class="ColorGenerator_StandardApparel" />
 </ThingDef>
 
 <ThingDef ParentName="CarniMamaApparelBase"><!-- 子供服 -->
@@ -505,6 +507,7 @@
 	</equippedStatOffsets>
 
 	<apparel>
+		<developmentalStageFilter>Child</developmentalStageFilter>
 		<bodyPartGroups>
 			<li>Shoulders</li>
 			<li>Torso</li>

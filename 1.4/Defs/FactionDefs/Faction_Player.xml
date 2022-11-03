@@ -42,8 +42,14 @@
 	<settlementTexturePath>WorldIcon/Carnicolonylarge</settlementTexturePath>
 	<factionIconPath>WorldIcon/Carnicolony</factionIconPath>
 <disallowedPrecepts>
-	<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
-	<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+	<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Abhorrent</li>
+	<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Horrible</li>
+	<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Disapproved</li>
+	<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
+	<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
 </disallowedPrecepts>
+	<structureMemeWeights>
+		<Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+</structureMemeWeights>
 </FactionDef>
 </Defs>

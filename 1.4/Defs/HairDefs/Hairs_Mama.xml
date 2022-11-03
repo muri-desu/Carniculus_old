@@ -6,6 +6,7 @@
 	<label>Mama basic</label>
 	<hairGender>Any</hairGender>
 	<texPath>Hairs/MamaBasic</texPath>
+	<category>Carni_Hair</category>
 		<styleTags>
 			<li>Mama_HairTag</li>
 		</styleTags>
