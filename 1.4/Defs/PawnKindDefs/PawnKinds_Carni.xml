@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<PawnKindDef Name="BaseCarniPawnKind" Abstract="True">
+	<combatPower>40</combatPower>
+	<isFighter>true</isFighter>
+	<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+	<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+	<initialWillRange>1~3</initialWillRange>
+	<initialResistanceRange>10~20</initialResistanceRange>
+	<itemQuality>Normal</itemQuality>
+	<gearHealthRange>0.2~0.6</gearHealthRange>
+</PawnKindDef>
+
+<!-- player colonist プレイヤー -->
+<PawnKindDef ParentName="BaseCarniPawnKind">
+	<defName>CarniColonist</defName>
+	<label>colonist</label>
+	<race>Alien_Carniculus</race>
+	<defaultFactionType>CarniPlayerFaction</defaultFactionType>
+	<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>CarniStory</li>
+			</categories>
+		</li>
+	</backstoryFiltersOverride>
+	</PawnKindDef>
+
+<!-- Slave 奴隷 -->
+<PawnKindDef ParentName="BaseCarniPawnKind">
+	<defName>CarniSlave</defName>
+	<label>slave</label>
+	<race>Alien_Carniculus</race>
+	<defaultFactionType>OutlanderCivil</defaultFactionType>
+	<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>CarniFeral</li>
+			</categories>
+		</li>
+	</backstoryFiltersOverride>
+</PawnKindDef>
+
+<!-- Wanderer -->
+<PawnKindDef ParentName="BaseCarniPawnKind">
+	<defName>CarniWanderer</defName>
+	<label>wanderer</label>
+	<race>Alien_Carniculus</race>
+	<defaultFactionType>OutlanderCivil</defaultFactionType>
+	<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>CarniFeral</li>
+				<li>CarniStory</li>
+			</categories>
+		</li>
+	</backstoryFiltersOverride>
+</PawnKindDef>
+
+</Defs>

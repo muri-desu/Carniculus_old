@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<FactionDef Abstract="True" Name="CarniFactionBase">
+	<allowedCultures>
+		<li>CarniCultures</li>
+	</allowedCultures>
+	<colorSpectrum>
+		<li>(1, 1, 1)</li>
+	</colorSpectrum>
+</FactionDef>
+
+<!-- プレイヤー派閥 -->
+<FactionDef Parent="CarniFactionBase">
+	<defName>CarniPlayerFaction</defName>
+	<label>carniculus' colony</label>
+	<description>A small colony.</description>
+	<basicMemberKind>CarniColonist</basicMemberKind>
+	<pawnSingular>colonist</pawnSingular>
+	<pawnsPlural>colonists</pawnsPlural>
+	<isPlayer>true</isPlayer>
+	<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+	<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+	<techLevel>Industrial</techLevel>
+	<backstoryCategories>
+		<li>CarniStory</li>
+		<li>CarniMama</li>
+	</backstoryCategories>
+	<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+	<startingResearchTags>
+		<li>ClassicStart</li>
+	</startingResearchTags>
+	<raidLootValueFromPointsCurve>
+		<points>
+			<li>(35,     15)</li>
+			<li>(100,   120)</li>
+			<li>(1000,  500)</li>
+			<li>(2000,  800)</li>
+			<li>(4000, 1000)</li>
+		</points>
+	</raidLootValueFromPointsCurve>
+	<settlementTexturePath>WorldIcon/Carnicolonylarge</settlementTexturePath>
+	<factionIconPath>WorldIcon/Carnicolony</factionIconPath>
+<disallowedPrecepts>
+	<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+	<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+</disallowedPrecepts>
+</FactionDef>
+</Defs>

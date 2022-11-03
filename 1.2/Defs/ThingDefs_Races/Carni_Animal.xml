@@ -247,13 +247,12 @@
 
 <PawnKindDef ParentName="AnimalKindBase">
 		<defName>HomoPecudes</defName>
-		<label>homo pacudes</label>
+		<label>homo pecudes</label>
 		<race>HomoPecudes</race>
 		<combatPower>45</combatPower>
 		<ecoSystemWeight>0.5</ecoSystemWeight>
 	<lifeStages>
 			<li>
-				<label>piglet</label>
 				<bodyGraphicData>
 					<texPath>Animal/HomoPecudes/Toddler</texPath>
 					<drawSize>2</drawSize>

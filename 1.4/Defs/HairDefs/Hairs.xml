@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Male -->
+<HairDef>
+	<defName>CarniBald</defName>
+	<label>Bald</label>
+	<hairGender>Any</hairGender>
+	<texPath>Hairs/Bald</texPath>
+	<category>Carni_Hair</category>
+		<styleTags>
+			<li>Carni_Hair</li>
+		</styleTags>
+</HairDef>
+
+<!-- Female -->
+<HairDef>
+	<defName>CarniShortF</defName>
+	<label>ShortF</label>
+	<hairGender>Female</hairGender>
+	<texPath>Hairs/ShortF</texPath>
+	<category>Carni_Hair</category>
+		<styleTags>
+			<li>Carni_Hair</li>
+		</styleTags>
+</HairDef>
+
+<HairDef>
+	<defName>CarniMiddleF</defName>
+	<label>MiddleF</label>
+	<hairGender>Female</hairGender>
+	<texPath>Hairs/MiddleF</texPath>
+	<category>Carni_Hair</category>
+		<styleTags>
+			<li>Carni_Hair</li>
+		</styleTags>
+ </HairDef>
+
+<HairDef>
+	<defName>CarniLongF</defName>
+	<label>LongF</label>
+	<hairGender>Female</hairGender>
+	<texPath>Hairs/LongF</texPath>
+	<category>Carni_Hair</category>
+		<styleTags>
+			<li>Carni_Hair</li>
+		</styleTags>
+</HairDef>
+
+</Defs>
