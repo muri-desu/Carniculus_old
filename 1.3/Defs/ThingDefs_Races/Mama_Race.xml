@@ -142,7 +142,7 @@
     <west>(-0.05, 0.0)</west>
 </headOffsetDirectional>
 	<alienbodytypes>
-		<li>Mama</li>
+		<li>Female</li>
 	</alienbodytypes>
 		<useGenderedHeads>false</useGenderedHeads>
 		<useGenderedBodies>false</useGenderedBodies>

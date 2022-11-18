@@ -29,6 +29,7 @@
 	<thingCategories>
 		<li>CarniMamaApparel</li>
 	</thingCategories>
+	<tradeability>Sellable</tradeability>
 </ThingDef>	
 
 <!-- ニーソ -->

@@ -142,7 +142,7 @@
     <west>(-0.05, 0.0)</west>
 </headOffsetDirectional>
 	<alienbodytypes>
-		<li>Mama</li>
+		<li>Female</li>
 	</alienbodytypes>
 		<useGenderedHeads>false</useGenderedHeads>
 		<useGenderedBodies>false</useGenderedBodies>
@@ -285,13 +285,13 @@
 </raceRestriction>
 
 <relationSettings>
-	<relationChanceModifierChild>0.01</relationChanceModifierChild>
+	<relationChanceModifierChild>0</relationChanceModifierChild>
 	<relationChanceModifierExLover>0</relationChanceModifierExLover>
 	<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
 	<relationChanceModifierFiance>0</relationChanceModifierFiance>
 	<relationChanceModifierLover>0</relationChanceModifierLover>
-	<relationChanceModifierParent>0.0001</relationChanceModifierParent>
-	<relationChanceModifierSibling>0.0001</relationChanceModifierSibling>
+	<relationChanceModifierParent>0</relationChanceModifierParent>
+	<relationChanceModifierSibling>0</relationChanceModifierSibling>
 	<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
 </relationSettings>
 

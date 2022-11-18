@@ -34,6 +34,7 @@
 	<thingCategories>
 		<li>CarniHeadgear</li>
 	</thingCategories>
+	<tradeability>Sellable</tradeability>
 </ThingDef>
 
 <ThingDef Name="CarniMama_HatBase" ParentName="HatBase" Abstract="True">

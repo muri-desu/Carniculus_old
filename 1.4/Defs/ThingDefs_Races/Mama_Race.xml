@@ -52,18 +52,26 @@
 		<Research>13</Research>
 	</lifeStageWorkSettings>
 <lifeStageAges>
-	<li>
+	<li Class="AlienRace.LifeStageAgeAlien">
 		<def>MamaBaby</def>
 		<minAge>0</minAge>
+		<headOffsetDirectional>
+			<south>(0.0, 0.15)</south>
+			<north>(0.0, 0.15)</north>
+			<east>(0.05, 0.15)</east>
+			<west>(-0.05, 0.15)</west>
+		</headOffsetDirectional>
 	</li>
-	<li>
+	<li Class="AlienRace.LifeStageAgeAlien">
 		<def>MamaChild</def>
 		<minAge>3</minAge>
+		<headOffsetDirectional>
+			<north>(0.0, 0.2)</north>
+			<south>(0.0, 0.2)</south>
+			<east>(0.05, 0.2)</east>
+			<west>(-0.05, 0.2)</west>
+		</headOffsetDirectional>
 	</li>
-	<!-- <li>
-		<def>HumanlikeTeenager</def>
-		<minAge>13</minAge>
-	</li> -->
 	<li>
 		<def>HumanlikeAdult</def>
 		<minAge>18</minAge>
@@ -160,19 +168,18 @@
 
 <alienPartGenerator>
 	<bodyTypes>
-		<li>Mama</li>
+		<li>Female</li>
 		<li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
 		<li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
 	</bodyTypes>
 	<headTypes Inherit="False">
 		<li>Average</li>
 	</headTypes>
-	<headOffset>(0, 0.45)</headOffset>
 <headOffsetDirectional>
-    <north>(0.0, 0.0)</north>
-    <south>(0.0, 0.0)</south>
-    <east>(0.05, 0.0)</east>
-    <west>(-0.05, 0.0)</west>
+	<north>(0.0, 0.1)</north>
+	<south>(0.0, 0.1)</south>
+	<east>(0.0, 0.1)</east>
+	<west>(-0.0, 0.1)</west>
 </headOffsetDirectional>
 	<customDrawSize>(1.0, 1.0)</customDrawSize>
 	<customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
@@ -268,20 +275,19 @@
 		<ageGraphics>
 			<MamaBaby>Things/Pawn/Carni/Heads/Baby</MamaBaby>
 			<MamaChild>Things/Pawn/Mama/Heads/Average_Child</MamaChild>
-			<!-- <HumanlikePreTeenager>Things/Pawn/Mama/Average_Child</HumanlikePreTeenager> -->
 			<HumanlikeAdult>Things/Pawn/Mama/Heads/Average</HumanlikeAdult>
 		</ageGraphics>
 	</head>
 
-	<body><path>Things/Pawn/Mama/Bodies/Naked_Mama</path>
+	<body><path>Things/Pawn/Mama/Bodies/Naked_Female</path>
 		<ageGraphics>
 			<MamaBaby>Things/Pawn/Humanlike/Bodies/Naked_Child</MamaBaby>
 			<MamaChild>Things/Pawn/Mama/Bodies/Naked_Child</MamaChild>
-			<HumanlikeAdult>Things/Pawn/Mama/Bodies/Naked_Mama</HumanlikeAdult>
+			<HumanlikeAdult>Things/Pawn/Mama/Bodies/Naked_Female</HumanlikeAdult>
 		</ageGraphics>
 	</body>
 
-		<skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
+	<skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
 	<skinShader>Cutout</skinShader>
 
 </graphicPaths>
@@ -342,6 +348,37 @@
 		<li MayRequire="Techmago.BootsnStuff">Apparel_ring</li>
 		<li MayRequire="Techmago.BootsnStuff">Apparel_shoes</li>
 	</whiteApparelList>
+
+<onlyHaveRaceRestrictedGenes>false</onlyHaveRaceRestrictedGenes>
+	<blackGeneList>
+		<li>Brow_Heavy</li>
+		<li>FacialRidges</li>
+	</blackGeneList>
+	<blackGeneTags>
+		<li>SkinColor</li>
+		<li>HairColor</li>
+		<li>EyeColor</li>
+		<li>BodyType</li>
+		<li>Ears</li>
+		<li>Nose</li>
+		<li>Jaw</li>
+		<li>Head</li>
+		<li>Headbone</li>
+		<li>HairStyle</li>
+		<li>BeardStyle</li>
+		<li>SkinColorOverride</li>
+		<li>Fur</li>
+		<li>Tail</li>
+	</blackGeneTags>
+	<blackEndoCategories>
+		<li>Melanin</li>
+		<li>HairColor</li>
+		<li>Ears</li>
+		<li>Nose</li>
+		<li>Jaw</li>
+		<li>Head</li>
+		<li>BodyType</li>
+	</blackEndoCategories>
 </raceRestriction>
 
 <relationSettings>
@@ -478,6 +515,19 @@
 	<li>RemoveBodyPart</li>
 	<li>Euthanize</li>
 	<li>Anesthetize</li>
+	<li>CureScaria</li>
+	<li MayRequire="Ludeon.RimWorld.Biotech">Vasectomy</li>
+	<li MayRequire="Ludeon.RimWorld.Biotech">ReverseVasectomy</li>
+	<li MayRequire="Ludeon.RimWorld.Biotech">TubalLigation</li>
+	<li MayRequire="Ludeon.RimWorld.Biotech">ExtractOvum</li>
+	<li MayRequire="Ludeon.RimWorld.Royalty">CureBloodRot</li>
+	<li MayRequire="Ludeon.RimWorld.Royalty">CureAbasia</li>
+	<li MayRequire="Ludeon.RimWorld.Biotech">ExtractHemogenPack</li>
+	<li MayRequire="Ludeon.RimWorld.Biotech">BloodTransfusion</li>
+	<li MayRequire="Ludeon.RimWorld.Biotech">ImplantXenogerm</li>
+	<li MayRequire="Ludeon.RimWorld.Biotech">ImplantIUD</li>
+	<li MayRequire="Ludeon.RimWorld.Biotech">RemoveIUD</li>
+	<li MayRequire="Ludeon.RimWorld.Biotech">TerminatePregnancy</li>
 </recipes>
 
 </AlienRace.ThingDef_AlienRace>

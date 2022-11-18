@@ -376,18 +376,46 @@
 		<li>Apparel_SmokepopBelt</li>
 		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackJump</li>
 		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackBroadshield</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackControl</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackBandwidth</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackTox</li>
 		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_AirwireHeadset</li>
 		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_IntegratorHeadset</li>
 		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_ArmorHelmetMechCommander</li>
 		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_ArrayHeadset</li>
-		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_ArrayHeadset</li>
+		<li>Apparel_FirefoampopPack</li>
 	</whiteApparelList>
-	<weaponList>
-		<li>Melee_CarniButcherknife</li>
-		<li>Melee_CarniGardenScissors</li>
-		<li>Melee_CarniPickax</li>
-		<li>Melee_CarniProd</li>
-	</weaponList>
+
+<onlyHaveRaceRestrictedGenes>false</onlyHaveRaceRestrictedGenes>
+	<blackGeneList>
+		<li>Brow_Heavy</li>
+		<li>FacialRidges</li>
+	</blackGeneList>
+	<blackGeneTags>
+		<li>SkinColor</li>
+		<li>HairColor</li>
+		<li>EyeColor</li>
+		<li>BodyType</li>
+		<li>Ears</li>
+		<li>Nose</li>
+		<li>Jaw</li>
+		<li>Head</li>
+		<li>Headbone</li>
+		<li>HairStyle</li>
+		<li>BeardStyle</li>
+		<li>SkinColorOverride</li>
+		<li>Fur</li>
+		<li>Tail</li>
+	</blackGeneTags>
+	<blackEndoCategories>
+		<li>Melanin</li>
+		<li>HairColor</li>
+		<li>Ears</li>
+		<li>Nose</li>
+		<li>Jaw</li>
+		<li>Head</li>
+		<li>BodyType</li>
+	</blackEndoCategories>
 </raceRestriction>
 
 <relationSettings>
@@ -507,6 +535,19 @@
 	<li>RemoveBodyPart</li>
 	<li>Euthanize</li>
 	<li>Anesthetize</li>
+	<li>CureScaria</li>
+	<li MayRequire="Ludeon.RimWorld.Biotech">Vasectomy</li>
+	<li MayRequire="Ludeon.RimWorld.Biotech">ReverseVasectomy</li>
+	<li MayRequire="Ludeon.RimWorld.Biotech">TubalLigation</li>
+	<li MayRequire="Ludeon.RimWorld.Biotech">ExtractOvum</li>
+	<li MayRequire="Ludeon.RimWorld.Royalty">CureBloodRot</li>
+	<li MayRequire="Ludeon.RimWorld.Royalty">CureAbasia</li>
+	<li MayRequire="Ludeon.RimWorld.Biotech">ExtractHemogenPack</li>
+	<li MayRequire="Ludeon.RimWorld.Biotech">BloodTransfusion</li>
+	<li MayRequire="Ludeon.RimWorld.Biotech">ImplantXenogerm</li>
+	<li MayRequire="Ludeon.RimWorld.Biotech">ImplantIUD</li>
+	<li MayRequire="Ludeon.RimWorld.Biotech">RemoveIUD</li>
+	<li MayRequire="Ludeon.RimWorld.Biotech">TerminatePregnancy</li>
 </recipes>
 
 </AlienRace.ThingDef_AlienRace>

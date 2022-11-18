@@ -37,8 +37,8 @@
 	<titleShort>good mama</titleShort>
 		<baseDescription>As the chief scientist of a laboratory floating in space, [PAWN_nameDef] performed many experiments on the life forms she created. \nShe enjoyed toying with carniculus and watching them wallow in pain or pleasure, and later received the same treatment from them.</baseDescription>
 		<slot>Adulthood</slot>
-		<bodyTypeMale>Mama</bodyTypeMale>
-		<bodyTypeFemale>Mama</bodyTypeFemale>
+		<bodyTypeMale>Female</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<linkedBackstory>BadGirl</linkedBackstory>
 <skillGains>
 	<li>

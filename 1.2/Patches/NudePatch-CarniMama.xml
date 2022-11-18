@@ -32,20 +32,20 @@
 								<path>Genitals/penis_carni_average</path>
 							</Penis>
 						</hediffGraphics>
-						<offsets><!-- オフセット　x軸：-すると左に移動　+すると右に(????) -->
+						<offsets>
 							<south>
-								<bodyTypes><!-- -,+ -->
-									<Mama>(-0.4,-0.25)</Mama>
+								<bodyTypes>
+									<Female>(-0.4,-0.25)</Female>
 								</bodyTypes>
 							</south>
 							<north>
 								<bodyTypes>
-									<Mama>(0,0)</Mama>
+									<Female>(0,0)</Female>
 								</bodyTypes>
 							</north>
 							<east>
-								<bodyTypes><!-- -, x軸：-すると左に移動　+すると右に(????) -->
-									<Mama>(-0.55,-0.27)</Mama>
+								<bodyTypes>
+									<Female>(-0.55,-0.27)</Female>
 								</bodyTypes>
 							</east>
 						</offsets>
@@ -73,19 +73,19 @@
 						<offsets>
 							<south>
 								<bodyTypes>
-									<Mama>(-0.425,0.225)</Mama>
+									<Female>(-0.425,0.225)</Female>
 									<Thin>(-0.425,0.225)</Thin>
 								</bodyTypes>
 							</south>
 							<north>
 								<bodyTypes>
-									<Mama>(0,0.56)</Mama>
+									<Female>(0,0.56)</Female>
 									<Thin>(0,0.56)</Thin>
 								</bodyTypes>
 							</north>
 							<east>
 								<bodyTypes>
-									<Mama>(-0.428,0.236)</Mama>
+									<Female>(-0.428,0.236)</Female>
 									<Thin>(-0.375,0.125)</Thin>
 								</bodyTypes>
 							</east>

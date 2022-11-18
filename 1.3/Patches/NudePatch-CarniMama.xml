@@ -33,17 +33,17 @@
 	<offsets>
 		<south>
 			<bodyTypes>
-				<Mama>(0,-0.55)</Mama>
+				<Female>(0,-0.55)</Female>
 			</bodyTypes>
 		</south>
 		<north>
 			<bodyTypes>
-				<Mama>(0,0)</Mama>
+				<Female>(0,0)</Female>
 			</bodyTypes>
 		</north>
 		<east>
 			<bodyTypes>
-				<Mama>(-0.125,-0.4)</Mama>
+				<Female>(-0.125,-0.4)</Female>
 			</bodyTypes>
 		</east>
 	</offsets>
@@ -113,19 +113,19 @@
 		<south>
 			<layerOffset>-0.289</layerOffset>
 				<bodyTypes>
-					<Mama>(-0.425,0.225)</Mama>
+					<Female>(-0.425,0.225)</Female>
 				</bodyTypes>
 		</south>
 		<north>
 			<layerOffset>-0.289</layerOffset>
 				<bodyTypes>
-					<Mama>(0,0.56)</Mama>
+					<Female>(0,0.56)</Female>
 				</bodyTypes>
 		</north>
 		<east>
 			<layerOffset>-0.289</layerOffset>
 				<bodyTypes>
-					<Mama>(-0.428,0.236)</Mama>
+					<Female>(-0.428,0.236)</Female>
 				</bodyTypes>
 		</east>
 	</offsets>

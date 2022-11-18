@@ -96,6 +96,7 @@
 	<thingCategories>
 		<li>CarniApparel</li>
 	</thingCategories>
+	<tradeability>Sellable</tradeability>
 </ThingDef>
 
 <ThingDef Name="CarniArmorBase" ParentName="ApparelBase" Abstract="True">
@@ -283,14 +284,6 @@
 	<wornGraphicPath>Things/Apparel/Fat/Fat</wornGraphicPath>
 	</apparel>
 
-	<colorGenerator Class="ColorGenerator_Options">
-		<options>
-			<li>
-				<weight>1</weight>
-					<only>RGBA(1,1,1,0)</only>
-			</li>
-		</options>
-	</colorGenerator>
 </ThingDef>
 
 <!-- 血管 -->
@@ -342,15 +335,6 @@
 	</layers>
 		<wornGraphicPath>Things/Apparel/Vein/Vein</wornGraphicPath>
 	</apparel>
-
-	<colorGenerator Class="ColorGenerator_Options">
-		<options>
-			<li>
-				<weight>1</weight>
-					<only>RGBA(1,1,1,0)</only>
-			</li>
-		</options>
-	</colorGenerator>
 </ThingDef>
 
 <!-- レザースーツ -->
