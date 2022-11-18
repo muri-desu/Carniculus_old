@@ -3,7 +3,7 @@
   <LifeStageDef ParentName="HumanlikeAdolescent">
     <defName>MamaBaby</defName>
     <label>baby</label>
-    <bodySizeFactor>0.05</bodySizeFactor>
+    <bodySizeFactor>0.2</bodySizeFactor>
     <bodyWidth>0.95</bodyWidth>
     <bodyDrawOffset>(0, 0, -0.03)</bodyDrawOffset>
     <voxPitch>1.6</voxPitch>
