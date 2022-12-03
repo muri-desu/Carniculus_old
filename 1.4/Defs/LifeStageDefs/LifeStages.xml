@@ -68,6 +68,7 @@
     <statFactors>
       <MoveSpeed>0.75</MoveSpeed>
     </statFactors>
+    <reproductive>true</reproductive>
   </LifeStageDef>
 
 </Defs>

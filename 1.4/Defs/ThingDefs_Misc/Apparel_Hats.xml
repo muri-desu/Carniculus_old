@@ -165,7 +165,6 @@
 			<li>Overhead</li>
 		</layers>
 	<wornGraphicPath>Things/Apparel/Hats/Veil</wornGraphicPath>
-		<useWornGraphicMask>true</useWornGraphicMask>
 	</apparel>
 </ThingDef>
 

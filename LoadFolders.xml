@@ -26,5 +26,6 @@
 		<li IfModActive="tosenbo.Ricecultivatingcivilization.ver2">Rice</li>
 		<li IfModActive="rim.job.world">RJW</li>
 		<li IfModActive="shauaputa.rimnudeworld">Rimnude</li>
+		<li IfModActive="Ludeon.RimWorld.Biotech">Biotech</li>
 	</v1.4>
 </loadFolders>

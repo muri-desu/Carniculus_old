@@ -352,11 +352,12 @@
 <onlyHaveRaceRestrictedGenes>false</onlyHaveRaceRestrictedGenes>
 	<blackGeneList>
 		<li>Brow_Heavy</li>
+		<li>Body_Thin</li>
+		<li>Body_Fat</li>
+		<li>Body_Hulk</li>
 		<li>FacialRidges</li>
 	</blackGeneList>
 	<blackGeneTags>
-		<li>SkinColor</li>
-		<li>HairColor</li>
 		<li>EyeColor</li>
 		<li>BodyType</li>
 		<li>Ears</li>
@@ -371,8 +372,6 @@
 		<li>Tail</li>
 	</blackGeneTags>
 	<blackEndoCategories>
-		<li>Melanin</li>
-		<li>HairColor</li>
 		<li>Ears</li>
 		<li>Nose</li>
 		<li>Jaw</li>
