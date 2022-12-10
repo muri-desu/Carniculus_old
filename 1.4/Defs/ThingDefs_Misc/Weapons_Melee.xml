@@ -12,7 +12,7 @@
 		<texPath>Things/Item/Equipment/WeaponMelee/Butcherknife</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
-	<uiIconScale>0.5</uiIconScale>
+	<uiIconScale>1</uiIconScale>
 
 	<statBases>
 		<WorkToMake>18000</WorkToMake>

@@ -85,6 +85,12 @@
         <countRange>1~5</countRange>
       </li>
 
+      <!-- Genepacks -->
+      <li MayRequire="Ludeon.RimWorld.Biotech" Class="StockGenerator_SingleDef">
+        <thingDef>Genepack</thingDef>
+        <countRange>3~5</countRange>
+      </li>
+      
       <!-- Slaves -->
       <li Class="StockGenerator_Slaves">
         <countRange>3~7</countRange>
