@@ -387,13 +387,13 @@
 	</whiteApparelList>
 
 <onlyHaveRaceRestrictedGenes>false</onlyHaveRaceRestrictedGenes>
-	<blackGeneList>
+	<!-- <blackGeneList>
 		<li>Brow_Heavy</li>
 		<li>Body_Thin</li>
 		<li>Body_Fat</li>
 		<li>Body_Hulk</li>
 		<li>FacialRidges</li>
-	</blackGeneList>
+	</blackGeneList> -->
 	<blackGeneTags>
 		<li>EyeColor</li>
 		<li>BodyType</li>
@@ -409,6 +409,8 @@
 		<li>Tail</li>
 	</blackGeneTags>
 	<blackEndoCategories>
+		<li>HairColor</li>
+		<li>Melanin</li>
 		<li>Ears</li>
 		<li>Nose</li>
 		<li>Jaw</li>

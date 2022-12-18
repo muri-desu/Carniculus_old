@@ -65,7 +65,7 @@
 		<texPath>Things/Item/Equipment/WeaponMelee/Scissors</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
-	<uiIconScale>0.5</uiIconScale>
+	<uiIconScale>1</uiIconScale>
 
 	<statBases>
 		<WorkToMake>18000</WorkToMake>
@@ -117,7 +117,7 @@
 		<texPath>Things/Item/Equipment/WeaponMelee/Pickax</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
-	<uiIconScale>0.5</uiIconScale>
+	<uiIconScale>1</uiIconScale>
 
 	<statBases>
 		<WorkToMake>18000</WorkToMake>
@@ -175,7 +175,7 @@
 		<texPath>Things/Item/Equipment/WeaponMelee/Prod</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
-	<uiIconScale>0.4</uiIconScale>
+	<uiIconScale>1</uiIconScale>
 
 	<statBases>
 		<WorkToMake>20000</WorkToMake>
