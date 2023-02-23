@@ -8,8 +8,6 @@
 	<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
 	<minGenerationAge>18</minGenerationAge>
 	<maxGenerationAge>25</maxGenerationAge>
-	<initialWillRange>1~3</initialWillRange>
-	<initialResistanceRange>10~20</initialResistanceRange>
 	<backstoryFiltersOverride>
 		<li>
 			<categories>

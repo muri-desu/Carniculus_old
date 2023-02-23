@@ -6,8 +6,6 @@
 	<isFighter>true</isFighter>
 	<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 	<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
-	<initialWillRange>1~3</initialWillRange>
-	<initialResistanceRange>10~20</initialResistanceRange>
 	<minGenerationAge>10</minGenerationAge>
 	<maxGenerationAge>30</maxGenerationAge>
 	<itemQuality>Normal</itemQuality>

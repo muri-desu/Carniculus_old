@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 <PawnKindDef Name="BaseCarniPawnKind" Abstract="True">
+	<race>Alien_Carniculus</race>
 	<combatPower>40</combatPower>
 	<isFighter>true</isFighter>
 	<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 	<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
 	<initialWillRange>1~3</initialWillRange>
 	<initialResistanceRange>10~20</initialResistanceRange>
-	<minGenerationAge>10</minGenerationAge>
-	<maxGenerationAge>30</maxGenerationAge>
-	<itemQuality>Normal</itemQuality>
 	<gearHealthRange>0.2~0.6</gearHealthRange>
-	<baseRecruitDifficulty>0.3</baseRecruitDifficulty>
 </PawnKindDef>
 
 <!-- player colonist プレイヤー -->
 <PawnKindDef ParentName="BaseCarniPawnKind">
 	<defName>CarniColonist</defName>
 	<label>colonist</label>
-	<race>Alien_Carniculus</race>
 	<defaultFactionType>CarniPlayerFaction</defaultFactionType>
 	<backstoryFiltersOverride>
 		<li>
@@ -33,7 +29,6 @@
 <PawnKindDef ParentName="BaseCarniPawnKind">
 	<defName>CarniSlave</defName>
 	<label>slave</label>
-	<race>Alien_Carniculus</race>
 	<defaultFactionType>OutlanderCivil</defaultFactionType>
 	<backstoryFiltersOverride>
 		<li>
@@ -48,7 +43,6 @@
 <PawnKindDef ParentName="BaseCarniPawnKind">
 	<defName>CarniWanderer</defName>
 	<label>wanderer</label>
-	<race>Alien_Carniculus</race>
 	<defaultFactionType>OutlanderCivil</defaultFactionType>
 	<backstoryFiltersOverride>
 		<li>
@@ -58,6 +52,141 @@
 			</categories>
 		</li>
 	</backstoryFiltersOverride>
+</PawnKindDef>
+
+<!-- npc -->
+<PawnKindDef Name="BaseCarniPawnKind_NPC" Abstract="True" ParentName="BaseCarniPawnKind">
+	<defaultFactionType>CarniNPCFaction</defaultFactionType>
+	<techHediffsChance>0.40</techHediffsChance>
+		<combatEnhancingDrugsChance>0.5</combatEnhancingDrugsChance>
+		<combatEnhancingDrugsCount>1~2</combatEnhancingDrugsCount>
+	<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>CarniFeral</li>
+			</categories>
+		</li>
+	</backstoryFiltersOverride>
+</PawnKindDef>
+
+<!-- リーダー格 -->
+<PawnKindDef ParentName="BaseCarniPawnKind_NPC">
+	<defName>Carni_Boss</defName>
+	<factionLeader>true</factionLeader>
+	<label>alpha</label>
+	<trader>true</trader>
+	<combatPower>85</combatPower>
+	<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+	<apparelMoney>100~1000</apparelMoney>
+	<invNutrition>3.55</invNutrition>
+	<weaponMoney>350~900</weaponMoney>
+	<weaponTags>
+		<li>Gun</li>
+	</weaponTags>
+	<techHediffsMoney>2000~3000</techHediffsMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+			<li>AdvancedWeapon</li>
+			<li>ImplantEmpireRoyal</li>
+			<li>ImplantEmpireCommon</li>
+		</techHediffsTags>
+	<techHediffsDisallowTags>
+		<li>PainCauser</li>
+	</techHediffsDisallowTags>
+		<biocodeWeaponChance>0.2</biocodeWeaponChance>
+	<apparelRequired>
+		<li>Apparel_CarniFleshHelm</li>
+		<li>Apparel_CarniFleshArmor</li>
+		<li>Apparel_CarniVein</li>
+	</apparelRequired>
+</PawnKindDef>
+
+<!-- basic worker -->
+<PawnKindDef ParentName="BaseCarniPawnKind_NPC">
+	<defName>Carni_Worker</defName>
+	<label>worker</label>
+	<apparelTags>
+		<li>CarniApparel</li>
+	</apparelTags>
+	<apparelMoney>200~400</apparelMoney>
+	<apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+	<weaponTags>
+		<li>Gun</li>
+		<li>MedievalMeleeBasic</li>
+	</weaponTags>
+	<weaponMoney>255~350</weaponMoney>
+</PawnKindDef>
+
+<!-- butcher -->
+<PawnKindDef ParentName="BaseCarniPawnKind_NPC">
+	<defName>Carni_Butcher</defName>
+	<label>butcher</label>
+	<apparelRequired>
+		<li>Apparel_CarniSack</li>
+		<li>Apparel_CarniApron</li>
+	</apparelRequired>
+	<weaponTags>
+		<li>Butcher</li>
+	</weaponTags>
+	<weaponMoney>255~350</weaponMoney>
+	<skills>
+		<li>
+			<skill>Cooking</skill>
+			<range>4~18</range>
+		</li>
+	</skills>
+</PawnKindDef>
+
+<!-- miner -->
+<PawnKindDef ParentName="BaseCarniPawnKind_NPC">
+	<defName>Carni_Miner</defName>
+	<label>miner</label>
+	<apparelRequired>
+		<li>Apparel_CarniLeatherMask</li>
+		<li>Apparel_CarniLeatherSuit</li>
+	</apparelRequired>
+	<weaponTags>
+		<li>Miner</li>
+	</weaponTags>
+	<weaponMoney>255~350</weaponMoney>
+	<skills>
+		<li>
+			<skill>Mining</skill>
+			<range>4~12</range>
+		</li>
+	</skills>
+</PawnKindDef>
+
+<!-- logger -->
+<PawnKindDef ParentName="BaseCarniPawnKind_NPC">
+	<defName>Carni_Logger</defName>
+	<label>logger</label>
+	<apparelRequired>
+		<li>Apparel_CarniSack</li>
+		<li>Apparel_CarniApron</li>
+	</apparelRequired>
+	<weaponTags>
+		<li>Logger</li>
+	</weaponTags>
+	<weaponMoney>255~350</weaponMoney>
+	<skills>
+		<li>
+			<skill>Plants</skill>
+			<range>4~12</range>
+		</li>
+	</skills>
+</PawnKindDef>
+
+
+<PawnKindDef ParentName="BaseCarniPawnKind_NPC"><!-- ニンフ -->
+	<defName>Carni_Nymph</defName>
+	<label>nymph</label>
+	<techHediffsChance>0.99</techHediffsChance>
+	<techHediffsMoney>50~50</techHediffsMoney>
+	<techHediffsTags>
+		<li>Awful</li>
+		<li>Poor</li>
+	</techHediffsTags>
 </PawnKindDef>
 
 </Defs>

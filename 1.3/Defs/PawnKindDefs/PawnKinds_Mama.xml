@@ -6,8 +6,6 @@
 	<isFighter>false</isFighter>
 	<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 	<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
-	<minGenerationAge>18</minGenerationAge>
-	<maxGenerationAge>25</maxGenerationAge>
 	<initialWillRange>1~3</initialWillRange>
 	<initialResistanceRange>10~20</initialResistanceRange>
 	<backstoryFiltersOverride>
@@ -40,13 +38,45 @@
 	</techHediffsDisallowTags>
 </PawnKindDef>
 
-<!-- Slave 奴隷 -->
+<!-- npc --><!-- ボスママ -->
+<PawnKindDef ParentName="BaseCarniMamaPawnKind">
+	<defName>BossMama</defName>
+	<defaultFactionType>CarniNPCFaction</defaultFactionType>
+	<factionLeader>true</factionLeader>
+	<label>big mama</label>
+	<trader>true</trader>
+	<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+	<itemQuality>Good</itemQuality>
+	<apparelMoney>500~5000</apparelMoney>
+	<invNutrition>3.55</invNutrition>
+	<techHediffsMoney>2000~3000</techHediffsMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+		<li>ImplantEmpireRoyal</li>
+		<li>ImplantEmpireCommon</li>
+		</techHediffsTags>
+	<techHediffsDisallowTags>
+		<li>PainCauser</li>
+	</techHediffsDisallowTags>
+	<techHediffsChance>0.40</techHediffsChance>
+	<apparelRequired>
+		<li>Apparel_MamaHighSocks</li>
+		<li>Apparel_MamaCorset</li>
+		<li>Apparel_MamaNun</li>
+		<li>Apparel_MamaNunHead</li>
+	</apparelRequired>
+</PawnKindDef>
+
+<!-- Slave 奴隷ママ -->
 <PawnKindDef ParentName="BaseCarniMamaPawnKind">
 	<defName>SlaveMama</defName>
 	<label>sex slave</label>
 	<itemQuality>Poor</itemQuality>
 	<gearHealthRange>0.2~0.6</gearHealthRange>
-	<defaultFactionType>OutlanderCivil</defaultFactionType>
+	<apparelRequired>
+		<li>Apparel_MamaHighSocks</li>
+		<li>Apparel_MamaHarness</li>
+	</apparelRequired>
 </PawnKindDef>
 
 </Defs>

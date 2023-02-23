@@ -161,6 +161,7 @@
 
 <alienRace>
 <generalSettings>
+	<minAgeForAdulthood>13</minAgeForAdulthood>
 	<allowHumanBios>false</allowHumanBios>
 	<humanRecipeImport>true</humanRecipeImport>
 	<immuneToAge>true</immuneToAge>

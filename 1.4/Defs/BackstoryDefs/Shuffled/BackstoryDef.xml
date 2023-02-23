@@ -499,6 +499,7 @@
 </workDisables>
 <spawnCategories>
 	<li>CarniStory</li>
+	<li>CarniFeral</li>
 </spawnCategories>
 </AlienRace.AlienBackstoryDef>
 

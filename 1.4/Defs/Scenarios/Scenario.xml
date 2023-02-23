@@ -3,7 +3,7 @@
 <ScenarioDef>
 	<defName>CarniScenario</defName>
 	<label>metastasis and proliferation</label>
-		<description>Carniculus are experimental life form which have escaped from the glass cases  and taken over a laboratory in planetary orbit. Some of them, unable to bear the brutality of their brethren and the overcrowding caused by their reproduction, decided to test their own vitality by descending to the earth in pods.</description>
+		<description>Carniculus are experimental life form which have escaped from the glass cases  and taken over a laboratory in planetary orbit.\n Some of them, unable to bear the brutality of their brethren and the overcrowding caused by their reproduction, decided to test their own vitality by descending to the earth in pods.</description>
 <scenario>
 	<summary>Starts with three gluttonous horny aliens.</summary>
 	<playerFaction>
@@ -14,7 +14,7 @@
 	<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
 		<def>ConfigPage_ConfigureStartingPawns</def>
 		<pawnCount>3</pawnCount>
-		<pawnChoiceCount>5</pawnChoiceCount>
+		<pawnChoiceCount>8</pawnChoiceCount>
 	</li>
 	<li Class="ScenPart_Naked">
 		<def>Naked</def>
@@ -24,11 +24,6 @@
 		<def>PlayerPawnsArriveMethod</def>
 		<method>DropPods</method>
 		<visible>false</visible>
-	</li>
-	<li Class="ScenPart_StartingAnimal">
-		<def>StartingAnimal</def>
-		<animalKind>Carnigigas</animalKind>
-		<count>1</count>
 	</li>
 	<li Class="ScenPart_StartingThing_Defined">
 		<def>StartingThing_Defined</def>
@@ -65,6 +60,32 @@
 		<thingDef>Steel</thingDef>
 			<count>300</count>
 	</li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Gun_BoltActionRifle</thingDef>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Gun_BoltActionRifle</thingDef>
+        </li>
+	<li Class="ScenPart_StartingAnimal">
+		<def>StartingAnimal</def>
+		<animalKind>Carnigigas</animalKind>
+		<count>1</count>
+	</li>
+        <li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>MealSurvivalPack</thingDef>
+          <count>7</count>
+        </li>
+
+        <!-- Game start dialog -->
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>Carniculus are experimental life form which have escaped from the glass cases  and taken over a laboratory in planetary orbit.\n Some of them, unable to bear the brutality of their brethren and the overcrowding caused by their reproduction, decided to test their own vitality by descending to the earth in pods.</text>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+
 </parts>
 </scenario>
 </ScenarioDef>

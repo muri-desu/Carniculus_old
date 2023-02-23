@@ -32,7 +32,7 @@
 
 <!-- ニーソ -->
 <ThingDef ParentName="CarniMamaApparelBase">
-	<defName>Apparel_MamaHighSocks</defName>
+	<defName>Apparel_HighSocks</defName>
 		<label>mama's stockings</label>
 		<description>Protects from the thigh down.</description>
 
@@ -84,7 +84,7 @@
 
 <!-- ハーネス -->
 <ThingDef ParentName="CarniMamaApparelBase">
-	<defName>Apparel_MamaHarness</defName>
+	<defName>Apparel_Harness</defName>
 		<label>mama's harness</label>
 		<description>harness perfect for sex slaves.</description>
 
@@ -193,7 +193,7 @@
 
 <!-- シャツセットアップ -->
 <ThingDef ParentName="CarniMamaApparelBase">
-	<defName>Apparel_MamaShirtSet</defName>
+	<defName>Apparel_ShirtSet</defName>
 		<label>mama's tie n shirt</label>
 		<description>Set-up of shirt, tie and skirt.</description>
 
@@ -250,7 +250,7 @@
 
 <!-- 修道女服 -->
 <ThingDef ParentName="CarniMamaApparelBase">
-	<defName>Apparel_MamaNun</defName>
+	<defName>Apparel_Nun</defName>
 		<label>mama's monastic dress</label>
 		<description>mama's body is sacred and should not be hidden.</description>
 
@@ -307,7 +307,7 @@
 
 <!-- メイド服 -->
 <ThingDef ParentName="CarniMamaApparelBase">
-	<defName>Apparel_MamaMaid</defName>
+	<defName>Apparel_Maid</defName>
 		<label>mama's maid dress</label>
 		<description>work clothes openly made for busy mama.</description>
 
@@ -364,7 +364,7 @@
 
 <!-- 看守ジャケット -->
 <ThingDef ParentName="CarniMamaApparelBase">
-	<defName>Apparel_MamaWardenJacket</defName>
+	<defName>Apparel_WardenJacket</defName>
 		<label>mama's warden jacket</label>
 		<description>guard's jacket with a solid collar.</description>
 
@@ -422,7 +422,7 @@
 
 <!-- 白衣 -->
 <ThingDef ParentName="CarniMamaApparelBase">
-	<defName>Apparel_MamaDrCoat</defName>
+	<defName>Apparel_DrCoat</defName>
 		<label>mama's white coat</label>
 		<description>same model of white coat that the original mama wore during her working years.</description>
 

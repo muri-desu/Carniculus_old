@@ -3,8 +3,16 @@
 <CarniColonist.label>入植者</CarniColonist.label>
 <CarniSlave.label>肉奴隷</CarniSlave.label>
 <CarniWanderer.label>放浪者</CarniWanderer.label>
+<Carni_Boss.label>アルファ</Carni_Boss.label>
+<Carni_Worker.label>労働者</Carni_Worker.label>
+<Carni_Butcher.label>屠畜者</Carni_Butcher.label>
+<Carni_Miner.label>鉱夫</Carni_Miner.label>
+<Carni_Logger.label>伐採者</Carni_Logger.label>
 <ColonistMama.label>入植者</ColonistMama.label>
+<BossMama.label>ママ</BossMama.label>
 <SlaveMama.label>性奴隷</SlaveMama.label>
+<LittleMama.label>娘</LittleMama.label>
+<CarniChild.label>子供</CarniChild.label>
 <Carnigigas.label>カルニギガス</Carnigigas.label>
 <HomoPecudes.label>ホモ・ペキューズ</HomoPecudes.label>
 </LanguageData>

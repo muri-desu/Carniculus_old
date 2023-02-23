@@ -291,7 +291,7 @@
 <!-- ママ頭装備 -->
 <!-- メガネ -->
 <ThingDef ParentName="CarniMama_HatBase">
-	<defName>Apparel_MamaGlasses</defName>
+	<defName>Apparel_Glasses</defName>
 		<label>mama's glasses</label>
 		<description>Mama's thick glasses.</description>
 		<techLevel>Industrial</techLevel>
@@ -336,7 +336,7 @@
 
 <!-- ガスマスク -->
 <ThingDef ParentName="CarniMama_HatBase">
-	<defName>Apparel_MamaGasmask</defName>
+	<defName>Apparel_Gasmask</defName>
 		<label>mama's gasmask</label>
 		<description>protects against poisonous gases and airborne dust.</description>
 		<techLevel>Industrial</techLevel>
@@ -399,7 +399,7 @@
 
 <!-- 修道女頭 -->
 <ThingDef ParentName="CarniMama_HatBase">
-	<defName>Apparel_MamaNunHead</defName>
+	<defName>Apparel_NunHead</defName>
 		<label>mama's veil</label>
 		<description>mama's devotee veil.</description>
 		<techLevel>Industrial</techLevel>
@@ -456,7 +456,7 @@
 
 <!-- メイド頭 -->
 <ThingDef ParentName="CarniMama_HatBase">
-	<defName>Apparel_MamaMaidHead</defName>
+	<defName>Apparel_MaidHead</defName>
 		<label>mama's brim</label>
 		<description>mama's maid head dress.</description>
 		<techLevel>Industrial</techLevel>
@@ -513,7 +513,7 @@
 
 <!-- 看守頭 -->
 <ThingDef ParentName="CarniMama_HatBase">
-	<defName>Apparel_MamaWardenCap</defName>
+	<defName>Apparel_WardenCap</defName>
 		<label>mama's warden cap</label>
 		<description>mama's warden cap.</description>
 		<techLevel>Industrial</techLevel>

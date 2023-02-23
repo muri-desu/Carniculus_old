@@ -1,35 +1,33 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<FactionDef Abstract="True" Name="CarniFactionBase">
-	<allowedCultures>
-		<li>CarniCultures</li>
-	</allowedCultures>
-	<colorSpectrum>
-		<li>(1, 1, 1)</li>
-	</colorSpectrum>
-</FactionDef>
 
 <!-- プレイヤー派閥 -->
-<FactionDef Parent="CarniFactionBase">
+<FactionDef Parent="FactionBase">
 	<defName>CarniPlayerFaction</defName>
 	<label>carniculus' colony</label>
-	<description>A small colony.</description>
+		<description>A small colony.</description>
 	<basicMemberKind>CarniColonist</basicMemberKind>
 	<pawnSingular>colonist</pawnSingular>
 	<pawnsPlural>colonists</pawnsPlural>
 	<isPlayer>true</isPlayer>
 	<factionNameMaker>NamerFactionOutlander</factionNameMaker>
 	<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+	<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
 	<techLevel>Industrial</techLevel>
+	<startingResearchTags>
+		<li>ClassicStart</li>
+	</startingResearchTags>
+	<allowedCultures><li>CarniCultures</li></allowedCultures>
+	<structureMemeWeights>
+		<Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Archist>
+		<AA_Structure_Alienism MayRequire="sarg.alphaanimals">1</AA_Structure_Alienism>
+	</structureMemeWeights>
+
 	<backstoryCategories>
 		<li>CarniStory</li>
 		<li>CarniMama</li>
 	</backstoryCategories>
-	<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
-	<startingResearchTags>
-		<li>ClassicStart</li>
-	</startingResearchTags>
 	<raidLootValueFromPointsCurve>
 		<points>
 			<li>(35,     15)</li>
@@ -41,15 +39,6 @@
 	</raidLootValueFromPointsCurve>
 	<settlementTexturePath>WorldIcon/Carnicolonylarge</settlementTexturePath>
 	<factionIconPath>WorldIcon/Carnicolony</factionIconPath>
-<disallowedPrecepts>
-	<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Abhorrent</li>
-	<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Horrible</li>
-	<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Disapproved</li>
-	<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
-	<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
-</disallowedPrecepts>
-	<structureMemeWeights>
-		<Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
-</structureMemeWeights>
+	<colorSpectrum><li>(255,255,255)</li></colorSpectrum>
 </FactionDef>
 </Defs>
