@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-
 <!-- プレイヤー派閥 -->
 <FactionDef Parent="FactionBase">
 	<defName>CarniPlayerFaction</defName>
@@ -19,10 +18,6 @@
 		<li>ClassicStart</li>
 	</startingResearchTags>
 	<allowedCultures><li>CarniCultures</li></allowedCultures>
-	<structureMemeWeights>
-		<Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Archist>
-		<AA_Structure_Alienism MayRequire="sarg.alphaanimals">1</AA_Structure_Alienism>
-	</structureMemeWeights>
 
 	<backstoryCategories>
 		<li>CarniStory</li>

@@ -9,6 +9,12 @@
 	<initialWillRange>1~3</initialWillRange>
 	<initialResistanceRange>10~20</initialResistanceRange>
 	<gearHealthRange>0.2~0.6</gearHealthRange>
+	<xenotypeSet>
+		<xenotypeChances>
+			<Baseliner>999</Baseliner>
+		</xenotypeChances>
+		<warnIfTotalAbove1>false</warnIfTotalAbove1>
+	</xenotypeSet>
 </PawnKindDef>
 
 <!-- player colonist プレイヤー -->
@@ -33,6 +39,7 @@
 	<backstoryFiltersOverride>
 		<li>
 			<categories>
+				<li>CarniStory</li>
 				<li>CarniFeral</li>
 			</categories>
 		</li>
@@ -48,7 +55,6 @@
 		<li>
 			<categories>
 				<li>CarniFeral</li>
-				<li>CarniStory</li>
 			</categories>
 		</li>
 	</backstoryFiltersOverride>
@@ -77,9 +83,9 @@
 	<trader>true</trader>
 	<combatPower>85</combatPower>
 	<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
-	<apparelMoney>100~1000</apparelMoney>
+	<apparelMoney>500~2500</apparelMoney>
 	<invNutrition>3.55</invNutrition>
-	<weaponMoney>350~900</weaponMoney>
+	<weaponMoney>350~3500</weaponMoney>
 	<weaponTags>
 		<li>Gun</li>
 	</weaponTags>

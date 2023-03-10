@@ -86,7 +86,7 @@
 	</specialShadowData>
 	<ageGenerationCurve>
 		<points>
-		<li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
+		<li>(0,0)</li>
 		<li MayRequire="Ludeon.RimWorld.Biotech">(0.001,43)</li>
 		<li MayRequire="Ludeon.RimWorld.Biotech">(8,86)</li>
 		<li MayRequire="Ludeon.RimWorld.Biotech">(12.5,118)</li><!-- Exclude 12.5-13 years -->
@@ -348,17 +348,27 @@
 		<li MayRequire="Techmago.BootsnStuff">Apparel_medic_gloves</li>
 		<li MayRequire="Techmago.BootsnStuff">Apparel_ring</li>
 		<li MayRequire="Techmago.BootsnStuff">Apparel_shoes</li>
+		<li MayRequire="YokaiMura.1.32">Yokai_Omamori_Hirameki</li>
+		<li MayRequire="YokaiMura.1.32">Yokai_Omamori_Tuchi</li>
+		<li MayRequire="YokaiMura.1.32">Yokai_Omamori_Wa</li>
+		<li MayRequire="YokaiMura.1.32">Yokai_Omamori_Jin</li>
+		<li MayRequire="YokaiMura.1.32">Yokai_Omamori_Ikusa</li>
+		<li MayRequire="YokaiMura.1.32">Yokai_Omamori_Karibito</li>
+		<li MayRequire="YokaiMura.1.32">Yokai_Hi_No_Magatama</li>
+		<li MayRequire="YokaiMura.1.32">Yokai_Nagi_no_Magatama</li>
 	</whiteApparelList>
 
 <onlyHaveRaceRestrictedGenes>false</onlyHaveRaceRestrictedGenes>
-	<blackGeneList>
+	<blackGeneList MayRequire="Ludeon.RimWorld.Biotech">
 		<li>Brow_Heavy</li>
 		<li>Body_Thin</li>
 		<li>Body_Fat</li>
 		<li>Body_Hulk</li>
 		<li>FacialRidges</li>
 	</blackGeneList>
-	<blackGeneTags>
+	<blackGeneTags MayRequire="Ludeon.RimWorld.Biotech">
+		<li>SkinColor</li>
+		<li>HairColor</li>
 		<li>EyeColor</li>
 		<li>BodyType</li>
 		<li>Ears</li>
@@ -372,7 +382,9 @@
 		<li>Fur</li>
 		<li>Tail</li>
 	</blackGeneTags>
-	<blackEndoCategories>
+	<blackEndoCategories MayRequire="Ludeon.RimWorld.Biotech">
+		<li>Melanin</li>
+		<li>HairColor</li>
 		<li>Ears</li>
 		<li>Nose</li>
 		<li>Jaw</li>

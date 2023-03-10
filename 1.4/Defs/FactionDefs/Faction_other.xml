@@ -4,8 +4,8 @@
 	<defName>CarniNPCFaction</defName>
 	<label>neoplastic colony</label>
 	<description>An another neoplasm on the planet.</description>
-	<pawnSingular>colonist</pawnSingular>
-	<pawnsPlural>colonists</pawnsPlural>
+	<pawnSingular>creature</pawnSingular>
+	<pawnsPlural>creatures</pawnsPlural>
 	<leaderTitle>alpha</leaderTitle>
 	<humanlikeFaction>true</humanlikeFaction>
 	<permanentEnemy>false</permanentEnemy>
@@ -17,7 +17,7 @@
 	<canMakeRandomly>true</canMakeRandomly>
 	<canSiege>true</canSiege>
 	<canStageAttacks>true</canStageAttacks>
-	<melaninRange>0.7</melaninRange>
+	<melaninRange>0.2</melaninRange>
 	<factionIconPath>WorldIcon/Carnicolony</factionIconPath>
 	<requiredMemes>
 		<li MayRequire="rjw.sexperience.ideology">Rapist</li>
@@ -72,9 +72,9 @@
 		<li>CarniCultures</li>
 	</allowedCultures>
 	<backstoryCategories>
-		<li>CarniFeral</li>
-		<li>CarniMama</li>
+		<li>Offworld</li>
 	</backstoryCategories>
+
 	<caravanTraderKinds>
 		<li>Caravan_Outlander_PirateMerchant</li>
 		<li>Caravan_Carni_Slave</li>
@@ -91,23 +91,23 @@
 	<maxPawnCostPerTotalPointsCurve>
 		<points>
 			<li>(0,35)</li>
-			<li>(70, 50)</li>
-			<li>(800, 100)</li>
-			<li>(1300, 150)</li>
+			<li>(70, 500)</li>
+			<li>(800, 1000)</li>
+			<li>(1300, 1500)</li>
 			<li>(100000, 100000)</li>
 		</points>
 	</maxPawnCostPerTotalPointsCurve>
 	<raidLootMaker>PirateRaidLootMaker</raidLootMaker>
+
 <pawnGroupMakers>
 	<li>
 		<kindDef>Combat</kindDef>
+		<commonality>100</commonality>
 		<options>
 			<Carni_Worker>20</Carni_Worker>
 			<Carni_Miner>10</Carni_Miner>
 			<Carni_Butcher>10</Carni_Butcher>
-			<Carni_Boss>10</Carni_Boss>
-			<SlaveMama>10</SlaveMama>
-			<BossMama>1</BossMama>
+			<Carni_Boss>5</Carni_Boss>
 		</options>
 	</li>
 	<li>
@@ -120,7 +120,6 @@
 		</carriers>
 		<guards>
 			<Carni_Worker>50</Carni_Worker>
-			<SlaveMama>1</SlaveMama>
 		</guards>
 	</li>
 	<li>
@@ -199,7 +198,6 @@
 		<options>
 			<Carni_Miner>20</Carni_Miner>
 			<Carni_Worker>5</Carni_Worker>
-			<SlaveMama>1</SlaveMama>
 		</options>
 </li>
 <li MayRequire="Ludeon.RimWorld.Ideology">
@@ -208,7 +206,6 @@
 		<options>
 			<Carni_Butcher>20</Carni_Butcher>
 			<Carni_Worker>5</Carni_Worker>
-			<SlaveMama>5</SlaveMama>
 		</options>
 </li>
 <li MayRequire="Ludeon.RimWorld.Ideology">
@@ -217,7 +214,6 @@
 		<options>
 			<Carni_Logger>20</Carni_Logger>
 			<Carni_Worker>5</Carni_Worker>
-			<SlaveMama>5</SlaveMama>
 		</options>
 </li>
 <li MayRequire="Ludeon.RimWorld.Ideology">
@@ -226,7 +222,6 @@
 		<options>
 			<Carni_Logger>20</Carni_Logger>
 			<Carni_Worker>5</Carni_Worker>
-			<SlaveMama>1</SlaveMama>
 		</options>
 </li>
 
