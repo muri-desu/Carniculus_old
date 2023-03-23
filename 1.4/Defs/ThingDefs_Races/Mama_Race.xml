@@ -270,6 +270,7 @@
 		<defName>Nymphomaniac</defName>
 	</li>
 </forcedRaceTraitEntries>
+
 </generalSettings>
 <graphicPaths>
 	<head><path>Things/Pawn/Mama/Heads/Average</path>
@@ -360,11 +361,11 @@
 
 <onlyHaveRaceRestrictedGenes>false</onlyHaveRaceRestrictedGenes>
 	<blackGeneList MayRequire="Ludeon.RimWorld.Biotech">
-		<li>Brow_Heavy</li>
-		<li>Body_Thin</li>
-		<li>Body_Fat</li>
-		<li>Body_Hulk</li>
-		<li>FacialRidges</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">Brow_Heavy</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">Body_Thin</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">Body_Fat</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">Body_Hulk</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">FacialRidges</li>
 	</blackGeneList>
 	<blackGeneTags MayRequire="Ludeon.RimWorld.Biotech">
 		<li>SkinColor</li>

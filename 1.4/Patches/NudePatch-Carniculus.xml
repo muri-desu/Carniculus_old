@@ -31,8 +31,8 @@
 		<hediffGraphics>
 		<Penis>
 				<bodytypeGraphics>
-					<Baby>Genitals/FeaturelessCrotch</Baby>
-					<Child>Genitals/FeaturelessCrotch</Child>
+					<Baby MayRequire="Ludeon.RimWorld.Biotech">Genitals/FeaturelessCrotch</Baby>
+					<Child MayRequire="Ludeon.RimWorld.Biotech">Genitals/FeaturelessCrotch</Child>
 					<Male>Genitals/penis_carni_average</Male>
 				</bodytypeGraphics>
 		</Penis>
@@ -74,8 +74,8 @@
 		<hediffGraphics>
 		<Vagina>
 			<bodytypeGraphics>
-				<Baby>Genitals/FeaturelessCrotch</Baby>
-				<Child>Genitals/FeaturelessCrotch</Child>
+				<Baby MayRequire="Ludeon.RimWorld.Biotech">Genitals/FeaturelessCrotch</Baby>
+				<Child MayRequire="Ludeon.RimWorld.Biotech">Genitals/FeaturelessCrotch</Child>
 				<Female><path>Genitals/FeaturelessCrotch</path>
 					<severity>
 						<a0.8>Genitals/vagina_carni_average</a0.8>

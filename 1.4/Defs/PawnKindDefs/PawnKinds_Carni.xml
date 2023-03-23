@@ -11,7 +11,7 @@
 	<gearHealthRange>0.2~0.6</gearHealthRange>
 	<xenotypeSet>
 		<xenotypeChances>
-			<Baseliner>999</Baseliner>
+			<Baseliner MayRequire="Ludeon.RimWorld.Biotech">999</Baseliner>
 		</xenotypeChances>
 		<warnIfTotalAbove1>false</warnIfTotalAbove1>
 	</xenotypeSet>

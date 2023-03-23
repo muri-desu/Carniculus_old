@@ -239,6 +239,7 @@
 						</first>
 					</li>
 				</colorChannels>
+	<oldHairAgeRange>10000~99999</oldHairAgeRange>
 </alienPartGenerator>
 
 <disallowedTraits>
@@ -288,8 +289,8 @@
 <graphicPaths>
 	<head><path>Things/Pawn/Carni/Heads/</path>
 		<bodytypeGraphics>
-			<Baby>Things/Pawn/Carni/Heads/Baby</Baby>
-			<Child>Things/Pawn/Carni/Heads/Child</Child>
+			<Baby MayRequire="Ludeon.RimWorld.Biotech">Things/Pawn/Carni/Heads/Baby</Baby>
+			<Child MayRequire="Ludeon.RimWorld.Biotech">Things/Pawn/Carni/Heads/Child</Child>
 			<Female><path>Things/Pawn/Carni/Heads/</path>
 				<headtypeGraphics>
 					<Female_Head1>Things/Pawn/Carni/Heads/Female_Head1</Female_Head1>
@@ -313,14 +314,12 @@
 				<ageGraphics>
 					<HumanlikeBaby>Things/Pawn/Humanlike/Bodies/Naked_Child</HumanlikeBaby>
 					<HumanlikeChild>Things/Pawn/Carni/Bodies/Naked_Child</HumanlikeChild>
-					<HumanlikePreTeenager>Things/Pawn/Carni/Bodies/Naked_Child</HumanlikePreTeenager>
 				</ageGraphics>
 			</Female>
 			<Male><path>Things/Pawn/Carni/Bodies/Naked_Male</path>
 				<ageGraphics>
 					<HumanlikeBaby>Things/Pawn/Humanlike/Bodies/Naked_Child</HumanlikeBaby>
 					<HumanlikeChild>Things/Pawn/Carni/Bodies/Naked_Child</HumanlikeChild>
-					<HumanlikePreTeenager>Things/Pawn/Carni/Bodies/Naked_Child</HumanlikePreTeenager>
 				</ageGraphics>
 			</Male>
 		</genderGraphics>
@@ -396,11 +395,11 @@
 
 <onlyHaveRaceRestrictedGenes>false</onlyHaveRaceRestrictedGenes>
 	<blackGeneList MayRequire="Ludeon.RimWorld.Biotech">
-		<li>Brow_Heavy</li>
-		<li>Body_Thin</li>
-		<li>Body_Fat</li>
-		<li>Body_Hulk</li>
-		<li>FacialRidges</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">Brow_Heavy</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">Body_Thin</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">Body_Fat</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">Body_Hulk</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">FacialRidges</li>
 	</blackGeneList>
 	<blackGeneTags MayRequire="Ludeon.RimWorld.Biotech">
 		<li>SkinColor</li>

@@ -27,8 +27,8 @@
 		<hediffGraphics>
 			<Penis>
 				<bodytypeGraphics>
-					<Baby>Genitals/FeaturelessCrotch</Baby>
-					<Child>Genitals/FeaturelessCrotch</Child>
+					<Baby MayRequire="Ludeon.RimWorld.Biotech">Genitals/FeaturelessCrotch</Baby>
+					<Child MayRequire="Ludeon.RimWorld.Biotech">Genitals/FeaturelessCrotch</Child>
 					<Female>Genitals/penis_carni_average</Female>
 				</bodytypeGraphics>
 			</Penis>
