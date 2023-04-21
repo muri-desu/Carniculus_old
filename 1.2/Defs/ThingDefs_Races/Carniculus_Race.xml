@@ -178,24 +178,24 @@
 						<first Class="ColorGenerator_Options">
 							<options>
 								<li>
-									<weight>50</weight>
-									<only>(230,175,180)</only>
+									<weight>1</weight>
+									<only>RGBA(220,140,150)</only>
 								</li>
 								<li>
-									<weight>50</weight>
-									<only>(230,145,180)</only>
+									<weight>1</weight>
+									<only>RGBA(169,74,87)</only>
 								</li>
 								<li>
-									<weight>50</weight>
-									<only>(150,85,105)</only>
+									<weight>1</weight>
+									<only>RGBA(188,104,113)</only>
 								</li>
 								<li>
-									<weight>50</weight>
-									<only>(130,40,65)</only>
+									<weight>1</weight>
+									<only>RGBA(154,71,76)</only>
 								</li>
 								<li>
-									<weight>50</weight>
-									<only>(120,15,50)</only>
+									<weight>1</weight>
+									<only>RGBA(143,47,58)</only>
 								</li>
 							</options>
 						</first>

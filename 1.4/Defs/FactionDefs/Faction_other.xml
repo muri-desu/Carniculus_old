@@ -84,7 +84,7 @@
 		<li>Visitor_Outlander_Standard</li>
 	</visitorTraderKinds>
 	<baseTraderKinds>
-		<li>Base_Outlander_Standard</li>
+		<li>Caravan_Carni_Bio</li>
 	</baseTraderKinds>
 
 	<allowedArrivalTemperatureRange>-30~50</allowedArrivalTemperatureRange>
@@ -104,7 +104,7 @@
 		<kindDef>Combat</kindDef>
 		<commonality>100</commonality>
 		<options>
-			<Carni_Worker>20</Carni_Worker>
+			<Carni_Worker>10</Carni_Worker>
 			<Carni_Miner>10</Carni_Miner>
 			<Carni_Butcher>10</Carni_Butcher>
 			<Carni_Boss>5</Carni_Boss>
@@ -117,9 +117,15 @@
 		</traders>
 		<carriers>
 			<Carnigigas>6</Carnigigas>
+			<Muffalo>6</Muffalo>
+			<Dromedary>5</Dromedary>
+			<Alpaca>2.5</Alpaca>
+			<Elephant>2</Elephant>
 		</carriers>
 		<guards>
-			<Carni_Worker>50</Carni_Worker>
+			<Carni_Worker>20</Carni_Worker>
+			<Carni_Butcher>10</Carni_Butcher>
+			<SlaveMama>1</SlaveMama>
 		</guards>
 	</li>
 	<li>
@@ -137,7 +143,7 @@
 		<commonality>30</commonality>
 		<options>
 			<Carni_Boss>1</Carni_Boss>
-			<BossMama>1</BossMama>
+		<BossMama>1</BossMama>
 			<SlaveMama>20</SlaveMama>
 		</options>
 	</li>
@@ -146,6 +152,7 @@
 		<commonality>30</commonality>
 		<options>
 			<BossMama>1</BossMama>
+			<Carni_Boss>1</Carni_Boss>
 			<CarniSlave>20</CarniSlave>
 		</options>
 	</li>

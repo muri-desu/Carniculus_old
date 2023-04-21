@@ -50,6 +50,7 @@
 			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
 	</recipeMaker>
 	<apparel>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 		<tags>
 			<li>CarniMamaApparel</li>
 		</tags>
@@ -110,6 +111,9 @@
 			<li>Overhead</li>
 		</layers>
 	<wornGraphicPath>Things/Apparel/Hats/Sack</wornGraphicPath>
+		<tags>
+			<li>Butcher</li>
+		</tags>
 	</apparel>
 
 </ThingDef>
@@ -165,6 +169,9 @@
 			<li>Overhead</li>
 		</layers>
 	<wornGraphicPath>Things/Apparel/Hats/Veil</wornGraphicPath>
+		<tags>
+			<li>Butcher</li>
+		</tags>
 	</apparel>
 </ThingDef>
 

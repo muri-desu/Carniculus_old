@@ -2,7 +2,7 @@
 <Defs>
 <PawnKindDef Name="BaseCarniPawnKind" Abstract="True">
 	<race>Alien_Carniculus</race>
-	<combatPower>40</combatPower>
+	<combatPower>60</combatPower>
 	<isFighter>true</isFighter>
 	<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 	<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
@@ -103,7 +103,6 @@
 	<apparelRequired>
 		<li>Apparel_CarniFleshHelm</li>
 		<li>Apparel_CarniFleshArmor</li>
-		<li>Apparel_CarniVein</li>
 	</apparelRequired>
 </PawnKindDef>
 
@@ -119,28 +118,23 @@
 	<weaponTags>
 		<li>Gun</li>
 		<li>MedievalMeleeBasic</li>
+		<li>GrenadeDestructive</li>
+		<li>GrenadeFlame</li>
 	</weaponTags>
-	<weaponMoney>255~350</weaponMoney>
+	<weaponMoney>255~3500</weaponMoney>
 </PawnKindDef>
 
 <!-- butcher -->
 <PawnKindDef ParentName="BaseCarniPawnKind_NPC">
 	<defName>Carni_Butcher</defName>
 	<label>butcher</label>
-	<apparelRequired>
-		<li>Apparel_CarniSack</li>
-		<li>Apparel_CarniApron</li>
-	</apparelRequired>
+	<apparelTags>
+		<li>Butcher</li>
+	</apparelTags>
 	<weaponTags>
 		<li>Butcher</li>
 	</weaponTags>
-	<weaponMoney>255~350</weaponMoney>
-	<skills>
-		<li>
-			<skill>Cooking</skill>
-			<range>4~18</range>
-		</li>
-	</skills>
+	<weaponMoney>255~3500</weaponMoney>
 </PawnKindDef>
 
 <!-- miner -->
@@ -153,14 +147,9 @@
 	</apparelRequired>
 	<weaponTags>
 		<li>Miner</li>
+		<li>GrenadeDestructive</li>
 	</weaponTags>
-	<weaponMoney>255~350</weaponMoney>
-	<skills>
-		<li>
-			<skill>Mining</skill>
-			<range>4~12</range>
-		</li>
-	</skills>
+	<weaponMoney>255~3500</weaponMoney>
 </PawnKindDef>
 
 <!-- logger -->
@@ -174,13 +163,7 @@
 	<weaponTags>
 		<li>Logger</li>
 	</weaponTags>
-	<weaponMoney>255~350</weaponMoney>
-	<skills>
-		<li>
-			<skill>Plants</skill>
-			<range>4~12</range>
-		</li>
-	</skills>
+	<weaponMoney>255~3500</weaponMoney>
 </PawnKindDef>
 
 

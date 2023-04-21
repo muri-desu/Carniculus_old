@@ -6,7 +6,6 @@
 	<bodyTypeMale>Male</bodyTypeMale>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<workDisables>
-		<li>Violent</li>
 		<li>Mining</li>
 		<li>Artistic</li>
 	</workDisables>

@@ -116,9 +116,14 @@
 		</traders>
 		<carriers>
 			<Carnigigas>6</Carnigigas>
+			<Muffalo>6</Muffalo>
+			<Dromedary>5</Dromedary>
+			<Alpaca>2.5</Alpaca>
+			<Elephant>2</Elephant>
 		</carriers>
 		<guards>
-			<Carni_Worker>50</Carni_Worker>
+			<Carni_Worker>20</Carni_Worker>
+			<Carni_Butcher>10</Carni_Butcher>
 			<SlaveMama>1</SlaveMama>
 		</guards>
 	</li>

@@ -55,7 +55,7 @@
     <bodyWidth>1.2</bodyWidth>
     <bodyDrawOffset>(0, 0, -0.1)</bodyDrawOffset>
     <voxPitch>1.2</voxPitch>
-    <headSizeFactor>0</headSizeFactor>
+    <headSizeFactor>0.85</headSizeFactor>
     <eyeSizeFactor>0.85</eyeSizeFactor>
     <healthScaleFactor>0.5</healthScaleFactor>
     <foodMaxFactor>2.286</foodMaxFactor> <!-- bodySizeFactor * foodMaxFactor = maxFood = 0.8 -->

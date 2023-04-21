@@ -52,7 +52,7 @@
 		<Research>13</Research>
 	</lifeStageWorkSettings>
 <lifeStageAges>
-	<li Class="AlienRace.LifeStageAgeAlien">
+	<li MayRequire="Ludeon.RimWorld.Biotech" Class="AlienRace.LifeStageAgeAlien">
 		<def>MamaBaby</def>
 		<minAge>0</minAge>
 		<headOffsetDirectional>
@@ -62,7 +62,7 @@
 			<west>(-0.05, 0)</west>
 		</headOffsetDirectional>
 	</li>
-	<li Class="AlienRace.LifeStageAgeAlien">
+	<li MayRequire="Ludeon.RimWorld.Biotech" Class="AlienRace.LifeStageAgeAlien">
 		<def>MamaChild</def>
 		<minAge>3</minAge>
 		<headOffsetDirectional>
@@ -72,9 +72,15 @@
 			<west>(-0.05, 0.2)</west>
 		</headOffsetDirectional>
 	</li>
-	<li>
+	<li Class="AlienRace.LifeStageAgeAlien">
 		<def>HumanlikeAdult</def>
 		<minAge>18</minAge>
+		<headOffsetDirectional>
+			<north>(0.0, 0.1)</north>
+			<south>(0.0, 0.125)</south>
+			<east>(0, 0.1)</east>
+			<west>(0, 0.1)</west>
+		</headOffsetDirectional>
 	</li>
 	</lifeStageAges>
 		<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
@@ -96,11 +102,11 @@
 		<li MayRequire="Ludeon.RimWorld.Biotech">(13.999,130)</li>
 		<li>(14,0)</li>
 		<li MayRequire="Ludeon.RimWorld.Biotech">(14.001,130)</li>
-			<li>(16,50)</li>
-			<li>(20,100)</li>
-			<li>(30,30)</li>
-			<li>(40,0)</li>
-			<li>(50,0)</li>
+		<li>(16,50)</li>
+		<li>(20,100)</li>
+		<li>(30,30)</li>
+		<li>(40,0)</li>
+		<li>(50,0)</li>
 		</points>
 	</ageGenerationCurve>
 	<hediffGiverSets>
@@ -146,17 +152,6 @@
 			</extraMeleeDamages>
 			</surpriseAttack>
 	</li>
-	<li>
-		<label>head</label>
-		<capacities>
-			<li>Blunt</li>
-		</capacities>
-		<power>10</power>
-		<cooldownTime>2</cooldownTime>
-		<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-		<chanceFactor>0.2</chanceFactor>
-	</li>
 </tools>
 
 <alienRace>
@@ -176,12 +171,7 @@
 	<headTypes Inherit="False">
 		<li>Average</li>
 	</headTypes>
-<headOffsetDirectional>
-	<north>(0.0, 0.1)</north>
-	<south>(0.0, 0.1)</south>
-	<east>(0.0, 0.1)</east>
-	<west>(-0.0, 0.1)</west>
-</headOffsetDirectional>
+	<headOffset>(0, 0)</headOffset>
 	<customDrawSize>(1.0, 1.0)</customDrawSize>
 	<customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
 	<customPortraitDrawSize>(1.0, 1.0)</customPortraitDrawSize>
@@ -291,6 +281,20 @@
 
 	<skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
 	<skinShader>Cutout</skinShader>
+
+	<apparel>
+		<individualPaths>
+		<li>
+			<key>Apparel_MamaNunHead</key>
+			<value>
+				<ageGraphics>
+					<MamaChild>Things/Apparel/Hats/NunHeadChild</MamaChild>
+					<HumanlikeAdult>Things/Apparel/Hats/NunHead</HumanlikeAdult>
+				</ageGraphics>
+			</value>
+		</li>
+		</individualPaths>
+	</apparel>
 
 </graphicPaths>
 

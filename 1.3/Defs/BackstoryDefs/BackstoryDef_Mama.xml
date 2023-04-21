@@ -4,7 +4,6 @@
 	<femaleCommonality>100</femaleCommonality>
 	<maleCommonality>0</maleCommonality>
 	<workDisables>
-		<li>Violent</li>
 		<li>Mining</li>
 		<li>Artistic</li>
 	</workDisables>

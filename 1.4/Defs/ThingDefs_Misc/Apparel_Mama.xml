@@ -25,6 +25,7 @@
 		<tags>
 			<li>CarniMamaApparel</li>
 		</tags>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 	</apparel>
 	<thingCategories>
 		<li>CarniMamaApparel</li>
@@ -132,7 +133,7 @@
 		<options>
 			<li>
 				<weight>10</weight>
-	<only>RGBA(0.9,0.9,0.9,0.01)</only>
+				<only>RGBA(1,1,1,0.1)</only>
 			</li>
 		</options>
 	</colorGenerator>
@@ -187,7 +188,7 @@
 		<options>
 			<li>
 				<weight>10</weight>
-	<only>RGBA(0.9,0.9,0.9,0.01)</only>
+				<only>RGBA(1,1,1,0.1)</only>
 			</li>
 		</options>
 	</colorGenerator>
@@ -348,6 +349,7 @@
 			<li>Neck</li>
 		</bodyPartGroups>
 		<layers>
+			<li>Middle</li>
 			<li>Shell</li>
 		</layers>
 		<wornGraphicPath>Things/Apparel/Mama/MaidDress</wornGraphicPath>
