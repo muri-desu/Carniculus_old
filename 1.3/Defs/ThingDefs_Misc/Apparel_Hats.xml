@@ -34,6 +34,7 @@
 	<thingCategories>
 		<li>CarniHeadgear</li>
 	</thingCategories>
+	<tradeability>Sellable</tradeability>
 </ThingDef>
 
 <ThingDef Name="CarniMama_HatBase" ParentName="HatBase" Abstract="True">
@@ -48,6 +49,7 @@
 			<soundWorking>Recipe_Tailor</soundWorking>
 			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
 	</recipeMaker>
+	<techLevel>Medieval</techLevel>
 	<apparel>
 		<tags>
 			<li>CarniMamaApparel</li>
@@ -58,8 +60,7 @@
 	</thingCategories>
 </ThingDef>
 
-<!-- ♂袋 -->
-<ThingDef ParentName="Carni_HatBase">
+<ThingDef ParentName="Carni_HatBase"><!-- ♂袋 -->
 	<defName>Apparel_CarniSack</defName>
 		<label>sack</label>
 		<description>simple headgear that hides a scary face. Maybe you can make human friends easily now.</description>
@@ -84,11 +85,11 @@
 		<StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
 		<StuffEffectMultiplierInsulation_Heat>0.75</StuffEffectMultiplierInsulation_Heat>
 		<EquipDelay>1.0</EquipDelay>
-		</statBases>
+	</statBases>
 
 	<stuffCategories>
-			<li>Fabric</li>
-			<li>Leathery</li>
+		<li>Fabric</li>
+		<li>Leathery</li>
 	</stuffCategories>
 	<costStuffCount>45</costStuffCount>
 
@@ -109,17 +110,18 @@
 			<li>Overhead</li>
 		</layers>
 	<wornGraphicPath>Things/Apparel/Hats/Sack</wornGraphicPath>
+	<tags>
+		<li>Butcher</li>
+	</tags>
 	</apparel>
-
 </ThingDef>
 
-<!-- ♀ベール -->
-<ThingDef ParentName="Carni_HatBase">
+<ThingDef ParentName="Carni_HatBase"><!-- ♀ベール -->
 	<defName>Apparel_CarniVeil</defName>
 		<label>veil</label>
 		<description>veil for shy ladies. As long as your face is hidden, you don't mind anything else's out there.</description>
 		<techLevel>Medieval</techLevel>
-		<recipeMaker>
+	<recipeMaker>
 		<recipeUsers>
 			<li>CraftingSpot</li>
 		</recipeUsers>
@@ -142,8 +144,8 @@
 		</statBases>
 
 	<stuffCategories>
-			<li>Fabric</li>
-			<li>Leathery</li>
+		<li>Fabric</li>
+		<li>Leathery</li>
 	</stuffCategories>
 	<costStuffCount>45</costStuffCount>
 
@@ -164,12 +166,13 @@
 			<li>Overhead</li>
 		</layers>
 	<wornGraphicPath>Things/Apparel/Hats/Veil</wornGraphicPath>
-		<useWornGraphicMask>true</useWornGraphicMask>
+		<tags>
+			<li>Butcher</li>
+		</tags>
 	</apparel>
 </ThingDef>
 
-<!-- 革マスク -->
-<ThingDef ParentName="Carni_HatBase">
+<ThingDef ParentName="Carni_HatBase"><!-- 革マスク -->
 	<defName>Apparel_CarniLeatherMask</defName>
 		<label>leather mask</label>
 		<description>Gas masks made of thick leather.</description>
@@ -224,74 +227,8 @@
 	</colorGenerator>
 </ThingDef>
 
-<!-- 頭アーマー -->
-<ThingDef ParentName="CarniArmorBase">
-	<defName>Apparel_CarniFleshHelm</defName>
-	<label>flesh helm</label>
-	<description>head protection device processed from biological tissues. It connects to the wearer's nerves and improves vision.</description>
-	<techLevel>Spacer</techLevel>
-
-	<graphicData>
-		<texPath>Things/Apparel/FleshHelm/FleshHelm</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
-		<shaderType>CutoutComplex</shaderType>
-		</graphicData>
-
-	<statBases>
-		<WorkToMake>10000</WorkToMake>
-		<MaxHitPoints>400</MaxHitPoints>
-		<Mass>1.5</Mass>
-		<StuffEffectMultiplierArmor>0.9</StuffEffectMultiplierArmor>
-		<StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
-		<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
-		<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-		<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
-		<EquipDelay>5</EquipDelay>
-	</statBases>
-
-	<costList>
-		<Meat_Human>30</Meat_Human>
-		<Neutroamine>5</Neutroamine>
-	</costList>
-	<stuffCategories>
-		<li>Metallic</li>
-	</stuffCategories>
-	<costStuffCount>35</costStuffCount>
-
-	<equippedStatOffsets>
-		<PawnBeauty>-2</PawnBeauty>
-		<MeleeHitChance>0.1</MeleeHitChance>
-		<MeleeDodgeChance>0.1</MeleeDodgeChance>
-		<ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
-		<AimingDelayFactor>-0.1</AimingDelayFactor>
-		<HungerRateMultiplier>0.15</HungerRateMultiplier>
-	</equippedStatOffsets>
-
-	<apparel>
-		<bodyPartGroups>
-			<li>FullHead</li>
-			<li>Neck</li>
-		</bodyPartGroups>
-		<layers>
-			<li>Overhead</li>
-		</layers>
-		<wornGraphicPath>Things/Apparel/FleshHelm/FleshHelm</wornGraphicPath>
-		<useWornGraphicMask>true</useWornGraphicMask>
-</apparel>
-
-	<colorGenerator Class="ColorGenerator_Options">
-		<options>
-			<li>
-				<weight>1</weight>
-					<only>RGBA(1,1,1,0)</only>
-			</li>
-		</options>
-	</colorGenerator>
-</ThingDef>
-
 <!-- ママ頭装備 -->
-<!-- メガネ -->
-<ThingDef ParentName="CarniMama_HatBase">
+<ThingDef ParentName="CarniMama_HatBase"><!-- メガネ -->
 	<defName>Apparel_MamaGlasses</defName>
 		<label>mama's glasses</label>
 		<description>Mama's thick glasses.</description>
@@ -308,7 +245,7 @@
 		<Mass>0.1</Mass>
 		<StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
 		<EquipDelay>0.5</EquipDelay>
-		</statBases>
+	</statBases>
 
 	<costList>
 		<Steel>15</Steel>
@@ -331,8 +268,7 @@
 	</apparel>
 </ThingDef>
 
-<!-- ガスマスク -->
-<ThingDef ParentName="CarniMama_HatBase">
+<ThingDef ParentName="CarniMama_HatBase"><!-- ガスマスク -->
 	<defName>Apparel_MamaGasmask</defName>
 		<label>mama's gasmask</label>
 		<description>protects against poisonous gases and airborne dust.</description>
@@ -364,7 +300,7 @@
 	</costList>
 
 	<equippedStatOffsets>
-		<ToxicSensitivity>-0.8</ToxicSensitivity>
+		<ToxicSensitivity>-1.0</ToxicSensitivity>
 	</equippedStatOffsets>
 
 	<thingCategories Inherit="False">
@@ -391,11 +327,9 @@
 		</li>
 	</options>
 </colorGenerator>
-
 </ThingDef>
 
-<!-- 修道女頭 -->
-<ThingDef ParentName="CarniMama_HatBase">
+<ThingDef ParentName="CarniMama_HatBase"><!-- 修道女頭 -->
 	<defName>Apparel_MamaNunHead</defName>
 		<label>mama's veil</label>
 		<description>mama's devotee veil.</description>
@@ -415,7 +349,7 @@
 		<StuffEffectMultiplierInsulation_Cold>0.45</StuffEffectMultiplierInsulation_Cold>
 		<StuffEffectMultiplierInsulation_Heat>0.45</StuffEffectMultiplierInsulation_Heat>
 		<EquipDelay>0.8</EquipDelay>
-		</statBases>
+	</statBases>
 
 	<stuffCategories>
 			<li>Fabric</li>
@@ -451,8 +385,7 @@
 </colorGenerator>
 </ThingDef>
 
-<!-- メイド頭 -->
-<ThingDef ParentName="CarniMama_HatBase">
+<ThingDef ParentName="CarniMama_HatBase"><!-- メイド頭 -->
 	<defName>Apparel_MamaMaidHead</defName>
 		<label>mama's brim</label>
 		<description>mama's maid head dress.</description>
@@ -472,7 +405,7 @@
 		<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
 		<StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
 		<EquipDelay>1.0</EquipDelay>
-		</statBases>
+	</statBases>
 
 	<stuffCategories>
 			<li>Fabric</li>
@@ -507,9 +440,7 @@
 </colorGenerator>
 </ThingDef>
 
-
-<!-- 看守頭 -->
-<ThingDef ParentName="CarniMama_HatBase">
+<ThingDef ParentName="CarniMama_HatBase"><!-- 看守頭 -->
 	<defName>Apparel_MamaWardenCap</defName>
 		<label>mama's warden cap</label>
 		<description>mama's warden cap.</description>
@@ -530,7 +461,7 @@
 		<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
 		<StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
 		<EquipDelay>0.7</EquipDelay>
-		</statBases>
+	</statBases>
 
 	<stuffCategories>
 			<li>Fabric</li>

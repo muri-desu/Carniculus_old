@@ -13,7 +13,7 @@
 	<category>Item</category>
 	<label>unfinished thing</label>
 	<graphicData>
-		<texPath>Things/Item/Unfinished/UnfinishedSculpture</texPath>
+		<texPath>Things/Pawn/Carni/Heads/Baby_east</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
 	<altitudeLayer>Item</altitudeLayer>
@@ -96,34 +96,10 @@
 	<thingCategories>
 		<li>CarniApparel</li>
 	</thingCategories>
+	<tradeability>Sellable</tradeability>
 </ThingDef>
 
-<ThingDef Name="CarniArmorBase" ParentName="ApparelBase" Abstract="True">
-	<recipeMaker>
-		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<workSkill>Crafting</workSkill>
-		<effectWorking>Smith</effectWorking>
-		<soundWorking>Recipe_Smith</soundWorking>
-		<recipeUsers>
-			<li>FabricationBench</li>
-		</recipeUsers>
-		<unfinishedThingDef>UnfinishedCarniApparel</unfinishedThingDef>
-	</recipeMaker>
-	<researchPrerequisites>
-		<li>PlateArmor</li>
-	</researchPrerequisites>
-	<apparel>
-		<tags>
-			<li>CarniApparel</li>
-		</tags>
-	</apparel>
-	<thingCategories>
-		<li>CarniApparel</li>
-	</thingCategories>
-</ThingDef>
-
-<!-- レザーエプロン -->
-<ThingDef ParentName="CarniApparelMakeableBase">
+<ThingDef ParentName="CarniApparelMakeableBase"><!-- レザーエプロン -->
 	<defName>Apparel_CarniApron</defName>
 		<label>leather apron</label>
 		<description>apron perfect for cooking and forge work.</description>
@@ -131,7 +107,7 @@
 
 	<recipeMaker>
 		<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-		</recipeMaker>
+	</recipeMaker>
 
 	<graphicData>
 		<texPath>Things/Apparel/Apron/Apron</texPath>
@@ -185,8 +161,7 @@
 	</colorGenerator>
 </ThingDef>
 
-<!-- グローブ -->
-<ThingDef ParentName="CarniApparelMakeableBase">
+<ThingDef ParentName="CarniApparelMakeableBase"><!-- グローブ -->
 	<defName>Apparel_CarniGloves</defName>
 		<label>gloves</label>
 		<description>long gloves that covers sticky arms up to the elbow.</description>
@@ -233,11 +208,10 @@
 	</apparel>
 </ThingDef>
 
-<!-- 脂肪 -->
-<ThingDef ParentName="CarniApparelMakeableBase">
+<ThingDef ParentName="CarniApparelMakeableBase"><!-- 脂肪 -->
 	<defName>Apparel_CarniFat</defName>
 		<label>wearable fat</label>
-		<description>Innerwear processed from extracted fat. Prevents severe cold</description>
+		<description>Innerwear processed from extracted fat. Prevents severe cold.</description>
 
 	<recipeMaker>
 		<unfinishedThingDef>UnfinishedCarniApparel</unfinishedThingDef>
@@ -271,11 +245,17 @@
 
 	<apparel>
 		<bodyPartGroups>
+			<li>FullHead</li>
+			<li>UpperHead</li>
 			<li>Neck</li>
-			<li>Torso</li>
 			<li>Shoulders</li>
+			<li>Torso</li>
 			<li>Arms</li>
+			<li>Hands</li>
 			<li>Legs</li>
+			<li>ChestBPG</li>
+			<li>GenitalsBPG</li>
+			<li>Feet</li>
 		</bodyPartGroups>
 	<layers>
 		<li>OnSkin</li>
@@ -283,18 +263,9 @@
 	<wornGraphicPath>Things/Apparel/Fat/Fat</wornGraphicPath>
 	</apparel>
 
-	<colorGenerator Class="ColorGenerator_Options">
-		<options>
-			<li>
-				<weight>1</weight>
-					<only>RGBA(1,1,1,0)</only>
-			</li>
-		</options>
-	</colorGenerator>
 </ThingDef>
 
-<!-- 血管 -->
-<ThingDef ParentName="CarniApparelMakeableBase">
+<ThingDef ParentName="CarniApparelMakeableBase"><!-- 血管 -->
 	<defName>Apparel_CarniVein</defName>
 		<label>wearable vein</label>
 		<description>A net of reconstituted veins. It promotes heat dissipation from the body surface.</description>
@@ -331,30 +302,26 @@
 
 	<apparel>
 		<bodyPartGroups>
+			<li>FullHead</li>
+			<li>UpperHead</li>
 			<li>Neck</li>
-			<li>Torso</li>
 			<li>Shoulders</li>
+			<li>Torso</li>
 			<li>Arms</li>
+			<li>Hands</li>
 			<li>Legs</li>
+			<li>ChestBPG</li>
+			<li>GenitalsBPG</li>
+			<li>Feet</li>
 		</bodyPartGroups>
 	<layers>
 		<li>OnSkin</li>
 	</layers>
 		<wornGraphicPath>Things/Apparel/Vein/Vein</wornGraphicPath>
 	</apparel>
-
-	<colorGenerator Class="ColorGenerator_Options">
-		<options>
-			<li>
-				<weight>1</weight>
-					<only>RGBA(1,1,1,0)</only>
-			</li>
-		</options>
-	</colorGenerator>
 </ThingDef>
 
-<!-- レザースーツ -->
-<ThingDef ParentName="CarniApparelMakeableBase">
+<ThingDef ParentName="CarniApparelMakeableBase"><!-- レザースーツ -->
 	<defName>Apparel_CarniLeatherSuit</defName>
 		<label>leather suit</label>
 		<description>leather suit that cover the entire body.</description>
@@ -397,6 +364,7 @@
 			<li>Neck</li>
 			<li>Shoulders</li>
 			<li>Arms</li>
+			<li>Hands</li>
 			<li>Legs</li>
 			<li>ChestBPG</li>
 			<li>GenitalsBPG</li>
@@ -419,33 +387,23 @@
 	</colorGenerator>
 </ThingDef>
 
-<!-- 触手アーマー -->
-<ThingDef ParentName="CarniArmorBase">
-	<defName>Apparel_CarniFleshArmor</defName>
-		<label>flesh armor</label>
-		<description>This armor is made of processed biological tissue. The wearer's hunger rate increases as nourishment is taken from the blood vessels.</description>
-		<techLevel>Spacer</techLevel>
-
+<ThingDef Name="CarniArmorBase" ParentName="ApparelBase" Abstract="True"><!-- アーマーbase -->
 	<recipeMaker>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Smith</soundWorking>
+		<recipeUsers>
+			<li>FabricationBench</li>
+		</recipeUsers>
 		<unfinishedThingDef>UnfinishedCarniApparel</unfinishedThingDef>
 	</recipeMaker>
-
-	<graphicData>
-		<texPath>Things/Apparel/FleshArmor/FleshArmor</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
-		<shaderType>CutoutComplex</shaderType>
-	</graphicData>
+	<techLevel>Spacer</techLevel>
 
 	<statBases>
 		<WorkToMake>50000</WorkToMake>
 		<MaxHitPoints>450</MaxHitPoints>
 		<Mass>12</Mass>
-		<StuffEffectMultiplierArmor>0.9</StuffEffectMultiplierArmor>
-		<StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
-		<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
-		<ArmorRating_Blunt>1.2</ArmorRating_Blunt>
-		<ArmorRating_Heat>1.1</ArmorRating_Heat>
-		<ArmorRating_Sharp>1.15</ArmorRating_Sharp>
 		<EquipDelay>15</EquipDelay>
 	</statBases>
 
@@ -461,36 +419,204 @@
 
 	<equippedStatOffsets>
 		<PawnBeauty>-2</PawnBeauty>
-		<HungerRateMultiplier>0.15</HungerRateMultiplier>
+		<HungerRateMultiplier>0.1</HungerRateMultiplier>
 	</equippedStatOffsets>
 
 	<apparel>
 		<bodyPartGroups>
-			<li>Torso</li>
+			<li>FullHead</li>
+			<li>UpperHead</li>
 			<li>Neck</li>
 			<li>Shoulders</li>
+			<li>Torso</li>
 			<li>Arms</li>
+			<li>Hands</li>
 			<li>Legs</li>
 			<li>ChestBPG</li>
 			<li>GenitalsBPG</li>
 			<li>Feet</li>
 		</bodyPartGroups>
+		<shellCoversHead>true</shellCoversHead>
+		<blocksAddedPartWoundGraphics>true</blocksAddedPartWoundGraphics>
 		<layers>
 			<li>Shell</li>
 		</layers>
-		<wornGraphicPath>Things/Apparel/FleshArmor/FleshArmor</wornGraphicPath>
+		<tags>
+			<li>CarniBossApparel</li>
+		</tags>
 		<useWornGraphicMask>true</useWornGraphicMask>
 	</apparel>
+
+	<thingCategories>
+		<li>CarniApparel</li>
+	</thingCategories>
 
 	<colorGenerator Class="ColorGenerator_Options">
 		<options>
 			<li>
-				<weight>1</weight>
-					<only>RGBA(1,1,1,0)</only>
+				<weight>100</weight>
+				<only>(255,255,255,1)</only>
 			</li>
 		</options>
 	</colorGenerator>
 </ThingDef>
+
+<ThingDef ParentName="CarniArmorBase"><!-- 触手アーマー -->
+	<defName>Apparel_CarniFleshArmor</defName>
+		<label>flesh armor</label>
+		<description>This armor is made of processed biological tissue. The wearer's hunger rate increases as nourishment is taken from the blood vessels.</description>
+
+	<graphicData>
+		<texPath>Things/Apparel/FleshArmor/FleshArmor</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
+	</graphicData>
+
+	<statBases>
+		<StuffEffectMultiplierArmor>0.9</StuffEffectMultiplierArmor>
+		<ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+		<ArmorRating_Blunt>1.1</ArmorRating_Blunt>
+		<ArmorRating_Heat>1.0</ArmorRating_Heat>
+		<Insulation_Cold>10</Insulation_Cold>
+		<Insulation_Heat>12</Insulation_Heat>
+	</statBases>
+
+	<equippedStatOffsets>
+		<MeleeHitChance>0.1</MeleeHitChance>
+		<MeleeDodgeChance>0.1</MeleeDodgeChance>
+		<ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+		<AimingDelayFactor>-0.1</AimingDelayFactor>
+	</equippedStatOffsets>
+
+	<apparel>
+		<wornGraphicPath>Things/Apparel/FleshArmor/FleshArmor</wornGraphicPath>
+	</apparel>
+
+</ThingDef>
+
+<ThingDef ParentName="CarniArmorBase"><!-- 膠殻アーマー -->
+	<defName>Apparel_CarniCollodionArmor</defName>
+		<label>collodion armor</label>
+		<description>Armor that secretes substances that hardens when exposed to the open air. Sturdy and helps to stop bleeding of wearer's wound, but reduces moving speed.</description>
+
+	<graphicData>
+		<texPath>Things/Apparel/CollodionArmor/CollodionArmor</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
+	</graphicData>
+
+	<statBases>
+		<StuffEffectMultiplierArmor>0.6</StuffEffectMultiplierArmor>
+		<ArmorRating_Sharp>1.1</ArmorRating_Sharp>
+		<ArmorRating_Blunt>1.1</ArmorRating_Blunt>
+		<ArmorRating_Heat>1.0</ArmorRating_Heat>
+		<Insulation_Cold>12</Insulation_Cold>
+		<Insulation_Heat>10</Insulation_Heat>
+	</statBases>
+
+	<equippedStatOffsets>
+		<MoveSpeed>-0.4</MoveSpeed>
+		</equippedStatOffsets>
+
+	<apparel>
+		<wornGraphicPath>Things/Apparel/CollodionArmor/CollodionArmor</wornGraphicPath>
+	</apparel>
+
+	<comps>
+		<li Class="CompProperties_CauseHediff_Apparel">
+			<hediff>Hediff_CollodionArmor</hediff>
+		</li>
+	</comps>
+</ThingDef>
+
+<HediffDef>
+	<defName>Hediff_CollodionArmor</defName>
+	<label>collodion armor</label>
+	<labelNoun>collodion armor</labelNoun>
+	<description>Wearing collodion armor.</description>
+	<defaultLabelColor>(187,116,134)</defaultLabelColor>
+	<hediffClass>HediffWithComps</hediffClass>
+	<scenarioCanAdd>false</scenarioCanAdd>
+	<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_RemoveIfApparelDropped" />
+		</comps>
+		<stages>
+			<li>
+				<totalBleedFactor>0.5</totalBleedFactor>
+			</li>
+		</stages>
+</HediffDef>
+
+<ThingDef ParentName="CarniArmorBase"><!-- 壊疽アーマー -->
+	<defName>Apparel_CarniNecroArmor</defName>
+		<label>necrotic armor</label>
+		<description>Armor that covered with necrotic tissue like an outer shell. It acclimates the wearer to the toxic environment, but has a negative hygienic effect on the surroundings.</description>
+
+	<graphicData>
+		<texPath>Things/Apparel/NecroArmor/NecroArmor</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
+	</graphicData>
+
+	<statBases>
+		<StuffEffectMultiplierArmor>0.9</StuffEffectMultiplierArmor>
+		<ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.5</ArmorRating_Heat>
+		<Insulation_Cold>12</Insulation_Cold>
+		<Insulation_Heat>10</Insulation_Heat>
+	</statBases>
+
+	<equippedStatOffsets>
+		<ToxicSensitivity>-0.5</ToxicSensitivity>
+		<FilthRate>1</FilthRate>
+		<FoodPoisonChance>0.75</FoodPoisonChance>
+	</equippedStatOffsets>
+
+	<apparel>
+		<wornGraphicPath>Things/Apparel/NecroArmor/NecroArmor</wornGraphicPath>
+	</apparel>
+
+	<comps>
+		<li Class="CompProperties_CauseHediff_Apparel">
+			<hediff>Hediff_NecroArmor</hediff>
+			<part>Jaw</part>
+		</li>
+	</comps>
+</ThingDef>
+
+<HediffDef>
+	<defName>Hediff_NecroArmor</defName>
+	<label>necrotic fangs</label>
+	<labelNoun>necrotic fangs</labelNoun>
+	<description>Venomous bite granted by wearing necro armor.</description>
+	<defaultLabelColor>(187,116,134)</defaultLabelColor>
+	<hediffClass>HediffWithComps</hediffClass>
+	<scenarioCanAdd>false</scenarioCanAdd>
+	<isBad>false</isBad>
+		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
+		<addedPartProps>
+			<solid>true</solid>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_RemoveIfApparelDropped" />
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>venom fangs</label>
+							<capacities>
+								<li>ToxicBite</li>
+							</capacities>
+						<power>15</power>
+						<cooldownTime>2</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+					</li>
+				</tools>
+			</li>
+		</comps>
+</HediffDef>
 
 <StuffCategoryDef>
 	<defName>Flesh</defName>

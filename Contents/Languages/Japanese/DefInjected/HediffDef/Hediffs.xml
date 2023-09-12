@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+<Hediff_CollodionArmor.label>膠殻アーマー</Hediff_CollodionArmor.label>
+<Hediff_CollodionArmor.description>膠殻アーマーの作用で止血しやすくなります.</Hediff_CollodionArmor.description>
+<Hediff_NecroArmor.labelNoun>壊疽アーマー</Hediff_NecroArmor.labelNoun>
+<Hediff_NecroArmor.label>壊疽アーマー</Hediff_NecroArmor.label>
+<Hediff_NecroArmor.description>壊疽アーマーが蓄えた毒素を利用した噛みつき攻撃が可能になります.</Hediff_NecroArmor.description>
+<Hediff_NecroArmor.labelNoun>壊疽アーマー</Hediff_NecroArmor.labelNoun>
+<Hediff_NecroArmor.tools.0.label>毒噛みつき</Hediff_NecroArmor.tools.0.label>
+</LanguageData>

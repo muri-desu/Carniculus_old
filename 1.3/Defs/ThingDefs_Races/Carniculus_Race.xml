@@ -293,8 +293,9 @@
 		<li>Apparel_CarniLeatherSuit</li>
 		<li>Apparel_CarniLeatherMask</li>
 		<li>Apparel_CarniGloves</li>
-		<li>Apparel_CarniFleshHelm</li>
 		<li>Apparel_CarniFleshArmor</li>
+		<li>Apparel_CarniCollodionArmor</li>
+		<li>Apparel_CarniNecroArmor</li>
 	</apparelList>
 	<whiteApparelList>
 		<li>Apparel_ShieldBelt</li>
@@ -302,12 +303,6 @@
 		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackJump</li>
 		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackBroadshield</li>
 	</whiteApparelList>
-	<weaponList>
-		<li>Melee_CarniButcherknife</li>
-		<li>Melee_CarniGardenScissors</li>
-		<li>Melee_CarniPickax</li>
-		<li>Melee_CarniProd</li>
-	</weaponList>
 </raceRestriction>
 
 <relationSettings>

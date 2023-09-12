@@ -90,9 +90,9 @@
 	<maxPawnCostPerTotalPointsCurve>
 		<points>
 			<li>(0,35)</li>
-			<li>(70, 50)</li>
-			<li>(800, 100)</li>
-			<li>(1300, 150)</li>
+			<li>(70, 500)</li>
+			<li>(800, 1000)</li>
+			<li>(1300, 1500)</li>
 			<li>(100000, 100000)</li>
 		</points>
 	</maxPawnCostPerTotalPointsCurve>
@@ -116,10 +116,6 @@
 		</traders>
 		<carriers>
 			<Carnigigas>6</Carnigigas>
-			<Muffalo>6</Muffalo>
-			<Dromedary>5</Dromedary>
-			<Alpaca>2.5</Alpaca>
-			<Elephant>2</Elephant>
 		</carriers>
 		<guards>
 			<Carni_Worker>20</Carni_Worker>
